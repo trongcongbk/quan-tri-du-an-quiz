@@ -405,7 +405,7 @@
     {
         "id": 32,
         "question": "Your sponsor has committed to building a high-speed rail from one major inland city, Azules, to the coast. You have two possible routes, either Brazos or Corazon.\n\nGiven the costs, odds, and rewards of high demand and low demand of each route in this decision tree, what is the expected monetary value of the route to Brazos?\n\n( Nhà tài trợ của bạn đã cam kết xây dựng tuyến đường sắt cao tốc từ một thành phố nội địa lớn, Azules, đến bờ biển. Bạn có hai tuyến đường khả thi, Brazos hoặc Corazon. \n\nVới chi phí, chênh lệch và phần thưởng của nhu cầu cao và nhu cầu thấp của từng tuyến đường trong cây quyết định này, giá trị tiền tệ dự kiến của tuyến đường đến Brazos là bao nhiêu? )",
-        "image": "Question_33.jpg",
+        "image": "Question_32.jpg",
         "options": [
             "0.8 billion ( 0.8 tỷ )",
             "1.6 billion (1.6 tỷ )",
