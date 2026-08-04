@@ -44,31 +44,63 @@
 
         <!-- CONTAINER ÔN TẬP -->
         <div id="study-container" class="hidden space-y-6">
-            <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
-                <div>
+            
+            <!-- THIẾT LẬP ÔN TẬP -->
+            <div class="bg-indigo-50 border border-indigo-100 p-4 rounded-xl shadow-sm">
+                <div class="flex flex-col md:flex-row gap-4 items-end">
+                    <div class="flex-1 w-full">
+                        <label class="block text-sm font-semibold text-indigo-800 mb-1">Cấu hình lấy câu hỏi:</label>
+                        <select id="study-mode-select" onchange="toggleStudyRange()" class="w-full bg-white border border-indigo-200 text-gray-700 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            <option value="all">Toàn bộ 162 câu</option>
+                            <option value="random-20">Lấy ngẫu nhiên 20 câu</option>
+                            <option value="random-50">Lấy ngẫu nhiên 50 câu</option>
+                            <option value="range">Chọn từ câu X tới Y...</option>
+                        </select>
+                    </div>
+                    <div id="study-range-inputs" class="hidden flex-1 w-full gap-2 items-end">
+                        <div class="w-1/2">
+                            <label class="block text-xs text-gray-600 mb-1">Từ câu:</label>
+                            <input type="number" id="study-range-x" min="1" value="1" class="w-full px-3 py-2 border rounded-md text-sm">
+                        </div>
+                        <div class="w-1/2">
+                            <label class="block text-xs text-gray-600 mb-1">Đến câu:</label>
+                            <input type="number" id="study-range-y" min="1" value="50" class="w-full px-3 py-2 border rounded-md text-sm">
+                        </div>
+                    </div>
+                    <button onclick="applyStudyConfig()" class="w-full md:w-auto px-6 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition whitespace-nowrap">
+                        Áp dụng
+                    </button>
+                </div>
+            </div>
+
+            <!-- THANH THỐNG KÊ & TÌM KIẾM ÔN TẬP -->
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex-1">
                     <h2 class="text-lg font-bold text-gray-900" id="study-total-text">Danh sách câu hỏi</h2>
                     <p class="text-sm text-gray-500">Làm từng câu và đối chiếu ngay lập tức.</p>
                 </div>
                 
-                <!-- Thống kê Đúng/Sai -->
-                <div class="flex items-center gap-3 bg-gray-50 px-4 py-2 rounded-lg border border-gray-200">
-                    <div class="text-sm font-medium text-green-700 bg-green-100 px-2 py-1 rounded">Đúng: <span id="study-correct-count" class="font-bold">0</span></div>
-                    <div class="text-sm font-medium text-red-700 bg-red-100 px-2 py-1 rounded">Sai: <span id="study-incorrect-count" class="font-bold">0</span></div>
+                <div class="flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
+                    <!-- Thống kê Đúng/Sai -->
+                    <div class="flex items-center gap-2 bg-gray-50 px-3 py-2 rounded-lg border border-gray-200 w-full sm:w-auto justify-center">
+                        <div class="text-xs font-medium text-green-700 bg-green-100 px-2 py-1 rounded">Đúng: <span id="study-correct-count" class="font-bold text-sm">0</span></div>
+                        <div class="text-xs font-medium text-red-700 bg-red-100 px-2 py-1 rounded">Sai: <span id="study-incorrect-count" class="font-bold text-sm">0</span></div>
+                    </div>
+                    <input type="text" id="study-search" oninput="filterStudyQuestions()" placeholder="🔍 Tìm nhanh..." class="w-full sm:w-48 px-4 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
                 </div>
-
-                <input type="text" id="study-search" oninput="filterStudyQuestions()" placeholder="🔍 Tìm kiếm câu hỏi..." class="w-full sm:w-64 px-4 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
             </div>
             
+            <!-- KHU VỰC CÂU HỎI ÔN TẬP -->
             <div id="study-active" class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-200">
                 <!-- Content Ôn Tập -->
             </div>
             
             <div class="flex justify-between items-center pt-2">
-                <button onclick="prevStudyQuestion()" id="btn-study-prev" class="px-6 py-2.5 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition disabled:opacity-50">⬅ Câu Trước</button>
-                <div class="font-medium text-gray-600">
+                <button onclick="prevStudyQuestion()" id="btn-study-prev" class="px-5 py-2.5 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition disabled:opacity-50 text-sm sm:text-base">⬅ Trước</button>
+                <div class="font-medium text-gray-600 text-sm sm:text-base">
                     Câu <span id="current-study-index" class="font-bold text-indigo-600">1</span> / <span id="total-study-num">0</span>
                 </div>
-                <button onclick="nextStudyQuestion()" id="btn-study-next" class="px-6 py-2.5 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition shadow-md">Câu Tiếp ➡</button>
+                <button onclick="nextStudyQuestion()" id="btn-study-next" class="px-5 py-2.5 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition shadow-md text-sm sm:text-base">Tiếp ➡</button>
             </div>
             
             <!-- Nút làm lại câu sai -->
@@ -105,18 +137,18 @@
             </div>
 
             <div id="exam-active" class="hidden space-y-4">
-                <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 flex justify-between items-center sticky top-20 z-40">
+                <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 flex flex-col sm:flex-row justify-between items-center sticky top-20 z-40 gap-3">
                     <div class="font-medium">
                         Câu <span id="current-q-index" class="text-xl font-bold text-indigo-600">1</span> / <span id="total-q-num">0</span>
                     </div>
                     
                     <!-- Thống kê Đang thi -->
-                    <div class="hidden sm:flex gap-3 text-sm font-medium">
+                    <div class="flex gap-3 text-sm font-medium">
                         <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full border border-green-200">Đúng: <span id="exam-live-correct">0</span></span>
                         <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full border border-red-200">Sai: <span id="exam-live-incorrect">0</span></span>
                     </div>
 
-                    <div class="bg-red-50 text-red-700 px-4 py-2 rounded-lg font-mono font-bold border border-red-200 text-lg">
+                    <div class="bg-red-50 text-red-700 px-4 py-2 rounded-lg font-mono font-bold border border-red-200 text-lg w-full sm:w-auto text-center">
                         ⏱ <span id="timer">60:00</span>
                     </div>
                 </div>
@@ -125,9 +157,9 @@
                 </div>
 
                 <div class="flex justify-between items-center pt-4">
-                    <button onclick="prevQuestion()" id="btn-prev" class="px-6 py-2.5 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition disabled:opacity-50">⬅ Câu Trước</button>
-                    <button onclick="submitExam()" id="btn-submit" class="hidden px-6 py-2.5 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition shadow-md">Nộp Bài & Chấm Điểm</button>
-                    <button onclick="nextQuestion()" id="btn-next" class="px-6 py-2.5 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition shadow-md">Câu Tiếp ➡</button>
+                    <button onclick="prevQuestion()" id="btn-prev" class="px-5 py-2.5 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition disabled:opacity-50 text-sm sm:text-base">⬅ Trước</button>
+                    <button onclick="submitExam()" id="btn-submit" class="hidden px-5 py-2.5 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition shadow-md text-sm sm:text-base">Nộp Bài</button>
+                    <button onclick="nextQuestion()" id="btn-next" class="px-5 py-2.5 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition shadow-md text-sm sm:text-base">Tiếp ➡</button>
                 </div>
             </div>
 
@@ -144,20 +176,21 @@
 
     <script>
         let questionsData = [];
-        let activeStudyPool = []; // THÊM BIẾN: Mảng chứa các câu hỏi được chọn để ôn tập hiện tại
+        let activeStudyPool = []; // Mảng chứa các câu hỏi được chọn theo Cấu hình để ôn tập
         let currentTab = 'study';
         
         let filteredStudyQuestions = [];
         let currentStudyIndex = 0;
         let studyAnswered = false;
         
-        // Tracking variables
+        // Theo dõi thống kê Ôn tập
         let studyCorrectCount = 0;
         let studyIncorrectCount = 0;
         let incorrectStudyQuestions = new Set();
         let studyAnswerHistory = {}; 
         let isRetryingIncorrect = false; 
         
+        // Quản lý Thi Thử
         let examQuestions = [];
         let currentExamIndex = 0;
         let userAnswers = {}; 
@@ -169,7 +202,7 @@
         let timeLeft = 60 * 60; 
         let displayLanguage = 'bi'; 
 
-        // Ngôn ngữ
+        // Chuyển đổi Ngôn ngữ
         function toggleLanguage() {
             displayLanguage = document.getElementById('lang-toggle').value;
             if (currentTab === 'study' && filteredStudyQuestions.length > 0) {
@@ -183,7 +216,7 @@
             }
         }
 
-        // Cắt tiếng việt
+        // Cắt tiếng Việt trong ngoặc () ở đuôi câu
         function formatText(text) {
             if (!text) return "";
             if (displayLanguage === 'en') {
@@ -192,9 +225,10 @@
             return text;
         }
 
+        // Tải dữ liệu JSON
         async function loadData() {
             try {
-                // Thêm timestamp để tránh cache
+                // Thêm timestamp để vô hiệu hoá bộ nhớ đệm (cache)
                 const response = await fetch('questions_data.json?v=' + new Date().getTime());
                 if (!response.ok) throw new Error("HTTP error");
                 questionsData = await response.json();
@@ -214,6 +248,7 @@
             }
         }
 
+        // Chuyển Tab (Ôn Tập - Thi Thử)
         function switchTab(tab) {
             currentTab = tab;
             const studyBtn = document.getElementById('btn-study');
@@ -238,20 +273,58 @@
             }
         }
 
+        // --- CHỨC NĂNG CẤU HÌNH ÔN TẬP ---
+        function toggleStudyRange() {
+            const mode = document.getElementById('study-mode-select').value;
+            const rangeInputs = document.getElementById('study-range-inputs');
+            if (mode === 'range') {
+                rangeInputs.classList.remove('hidden');
+                rangeInputs.classList.add('flex');
+                document.getElementById('study-range-y').max = questionsData.length;
+            } else {
+                rangeInputs.classList.remove('flex');
+                rangeInputs.classList.add('hidden');
+            }
+        }
+
+        function applyStudyConfig() {
+            const mode = document.getElementById('study-mode-select').value;
+            if (mode === 'all') {
+                activeStudyPool = [...questionsData];
+            } else if (mode === 'random-20') {
+                activeStudyPool = [...questionsData].sort(() => Math.random() - 0.5).slice(0, 20);
+            } else if (mode === 'random-50') {
+                activeStudyPool = [...questionsData].sort(() => Math.random() - 0.5).slice(0, 50);
+            } else if (mode === 'range') {
+                let x = parseInt(document.getElementById('study-range-x').value);
+                let y = parseInt(document.getElementById('study-range-y').value);
+                const total = questionsData.length;
+                
+                if (isNaN(x) || x < 1) x = 1;
+                if (isNaN(y) || y > total) y = total;
+                if (x > y) { let temp = x; x = y; y = temp; }
+                
+                activeStudyPool = questionsData.slice(x - 1, y);
+            }
+            
+            isRetryingIncorrect = false; 
+            document.getElementById('study-search').value = ''; 
+            renderStudyList();
+        }
+
         function renderStudyList(filter = '') {
-            filteredStudyQuestions = questionsData.filter(q => 
+            filteredStudyQuestions = activeStudyPool.filter(q => 
                 q.question.toLowerCase().includes(filter.toLowerCase()) || 
                 (q.explanation && q.explanation.toLowerCase().includes(filter.toLowerCase()))
             );
             
-            // Reset khi tải danh sách
             if(!isRetryingIncorrect) {
                 studyCorrectCount = 0;
                 studyIncorrectCount = 0;
                 incorrectStudyQuestions.clear();
                 studyAnswerHistory = {};
                 updateStudyStats();
-                document.getElementById('study-total-text').innerText = `Danh sách ôn tập`;
+                document.getElementById('study-total-text').innerText = `Đang ôn tập (${activeStudyPool.length} câu)`;
                 document.getElementById('retry-incorrect-container').classList.add('hidden');
             }
             
@@ -259,7 +332,7 @@
             if (filteredStudyQuestions.length > 0) {
                 renderSingleStudyQuestion();
             } else {
-                document.getElementById('study-active').innerHTML = `<p class="text-center text-gray-500 py-8">Không tìm thấy câu hỏi nào phù hợp.</p>`;
+                document.getElementById('study-active').innerHTML = `<p class="text-center text-gray-500 py-8">Không tìm thấy câu hỏi nào.</p>`;
                 document.getElementById('total-study-num').innerText = 0;
             }
         }
@@ -311,7 +384,7 @@
             let explanationHtml = `
                 <div id="study-explanation" class="hidden mt-6 p-5 bg-blue-50 border border-blue-200 rounded-xl text-blue-900 fade-in shadow-sm">
                     <div class="font-bold flex items-center gap-2 mb-2 text-blue-800">
-                        <span class="text-xl">💡</span> Giải thích từ tài liệu:
+                        <span class="text-xl">💡</span> Giải thích / Đáp án tài liệu:
                     </div>
                     <div class="text-sm leading-relaxed whitespace-pre-wrap">${q.explanation || '<span class="italic text-gray-500">Không có giải thích chi tiết trong tài liệu.</span>'}</div>
                 </div>
@@ -320,14 +393,14 @@
             let imageHtml = q.image ? `<img src="${q.image}" class="mt-4 mb-4 max-w-full h-auto rounded-lg shadow-sm border border-gray-200 max-h-96 object-contain">` : '';
 
             document.getElementById('study-active').innerHTML = `
-                <div class="flex items-start gap-3 mb-4">
+                <div class="flex flex-col sm:flex-row items-start gap-3 mb-4">
                     <span class="flex-shrink-0 bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full mt-1">Câu ${q.id}</span>
                     <div class="w-full">
                         <h3 class="font-semibold text-gray-900 text-lg leading-relaxed">${formatText(q.question)}</h3>
                         ${imageHtml}
                     </div>
                 </div>
-                <div class="pl-2 sm:pl-12">
+                <div class="pl-0 sm:pl-12">
                     ${optionsHtml}
                     ${explanationHtml}
                 </div>
@@ -344,7 +417,7 @@
             const hasCorrectAnswer = q.correctAnswerIndex !== undefined && q.correctAnswerIndex !== null;
             let isCorrect = hasCorrectAnswer && (selectedIndex === q.correctAnswerIndex);
 
-            // Xử lý điểm (chỉ lần 1)
+            // Ghi nhận điểm (chỉ lần 1)
             if (!studyAnswerHistory[q.id]) {
                 studyAnswerHistory[q.id] = true; 
                 if (isCorrect) {
@@ -357,7 +430,7 @@
                 updateStudyStats(); 
             }
 
-            // UI cập nhật
+            // Giao diện
             q.options.forEach((_, i) => {
                 const optDiv = document.getElementById(`study-opt-${i}`);
                 const textSpan = optDiv.querySelector('span.text-gray-700');
@@ -389,8 +462,9 @@
                 }
             });
             
+            // Xử lý khoá và hiện giải thích
             const explanationDiv = document.getElementById('study-explanation');
-            if (isCorrect) {
+            if (isCorrect || !hasCorrectAnswer) {
                 studyAnswered = true; 
                 q.options.forEach((_, i) => {
                     const optDiv = document.getElementById(`study-opt-${i}`);
@@ -404,6 +478,7 @@
                 });
                 if (explanationDiv) explanationDiv.classList.remove('hidden');
             } else {
+                 // Nếu sai, giấu giải thích
                  if (explanationDiv) explanationDiv.classList.add('hidden');
             }
         }
@@ -422,67 +497,70 @@
             renderStudyList(document.getElementById('study-search').value);
         }
 
-        // --- CÁC HÀM CẤU HÌNH ÔN TẬP ---
-        function toggleStudyRange() {
-            const mode = document.getElementById('study-mode-select').value;
-            const rangeInputs = document.getElementById('study-range-inputs');
-            if (mode === 'range') {
-                rangeInputs.classList.remove('hidden');
-                rangeInputs.classList.add('flex');
-                document.getElementById('study-range-y').max = questionsData.length;
+        function startExam() {
+            const countSelection = document.getElementById('exam-q-count').value;
+            let questionCount = questionsData.length;
+            if (countSelection !== 'all') questionCount = parseInt(countSelection);
+            
+            let shuffled = [...questionsData].sort(() => Math.random() - 0.5);
+            examQuestions = shuffled.slice(0, questionCount);
+            
+            currentExamIndex = 0; userAnswers = {}; timeLeft = 60 * 60; 
+            
+            examLiveCorrect = 0; examLiveIncorrect = 0;
+            updateExamLiveStats();
+
+            document.getElementById('exam-setup').classList.add('hidden');
+            document.getElementById('exam-result').classList.add('hidden');
+            document.getElementById('exam-active').classList.remove('hidden');
+            document.getElementById('total-q-num').innerText = examQuestions.length;
+
+            renderExamQuestion();
+            
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                let minutes = Math.floor(timeLeft / 60);
+                let seconds = timeLeft % 60;
+                document.getElementById('timer').innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                if (timeLeft <= 0) { clearInterval(timerInterval); submitExam(); }
+                timeLeft--;
+            }, 1000);
+        }
+
+        function renderExamQuestion() {
+            const q = examQuestions[currentExamIndex];
+            document.getElementById('current-q-index').innerText = currentExamIndex + 1;
+            
+            let imageHtml = q.image ? `<img src="${q.image}" class="mt-4 mb-4 max-w-full h-auto rounded-lg shadow-sm border border-gray-200 max-h-96 object-contain">` : '';
+
+            let html = `
+                <div class="font-bold text-gray-900 text-lg leading-relaxed">
+                    <span class="text-indigo-600 mr-2">Câu ${currentExamIndex + 1}:</span> ${formatText(q.question)}
+                </div>
+                ${imageHtml}
+                <div class="space-y-3 mt-6">
+            `;
+            
+            q.options.forEach((opt, oIdx) => {
+                const isSelected = userAnswers[q.id] === oIdx;
+                html += `
+                    <label class="flex items-start p-4 rounded-xl border cursor-pointer transition-all duration-200 ${isSelected ? 'border-indigo-500 bg-indigo-50 shadow-sm ring-1 ring-indigo-200' : 'border-gray-200 hover:bg-gray-50'}">
+                        <input type="radio" name="exam-opt" value="${oIdx}" ${isSelected ? 'checked' : ''} onclick="selectAnswer(${q.id}, ${oIdx})" class="mt-1 text-indigo-600 focus:ring-indigo-500 w-4 h-4">
+                        <span class="ml-3 text-sm text-gray-800 leading-relaxed"><strong class="text-indigo-500 mr-1">${String.fromCharCode(65 + oIdx)}.</strong> ${formatText(opt)}</span>
+                    </label>
+                `;
+            });
+            html += `</div>`;
+            document.getElementById('exam-question-card').innerHTML = html;
+
+            document.getElementById('btn-prev').style.display = currentExamIndex === 0 ? 'none' : 'block';
+            
+            if (currentExamIndex === examQuestions.length - 1) {
+                document.getElementById('btn-next').classList.add('hidden');
+                document.getElementById('btn-submit').classList.remove('hidden');
             } else {
-                rangeInputs.classList.remove('flex');
-                rangeInputs.classList.add('hidden');
-            }
-        }
-
-        function applyStudyConfig() {
-            const mode = document.getElementById('study-mode-select').value;
-            if (mode === 'all') {
-                activeStudyPool = [...questionsData];
-            } else if (mode === 'random-20') {
-                activeStudyPool = [...questionsData].sort(() => Math.random() - 0.5).slice(0, 20);
-            } else if (mode === 'random-50') {
-                activeStudyPool = [...questionsData].sort(() => Math.random() - 0.5).slice(0, 50);
-            } else if (mode === 'range') {
-                let x = parseInt(document.getElementById('study-range-x').value);
-                let y = parseInt(document.getElementById('study-range-y').value);
-                const total = questionsData.length;
-                
-                if (isNaN(x) || x < 1) x = 1;
-                if (isNaN(y) || y > total) y = total;
-                if (x > y) { let temp = x; x = y; y = temp; }
-                
-                activeStudyPool = questionsData.slice(x - 1, y);
-            }
-            
-            isRetryingIncorrect = false; 
-            document.getElementById('study-search').value = ''; 
-            
-            renderStudyList();
-        }
-        // -------------------------------
-
-        function renderStudyList(filter = '') {
-            // Lọc trên activeStudyPool thay vì toàn bộ questionsData
-            filteredStudyQuestions = activeStudyPool.filter(q => 
-                q.question.toLowerCase().includes(filter.toLowerCase()) || 
-                (q.explanation && q.explanation.toLowerCase().includes(filter.toLowerCase()))
-            );
-            
-            // Reset khi tải danh sách
-            if(!isRetryingIncorrect) {
-                studyCorrectCount = 0;
-                studyIncorrectCount = 0;
-                incorrectStudyQuestions.clear();
-                studyAnswerHistory = {};
-                updateStudyStats();
-                document.getElementById('study-total-text').innerText = `Đang ôn tập (${activeStudyPool.length} câu)`;
-                document.getElementById('retry-incorrect-container').classList.add('hidden');
-            }
-            
-            currentStudyIndex = 0;
-            if (filteredStudyQuestions.length > 0) {
+                document.getElementById('btn-next').classList.remove('hidden');
+                document.getElementById('btn-submit').classList.add('hidden');
             }
         }
 
