@@ -1,0 +1,1782 @@
+[
+    {
+        "id": 1,
+        "question": "Which of the following cumulative measures Indicates that your project is about 9% under budget? ( Biện pháp tích lũy nào sau đây cho thấy dự án của bạn dưới mức ngân sách khoảng 9%? )",
+        "options": [
+            "The cumulative PV was 100, and the cumulative AC was 110 ( PV tích lũy là 100 và AC tích lũy là 110 )",
+            "The cumulative EV was 100, and the cumulative PV was 110 ( EV tích lũy là 100 và PV tích lũy là 110",
+            "The cumulative AC was 100, and the cumulative EV was 110 ( AC tích lũy là 100 và EV tích lũy là 110 )",
+            "The cumulative AC was 110, and the cumulative EV was 100 ( AC tích lũy là 110 và EV tích lũy là 100 )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 2,
+        "question": "An input to the Define Scope process is ( Đầu vào của quy trình Xác định phạm vi là   )",
+        "options": [
+            "Decomposition ( Sự phân hủy )",
+            "The type of contract detail language ( Loại ngôn ngữ chi tiết hợp đồng )",
+            "Project charter ( Điều lệ dự án )",
+            "Work breakdown structure (WBS) ( Cấu trúc phân chia công việc (WBS) )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 3,
+        "question": "Project management is ( Quản lý dự án là )",
+        "options": [
+            "The integration of the critical path method and the Earned Value Management system ( Việc tích hợp phương pháp đường dẫn quan trọng và hệ thống Quản lý giá trị kiếm được )",
+            "The application of knowledge, skills, tools, and techniques to project activities to meet the project requirements ( Việc áp dụng kiến thức, kỹ năng, công cụ và kỹ thuật vào các hoạt động của dự án để đáp ứng các yêu cầu của dự án )",
+            "The application of knowledge, skills, wisdom, science, and art to organizational activities to achieve operational excellence ( Việc áp dụng kiến thức, kỹ năng, trí tuệ, khoa học và nghệ thuật vào các hoạt động của tổ chức để đạt được sự vận hành xuất sắc )",
+            "A subset of most engineering and other technical disciplines ( Một tập hợp con của hầu hết các ngành kỹ thuật và kỹ thuật khác )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 4,
+        "question": "The major processes of Project Resource Management are ( Các quy trình chính của Quản lý nguồn lực dự án là )",
+        "options": [
+            "Plan Organizational Structure, Build Project Team, Develop Communications Plan, and Manage Team Conflicts. ( Lập kế hoạch cơ cấu tổ chức, xây dựng nhóm dự án, phát triển kế hoạch truyền thông và quản lý xung đột trong nhóm )",
+            "Leadership, Management, Team Building, and Negotiation ( Lãnh đạo, quản lý, xây dựng nhóm và đàm phán )",
+            "Develop Project Staffing Plan, Recruit Project Team, Administer Personnel Actions, and Manage Labor Relations ( Xây dựng kế hoạch nhân sự dự án, tuyển dụng nhóm dự án, quản lý các hoạt động nhân sự và quản lý quan hệ lao động )",
+            "Plan Resource Management, Estimate Activity Resources, Acquire Resources, Develop Team, Manage Team, and Control Resources ( Lập kế hoạch quản lý tài nguyên, Ước tính tài nguyên hoạt động, Thu thập tài nguyên, Phát triển nhóm, Quản lý nhóm và Kiểm soát tài nguyên )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 5,
+        "question": "Which of the following processes is included in Project Integration Management? ( Quy trình nào sau đây được bao gồm trong Quản lý tích hợp dự án? )",
+        "options": [
+            "Review scope validation ( Xem xét xác thực phạm vi )",
+            "Control scope definition ( Định nghĩa phạm vi kiểm soát )",
+            "Conduct procurement surveillance ( Thực hiện giám sát mua sắm",
+            "Develop a project management plan ( Xây dựng kế hoạch quản lý dự án )"
+        ],
+        "explanation": "Quản lý tích hợp dự án, PMBOK®Guide, trang 70, Giới thiệu; và trang 71, Hình 4 – 1"
+    },
+    {
+        "id": 6,
+        "question": "Motivating involves creating an environment to meet project objectives while providing satisfaction related to what people value most. All of the following are reasons of motivation EXCEPT ( Tạo động lực bao gồm việc tạo ra một môi trường để đáp ứng các mục tiêu của dự án đồng thời mang lại sự hài lòng liên quan đến những gì mọi người đánh giá cao nhất. Tất cả những điều sau đây là lý do tạo động lực Ngoại Trừ )",
+        "options": [
+            "Participating in decision making ( Tham gia vào việc ra quyết định )",
+            "Encouraging people to work independently. ( Khuyến khích mọi người làm việc độc lập. )",
+            "Providing accurate criticism in the annual performance review or after the project is completed ( Đưa ra những lời phê bình chính xác trong đánh giá hiệu suất hàng năm hoặc sau khi dự án hoàn thành )",
+            "Encouraging someone to act ( Khuyến khích ai đó hành động )"
+        ],
+        "explanation": "Chính xác. Động lực là đưa ra lý do để ai đó hành động. Các điều khoản được thúc đẩy bằng cách trao quyền cho họ tham gia vào việc ra quyết định và khuyến khích họ làm việc độc lập. Hướng dẫn PMBOK®, trang 341, Phần 9.4.2.4"
+    },
+    {
+        "id": 7,
+        "question": "As part of the communications model, the sender is responsible for: ( Là một phần của mô hình truyền thông, người gửi có trách nhiệm: )",
+        "options": [
+            "Confirming that the communication is correctly understood ( Xác nhận rằng giao tiếp được hiểu chính xác )",
+            "Presenting the information in the most favorable manner ( Trình bày thông tin một cách thuận lợi nhất )",
+            "Ensuring that the receiver agrees with the message ( Đảm bảo rằng người nhận đồng ý với tin nhắn )",
+            "Decoding the medium correctly ( Giải mã phương tiện chính xác )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 8,
+        "question": "Benchmarking involves comparing actual or planned project practices to those of comparable projects with all of the following characteristics EXCEPT ( Đo điểm chuẩn liên quan đến việc so sánh các thực tiễn dự án thực tế hoặc theo kế hoạch với các dự án có thể so sánh được với tất cả các đặc điểm sau Ngoại Trừ )",
+        "options": [
+            "To provide a basis for measuring performance ( Để cung cấp cơ sở cho việc đo lường hiệu quả )",
+            "Within the same application area but not in a different application area. ( Trong cùng một lĩnh vực ứng dụng nhưng không thuộc một lĩnh vực ứng dụng khác. )",
+            "To identify best practices and generate ideas for improvement ( Để xác định các phương pháp hay nhất và tạo ra các ý tưởng để cải tiến )",
+            "Within the performing organization or outside of it. ( Trong tổ chức thực hiện hoặc bên ngoài nó. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 9,
+        "question": "You are involved in collecting requirements for your project. You are likely to use the stakeholder register for all of the following EXCEPT: ( Bạn đang tham gia vào việc thu thập các yêu cầu cho dự án của mình. Bạn có thể sử dụng sổ đăng ký bên liên quan cho tất cả những điều sau đây Ngoại Trừ: )",
+        "options": [
+            "Identifying stakeholders who can provide information on the requirements ( Xác định các bên liên quan có thể cung cấp thông tin về các yêu cầu )",
+            "Capturing major requirements that stakeholders may have for the project ( Nắm bắt các yêu cầu chính mà các bên liên quan có thể có đối với dự án )",
+            "Evaluating the product breakdown structure (PBS) associated with each of the key stakeholders ( Đánh giá cấu trúc phân chia sản phẩm (PBS) được liên kết với từng bên liên quan chính )",
+            "Capturing main expectations that stakeholders may have for the project. ( Nắm bắt những kỳ vọng chính mà các bên liên quan có thể có đối với dự án. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 10,
+        "question": "A primary function of a project management office (PMO) is to support project managers in a variety of ways, which may include all of the following EXCEPT: ( Chức năng chính của văn phòng quản lý dự án (PMO) là hỗ trợ các nhà quản lý dự án theo nhiều cách khác nhau, có thể bao gồm tất cả những điều sau Ngoại Trừ: )",
+        "options": [
+            "Intervening in project execution directly and without involving the project manager ( Can thiệp vào việc thực hiện dự án một cách trực tiếp và không có sự tham gia của người quản lý dự án )",
+            "Managing shared resources across all projects administered by the PMO ( Quản lý tài nguyên được chia sẻ trên tất cả các dự án do PMO quản lý )",
+            "Identifying and developing project management methodology, best practices, and standards ( Xác định và phát triển phương pháp quản lý dự án, các phương pháp hay nhất và tiêu chuẩn )",
+            "Coaching, mentoring, training, and oversight. ( Huấn luyện, cố vấn, đào tạo và giám sát"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 11,
+        "question": "Performing integration is a cornerstone skill for all project managers; the following describe the three different levels of performing integration EXCEPT ( Thực hiện tích hợp là kỹ năng nền tảng cho tất cả người quản lý dự án; phần sau đây mô tả ba cấp độ thực hiện tích hợp khác nhau Ngoại Trừ )",
+        "options": [
+            "Context level ( Cấp độ bối cảnh )",
+            "Complexity level ( Mức độ phức tạp )",
+            "Process level ( Cấp độ quy trình )",
+            "Cognitive level ( Mức độ nhận thức )"
+        ],
+        "explanation": "Tích hợp là một kỹ năng quan trọng đối với người quản lý dự án. Sự tích hợp diễn ra ở ba cấp độ khác nhau: quá trình, nhận thức và bối cảnh. PMBOK®Guide, trang 66 – 67, Phần 3. 5"
+    },
+    {
+        "id": 12,
+        "question": "Tools and techniques of the Perform Quantitative Risk Analysis process include: ( Các công cụ và kỹ thuật của quy trình Thực hiện Phân tích Rủi ro Định lượng bao gồm: )",
+        "options": [
+            "Contracting, contingency planning, alternative strategies, and insurance ( Hợp đồng, lập kế hoạch dự phòng, chiến lược thay thế và bảo hiểm )",
+            "Checklists, damage control reports, standard allowances, and inspection ( Danh sách kiểm tra, báo cáo kiểm soát thiệt hại, phụ cấp tiêu chuẩn và kiểm tra )",
+            "Interviewing, historical results, workarounds, and response development ( Phỏng vấn, kết quả lịch sử, cách giải quyết và phát triển phản ứng )",
+            "Expert judgment, data gathering, simulations, and decision tree analysis ( Đánh giá của chuyên gia, thu thập dữ liệu, mô phỏng và phân tích cây quyết định )"
+        ],
+        "explanation": "Quá trình thực hiện Phân tích rủi ro định lượng có các công cụ và kỹ thuật sau, Hướng dẫn PMBOK®, trang 428-432, Mục 11.4.2; và trang 428, Hình 11-11"
+    },
+    {
+        "id": 13,
+        "question": "The critical path is established by calculating the following dates ( Đường dẫn quan trọng được thiết lập bằng cách tính toán các ngày sau )",
+        "options": [
+            "Predecessor-to-successor, predecessor-to-predecessor, successor-to-successor ( Người tiền nhiệm nối tiếp người kế nhiệm, người tiền nhiệm nối tiếp người kế vị, người kế vị nối tiếp người kế vị )",
+            "Early start, early finish, late start, late finish ( Bắt đầu sớm, kết thúc sớm, bắt đầu muộn, kết thúc muộn )",
+            "Start-to-start, start-to-finish, finish-to-finish, finish-to- start. ( Bắt đầu để bắt đầu, bắt đầu để kết thúc, kết thúc để kết thúc, kết thúc để bắt đầu. )",
+            "Primary-to-secondary, primary-to-finish, secondary- to-secondary, finish-to-finish ( Từ sơ cấp đến thứ cấp, từ sơ cấp đến kết thúc, từ thứ cấp đến thứ cấp, từ đầu đến cuối )"
+        ],
+        "explanation": "Chính xác. Kỹ thuật phân tích mạng lịch trình này tính toán ngày bắt đầu sớm, ngày kết thúc sớm, ngày bắt đầu muộn và ngày kết thúc muộn cho tất cả các hoạt động mà không tính đến bất kỳ hạn chế nguồn lực nào bằng cách thực hiện phân tích tiến và lùi thông qua mạng lịch trình, như trong Hình 6 – 18. Trong ví dụ này, đường đi dài nhất bao gồm các hoạt động A, C và D, do đó, trình tự A – C – D là đường đi quan trọng. Đường dẫn quan trọng là chuỗi các hoạt động đại diện cho con đường dài nhất thông qua một dự án, xác định thời gian dự án ngắn nhất có thể. PMBOK®Guide, trang 210 – 211, Phần 6. 5. 2. 2"
+    },
+    {
+        "id": 14,
+        "question": "All of the following are external environmental factors EXCEPT ( Tất cả những điều sau đây là các yếu tố môi trường bên ngoài Ngoại Trừ )",
+        "options": [
+            "Economic conditions ( Điều kiện kinh tế",
+            "Organizational values and principles. ( Các giá trị và nguyên tắc của tổ chức )",
+            "Competitive movements ( Phong trào cạnh tranh )",
+            "Legal restrictions ( Hạn chế pháp lý )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 15,
+        "question": "Which of the following is NOT a process in Project Stakeholder Management? ( Điều nào sau đây KHÔNG phải là một quy trình trong Quản lý các bên liên quan của dự án? )",
+        "options": [
+            "Manage Stakeholder Engagement ( Quản lý sự tham gia của các bên liên quan )",
+            "Identify Stakeholders ( Xác định các bên liên quan )",
+            "Monitor Stakeholder Engagement ( Giám sát sự tham gia của các bên liên quan )",
+            "Control Stakeholder Engagement. ( Kiểm soát sự tham gia của các bên liên quan. )"
+        ],
+        "explanation": "Correct. The Project Stakeholder Management processes are as follows PMBOK® Guide, pages 503-504, Section 13 ( Chính xác. Các quy trình Quản lý các bên liên quan của Dự án như sau Hướng dẫn PMBOK®, trang 503-504, Phần 13 )"
+    },
+    {
+        "id": 16,
+        "question": "The following are all key differences between management and leadership EXCEPT ( Sau đây là tất cả những khác biệt chính giữa quản lý và lãnh đạo Ngoại Trừ )",
+        "options": [
+            "Focus on systems vs focus on relationships ( Tập trung vào hệ thống và tập trung vào các mối quan hệ )",
+            "Concentrate on project activities vs emphasis on results ( Tập trung vào các hoạt động của dự án thay vì nhấn mạnh vào kết quả )",
+            "Directing vs influencing ( Chỉ đạo vs gây ảnh hưởng )",
+            "Accept status quo vs challenge status quo ( Chấp nhận hiện trạng và thách thức hiện trạng )"
+        ],
+        "explanation": "Quản lý từ ngữ có liên quan chặt chẽ hơn với việc chỉ đạo người khác đi từ điểm này sang điểm khác bằng cách sử dụng một tập hợp các hành vi dự kiến đã biết. Ngược lại, lãnh đạo liên quan đến việc làm việc với người khác thông qua thảo luận hoặc tranh luận để hướng dẫn họ từ điểm này đến điểm khác. Phương pháp mà người quản lý dự án chọn sử dụng sẽ bộc lộ sự khác biệt rõ rệt trong hành vi, nhận thức về bản thân và vai trò của dự án. Bảng 3 – 1 so sánh quản lý và lãnh đạo ở một số cấp độ quan trọng. Người quản lý dự án cần sử dụng cả khả năng lãnh đạo và quản lý để thành công"
+    },
+    {
+        "id": 17,
+        "question": "Project Quality Management includes the processes for incorporating the organization's quality policy regarding planning, managing, and controlling project and product quality requirements to ( Quản lý chất lượng dự án bao gồm các quy trình kết hợp chính sách chất lượng của tổ chức liên quan đến việc lập kế hoạch, quản lý và kiểm soát các yêu cầu về chất lượng sản phẩm và dự án để )",
+        "options": [
+            "Control products, services, and results. ( Kiểm soát sản phẩm, dịch vụ và kết quả )",
+            "Meet stakeholders’ objectives ( Đáp ứng mục tiêu của các bên liên quan )",
+            "Meet standards of performance for the project team ( Đáp ứng các tiêu chuẩn về hiệu suất của nhóm dự án )",
+            "Improve process capability ( Cải thiện khả năng xử lý )"
+        ],
+        "explanation": "Quản lý chất lượng dự án bao gồm các quy trình kết hợp chính sách chất lượng của tổ chức liên quan đến việc lập kế hoạch, quản lý và kiểm soát các yêu cầu về chất lượng sản phẩm và dự án nhằm đáp ứng mục tiêu của các bên liên quan. Quản lý chất lượng dự án cũng hỗ trợ các hoạt động cải tiến quy trình liên tục được thực hiện thay mặt cho tổ chức thực hiện. Hướng dẫn PMBOK®, Giới thiệu, trang 271"
+    },
+    {
+        "id": 18,
+        "question": "Which of the following statements is true about the work breakdown structure (WBS)? ( Câu nào sau đây đúng về cấu trúc phân chia công việc (WBS)? )",
+        "options": [
+            "The WBS is a simple list of project activities in chart form. ( WBS là một danh sách đơn giản các hoạt động của dự án ở dạng biểu đồ. )",
+            "The WBS is the same as the organizational breakdown structure OBS ( WBS giống với cấu trúc phân chia tổ chức OBS )",
+            "The WBS is a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables ( WBS là sự phân chia theo cấp bậc của tổng phạm vi công việc mà nhóm dự án sẽ thực hiện để hoàn thành các mục tiêu của dự án và tạo ra các sản phẩm bàn giao được yêu cầu. )",
+            "The WBS is the bill of materials (BOM) needed to accomplish the project objectives and create the required deliverables ( WBS là bảng kê nguyên vật liệu (BOM) cần thiết để hoàn thành các mục tiêu của dự án và tạo ra các sản phẩm bàn giao cần thiết"
+        ],
+        "explanation": "Tạo WBS Tạo WBS là quá trình chia nhỏ các sản phẩm bàn giao của dự án và công việc của dự án thành các thành phần nhỏ hơn, dễ quản lý hơn. Lợi ích chính của quá trình này là nó cung cấp một khuôn khổ về những gì phải được chuyển giao. Quá trình này được thực hiện một lần hoặc tại các điểm được xác định trước trong dự án. WBS tổ chức và xác định phạm vi tổng thể của dự án và thể hiện công việc được chỉ định trong tuyên bố phạm vi dự án hiện được phê duyệt. Hướng dẫn PMBOK®, trang 156 – 157, Phần 5. 4"
+    },
+    {
+        "id": 19,
+        "question": "All of the following are information management and distribution tools EXCEPT ( Tất cả những thứ sau đây đều là công cụ quản lý và phân phối thông tin Ngoại Trừ )",
+        "options": [
+            "Electronic project management tools ( Công cụ quản lý dự án điện tử )",
+            "Hard-copy document management ( Quản lý tài liệu bản cứng )",
+            "Inputting project performance data into a spreadsheet or database ( Nhập dữ liệu hiệu suất dự án vào bảng tính hoặc cơ sở dữ liệu )",
+            "Electronic communications management ( Quản lý truyền thông điện tử )"
+        ],
+        "explanation": "Chính xác. Được mô tả trong Phần 4.3.2.2, hệ thống thông tin quản lý dự án có thể đảm bảo rằng các bên liên quan có thể dễ dàng truy xuất thông tin họ cần một cách kịp thời. Thông tin dự án được quản lý và phân phối bằng nhiều công cụ khác nhau, PMBOK®Guide, trang 385, Mục 10.2.2.4"
+    },
+    {
+        "id": 20,
+        "question": "Your earned value management analysis indicates that your project is falling behind its baseline schedule. You know this because the cumulative EV is much: ( Phân tích quản lý giá trị thu được của bạn chỉ ra rằng dự án của bạn đang bị chậm tiến độ cơ bản. Bạn biết điều này vì EV tích lũy rất nhiều )",
+        "options": [
+            "Lower than the cumulative CPI ( Thấp hơn CPI tích lũy )",
+            "Higher than the cumulative AC. (Cao hơn chi phí thực tế (Actual Cost) lũy kế.)",
+            "Higher than the cumulative PV ( Cao hơn PV tích lũy )",
+            "Lower than the cumulative PV ( Thấp hơn PV tích lũy )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 21,
+        "question": "A project manager does most of her communicating with team members, internal project stakeholders, and external project stakeholders via email. The project manager incorporates specific techniques when composing her emails to reduce any misunderstandings.\n\nWhich of the following is not considered one of these techniques?\n\n( Người quản lý dự án thực hiện hầu hết việc giao tiếp với các thành viên trong nhóm, các bên liên quan của dự án nội bộ và các bên liên quan của dự án bên ngoài qua email. Người quản lý dự án kết hợp các kỹ thuật cụ thể khi soạn email để giảm bớt mọi hiểu lầm. \n\nĐiều nào sau đây không được coi là một trong những kỹ thuật này? )",
+        "options": [
+            "Controlled flow of words and ideas ( Kiểm soát luồng ngôn từ và ý tưởng )",
+            "Clear purpose directed to the needs of the reader ( Mục đích rõ ràng hướng đến nhu cầu của người đọc )",
+            "Communications register ( Đăng ký truyền thông )",
+            "Concise expression ( Diễn đạt ngắn gọn )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 22,
+        "question": "The construction project has many people and specialized teams at the worksite every day. Frequent communication between the team leads is critical for safety and efficiency. Which agile ceremony can this project incorporate to increase timely cross-functional communication?\n( Dự án xây dựng có rất nhiều người và đội ngũ chuyên môn có mặt tại công trường hàng ngày. Việc liên lạc thường xuyên giữa các trưởng nhóm là rất quan trọng để đảm bảo an toàn và hiệu quả. Dự án này có thể kết hợp buổi lễ linh hoạt nào để tăng cường giao tiếp liên chức năng kịp thời? )",
+        "options": [
+            "Iteration reviews ( Đánh giá lặp lại )",
+            "Daily standups ( Dự phòng hàng ngày )",
+            "Retrospectives ( Hồi tưởng )",
+            "Risk-based spikes ( Đột biến dựa trên rủi ro )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 23,
+        "question": "You are developing the communications management plan for a construction project. You want to determine the information needs of the project stakeholders, specifically focusing on the type and the format of information that will be required to communicate with the stakeholders.\nWhat is your best course of action?\n( Bạn đang phát triển kế hoạch quản lý truyền thông cho một dự án xây dựng. Bạn muốn xác định nhu cầu thông tin của các bên liên quan trong dự án, đặc biệt tập trung vào loại và định dạng thông tin cần thiết để liên lạc với các bên liên quan. \nCách hành động tốt nhất của bạn là gì? )",
+        "options": [
+            "Develop the stakeholder register ( Phát triển sổ đăng ký các bên liên quan )",
+            "Review the requirements documentation ( Xem lại tài liệu yêu cầu )",
+            "Conduct a communication requirements analysis ( Tiến hành phân tích yêu cầu giao tiếp )",
+            "Consult the stakeholder engagement plan ( Tham khảo kế hoạch tham gia của các bên liên quan )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 24,
+        "question": "You have just taken over a project in execution. During your first week, you determine that the project team members spend a lot of time responding to unexpected requests for information from different project stakeholders. Because of these interruptions, the team cannot focus on their project activities, and as a result, the project is behind schedule.\nWhat should you do first?\n( Bạn vừa tiếp quản một dự án đang được thực hiện. Trong tuần đầu tiên, bạn xác định rằng các thành viên trong nhóm dự án dành nhiều thời gian để đáp ứng các yêu cầu thông tin bất ngờ từ các bên liên quan khác nhau của dự án. Vì những gián đoạn này, nhóm không thể tập trung vào các hoạt động dự án của mình và kết quả là dự án bị chậm tiến độ. \nBạn nên làm gì đầu tiên? )",
+        "options": [
+            "Tell the team members to stop responding to unexpected requests since it is not the responsibility of the team ( Yêu cầu các thành viên trong nhóm ngừng phản hồi các yêu cầu không mong muốn vì đó không phải là trách nhiệm của nhóm )",
+            "Push the team to respond to all the requests faster so that they can perform their assigned project activities on time ( Thúc đẩy nhóm phản hồi tất cả các yêu cầu nhanh hơn để họ có thể thực hiện các hoạt động dự án được giao đúng thời hạn )",
+            "Ask the team to forward all stakeholder inquiries to you so that the team members can focus on their assigned tasks ( Yêu cầu nhóm chuyển tiếp mọi thắc mắc của các bên liên quan đến bạn để các thành viên trong nhóm có thể tập trung vào nhiệm vụ được giao )",
+            "Review the communications management plan to understand how stakeholder requests should be handled ( Xem lại kế hoạch quản lý truyền thông để hiểu cách xử lý yêu cầu của các bên liên quan )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 25,
+        "question": "The project management plan specifies that a predictive development approach has been selected to produce the project deliverables.\nWhere in the project life cycle will the overall project risk be the lowest?\n( Kế hoạch quản lý dự án chỉ rõ rằng phương pháp phát triển dự đoán đã được chọn để tạo ra các sản phẩm bàn giao của dự án. \nRủi ro tổng thể của dự án sẽ ở mức thấp nhất ở đâu trong vòng đời dự án? )",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 26,
+        "question": "You are establishing the relative priorities of individual risks identified in the project.\nWhich of the following tasks is the least likely to impact this prioritization?\n( Bạn đang thiết lập các ưu tiên tương đối của các rủi ro riêng lẻ được xác định trong dự án. \nNhiệm vụ nào sau đây ít có khả năng ảnh hưởng đến mức độ ưu tiên này? )",
+        "options": [
+            "Reviewing the assumption log ( Xem lại nhật ký giả định )",
+            "Examining the risk register ( Kiểm tra sổ đăng ký rủi ro )",
+            "Researching the stakeholder register ( Nghiên cứu sổ đăng ký các bên liên quan )",
+            "Creating the risk report ( Tạo báo cáo rủi ro )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 27,
+        "question": "To produce the deliverables, the project will procure goods and services from outside the organization. The project manager has instructed the team to develop a comprehensive list of individual project risks related to those procurements.\nWhat is the best course of action for the project team?\n( Để tạo ra các sản phẩm bàn giao, dự án sẽ mua hàng hóa và dịch vụ từ bên ngoài tổ chức. Người quản lý dự án đã hướng dẫn nhóm phát triển một danh sách đầy đủ các rủi ro của từng dự án liên quan đến các hoạt động mua sắm đó. \nCách hành động tốt nhất cho nhóm dự án là gì? )",
+        "options": [
+            "Consult the project charter ( Tham khảo điều lệ dự án )",
+            "Develop a procurement register ( Xây dựng sổ đăng ký đấu thầu )",
+            "Review procurement documentation ( Xem xét tài liệu đấu thầu )",
+            "Check the probability and impact matrix ( Xây dựng sổ đăng ký đấu thầu )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 28,
+        "question": "At times over a project life cycle, the team must adopt a few agile ceremonies. The aim is to communicate quicker in times of tight deadlines. Unfortunately, team members are not getting the information needed during the ceremonies.\nWhat is the best option to confirm that the information is received and understood?\n( Đôi khi trong vòng đời dự án, nhóm phải áp dụng một số quy trình linh hoạt. Mục đích là để giao tiếp nhanh hơn trong thời gian có thời hạn chặt chẽ. Thật không may, các thành viên trong nhóm không nhận được thông tin cần thiết trong buổi lễ. \nLựa chọn tốt nhất để xác nhận rằng thông tin đã được nhận và hiểu là gì? )",
+        "options": [
+            "Reduce the number of project team members that attend the ceremonies ( Giảm số lượng thành viên nhóm dự án tham dự các buổi lễ )",
+            "Spread out the ceremonies over months between each event to ensure comprehension ( Trải rộng các buổi lễ trong nhiều tháng giữa mỗi sự kiện để đảm bảo sự hiểu biết )",
+            "Validate with the team that the information was captured and facilitate feedback discussions ( Xác thực với nhóm rằng thông tin đã được nắm bắt và tạo điều kiện cho các cuộc thảo luận phản hồi )",
+            "Mandate that all project team members update the information radiators after each ceremony ( Yêu cầu tất cả các thành viên trong nhóm dự án cập nhật bộ truyền thông tin sau mỗi buổi lễ )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 29,
+        "question": "A team member volunteered to provide the project status update in a weekly presentation to the key stakeholders. After the first meeting has taken place, feedback from the stakeholders suggests that the presentation was not very engaging.\nWhat is the best way for the project manager to address this situation with the team member?\n( Một thành viên trong nhóm tình nguyện cung cấp thông tin cập nhật trạng thái dự án trong bài thuyết trình hàng tuần cho các bên liên quan chính. Sau khi cuộc họp đầu tiên diễn ra, phản hồi từ các bên liên quan cho thấy bài thuyết trình không hấp dẫn lắm. \nCách tốt nhất để người quản lý dự án giải quyết tình huống này với thành viên nhóm là gì? )",
+        "options": [
+            "Send an email to the team member ( Gửi email cho thành viên trong nhóm )",
+            "Discuss the issue with the team member ( Thảo luận vấn đề với thành viên trong nhóm )",
+            "Prepare a formal written document ( Chuẩn bị một văn bản chính thức )",
+            "Utilize formal verbal communication ( Sử dụng giao tiếp bằng lời nói chính thức )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 30,
+        "question": "The project team is undergoing an agile transformation. This requires the team members to maintain their original project plans in the current management tool, but also enter performance data in the new tool built around agile practices. The team identified that the information in the two tools is out of sync. This risk has been identified earlier in project planning.\nWhat is the best course of action for the project manager?\n( Nhóm dự án đang trải qua quá trình chuyển đổi linh hoạt. Điều này yêu cầu các thành viên trong nhóm duy trì các kế hoạch dự án ban đầu của họ trong công cụ quản lý hiện tại, đồng thời nhập dữ liệu hiệu suất vào công cụ mới được xây dựng dựa trên các phương pháp thực hành linh hoạt. Nhóm xác định rằng thông tin trong hai công cụ không đồng bộ. Rủi ro này đã được xác định trước đó trong quá trình lập kế hoạch dự án. \nCách hành động tốt nhất cho người quản lý dự án là gì? )",
+        "options": [
+            "Accept the risk since agile values individuals and interactions over processes and tools ( Chấp nhận rủi ro vì Agile coi trọng các cá nhân và sự tương tác hơn các quy trình và công cụ )",
+            "Conduct a probability and impact assessment to determine a risk score ( Tiến hành đánh giá xác suất và tác động để xác định điểm rủi ro )",
+            "Communicate to the project sponsor that work may be delayed due to clerical errors ( Thông báo với nhà tài trợ dự án rằng công việc có thể bị trì hoãn do lỗi văn thư )",
+            "Recognize that the risk has now become an issue and implement the planned response ( Nhận biết rằng rủi ro hiện đã trở thành vấn đề và thực hiện phản ứng theo kế hoạch )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 31,
+        "question": "You have just taken over a project in execution. During your first week, you determine that the project team members spend a lot of time responding to unexpected requests for information from different project stakeholders. Because of these interruptions, the team cannot focus on their project activities, and as a result, the project is behind schedule.\n\nWhat should you do first?\n\n( Bạn vừa tiếp quản một dự án đang được thực hiện. Trong tuần đầu tiên, bạn xác định rằng các thành viên trong nhóm dự án dành nhiều thời gian để đáp ứng các yêu cầu thông tin bất ngờ từ các bên liên quan khác nhau của dự án. Vì những gián đoạn này, nhóm không thể tập trung vào các hoạt động dự án của mình và kết quả là dự án bị chậm tiến độ. \n\nBạn nên làm gì đầu tiên? )",
+        "options": [
+            "Tell the team members to stop responding to unexpected requests since it is not the responsibility of the team ( Yêu cầu các thành viên trong nhóm ngừng phản hồi các yêu cầu không mong muốn vì đó không phải là trách nhiệm của nhóm )",
+            "Push the team to respond to all the requests faster so that they can perform their assigned project activities on time ( Thúc đẩy nhóm phản hồi tất cả các yêu cầu nhanh hơn để họ có thể thực hiện các hoạt động dự án được giao đúng thời hạn )",
+            "Ask the team to forward all stakeholder inquiries to you so that the team members can focus on their assigned tasks ( Yêu cầu nhóm chuyển tiếp mọi thắc mắc của các bên liên quan đến bạn để các thành viên trong nhóm có thể tập trung vào nhiệm vụ được giao )",
+            "Review the communications management plan to understand how stakeholder requests should be handled ( Xem lại kế hoạch quản lý truyền thông để hiểu cách xử lý yêu cầu của các bên liên quan )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 32,
+        "question": "Your sponsor has committed to building a high-speed rail from one major inland city, Azules, to the coast. You have two possible routes, either Brazos or Corazon.\n\nGiven the costs, odds, and rewards of high demand and low demand of each route in this decision tree, what is the expected monetary value of the route to Brazos?\n\n( Nhà tài trợ của bạn đã cam kết xây dựng tuyến đường sắt cao tốc từ một thành phố nội địa lớn, Azules, đến bờ biển. Bạn có hai tuyến đường khả thi, Brazos hoặc Corazon. \n\nVới chi phí, chênh lệch và phần thưởng của nhu cầu cao và nhu cầu thấp của từng tuyến đường trong cây quyết định này, giá trị tiền tệ dự kiến của tuyến đường đến Brazos là bao nhiêu? )",
+        "options": [
+            "0.8 billion ( 0.8 tỷ )",
+            "1.6 billion (1.6 tỷ )",
+            "-2 billion (-2 tỷ )",
+            "10.8 billion (10.8 tỷ"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 33,
+        "question": "You want to group your project stakeholders based on their authority and involvement in the project. Which of the following models is suitable for this?  ( Bạn muốn nhóm các bên liên quan đến dự án của mình dựa trên thẩm quyền và sự tham gia của họ vào dự án. Những mô hình nào sau đây phù hợp cho việc này? )",
+        "options": [
+            "Power/Interest Grid ( Lưới quyền lực/lợi ích )",
+            "Power/Influence Grid ( Lưới quyền lực/ảnh hưởng )",
+            "Influence/Impact Grid ( Lưới ảnh hưởng/tác động )",
+            "Salience Mode ( Chế độ nổi bật )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 34,
+        "question": "You must manage stakeholder expectations as a project manager. All of the following are communication skills you should practice EXCEPT:  ( Bạn phải quản lý kỳ vọng của các bên liên quan với tư cách là người quản lý dự án. Tất cả những điều sau đây đều là kỹ năng giao tiếp bạn nên rèn luyện NGOẠI TRỪ: )",
+        "options": [
+            "Build trust. ( Xây dựng lòng tin )",
+            "Conflict resolution ( Giải quyết xung đột )",
+            "Accept risks ( Chấp nhận rủi ro )",
+            "Active listening ( Tích cực lắng nghe )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 35,
+        "question": "An important trend in project stakeholder engagement is...?  ( Một xu hướng quan trọng trong sự tham gia của các bên liên quan trong dự án là...? )",
+        "options": [
+            "Communication technology ( Công nghệ truyền thông )",
+            "The complexity of stakeholder relationships ( Sự phức tạp của mối quan hệ các bên liên quan )",
+            "Diversity of stakeholders ( Sự đa dạng của các bên liên quan )",
+            "Identify all stakeholders ( Xác định tất cả các bên liên quan )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 36,
+        "question": "What process involves determining everyone involved in the project or affected by it, and determining the best ways to manage relationships with them?  ( Quá trình nào liên quan đến việc xác định mọi người tham gia vào dự án hoặc bị ảnh hưởng bởi dự án và xác định những cách tốt nhất để quản lý mối quan hệ với họ? )",
+        "options": [
+            "Identifying stakeholders ( Xác định các bên liên quan )",
+            "Planning stakeholder management ( Lập kế hoạch quản lý các bên liên quan )",
+            "Controlling stakeholder engagement ( Kiểm soát sự tham gia của các bên liên quan )",
+            "Managing stakeholder engagement ( Quản lý sự tham gia của các bên liên quan )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 37,
+        "question": "Project stakeholder management is an integral part of project management. The effectiveness of stakeholder analysis carried out early in a project can decide its fate. Which of the following is the least important consideration during stakeholder analysis, especially when analyzing stakeholders who are also decision-makers?  ( Quản lý các bên liên quan của dự án là một phần không thể thiếu trong quản lý dự án. Hiệu quả của việc phân tích các bên liên quan được thực hiện sớm trong một dự án có thể quyết định số phận của nó. Điều nào sau đây là yếu tố cần cân nhắc ít quan trọng nhất trong quá trình phân tích các bên liên quan, đặc biệt khi phân tích các bên liên quan cũng là người ra quyết định? )",
+        "options": [
+            "Prior experience ( Kinh nghiệm trước )",
+            "Expectations ( Kỳ vọng )",
+            "Interests ( Hứng thú )",
+            "Influence ( Ảnh hưởng )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 38,
+        "question": "Henry is the project manager for a process improvement project. Henry is a recently hired Six Sigma expert. David is the process owner of the process Henry must optimize. During the project kick-start meeting with the project sponsor, David said he supports all continuous improvement efforts. However, David is unaware of the Six Sigma technique and feels threatened by the newly hired expert, and as a result, is blocking Henry’s ideas. What is David’s current engagement level with the project? (  Henry là người quản lý dự án cho một dự án cải tiến quy trình. Henry là một chuyên gia Six Sigma mới được tuyển dụng. David là chủ sở hữu quy trình của quy trình mà Henry phải tối ưu hóa. Trong cuộc họp khởi động dự án với nhà tài trợ dự án, David cho biết anh ủng hộ mọi nỗ lực cải tiến liên tục. Tuy nhiên, David không biết về kỹ thuật Six Sigma và cảm thấy bị đe dọa bởi chuyên gia mới được thuê, và kết quả là anh đã ngăn cản ý tưởng của Henry. Mức độ tham gia hiện tại của David với dự án là gì? )",
+        "options": [
+            "Supportive ( Hỗ trợ )",
+            "Resistant ( Chống chịu )",
+            "Neutral ( Trung lập )",
+            "Unaware ( Không biết )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 39,
+        "question": "Smith’s project has successfully been initiated, and all the major roadblocks are removed. The senior stakeholders have now switched from a leading role to a supportive role. What is Smith’s next step once the first version of the project stakeholder register is developed?  ( Dự án của Smith đã được khởi động thành công và tất cả các rào cản lớn đều được dỡ bỏ. Các bên liên quan cấp cao hiện đã chuyển từ vai trò lãnh đạo sang vai trò hỗ trợ. Bước tiếp theo của Smith là gì sau khi phiên bản đầu tiên của sổ đăng ký các bên liên quan của dự án được phát triển? )",
+        "options": [
+            "Start the stakeholder identification process ( Bắt đầu quá trình xác định các bên liên quan )",
+            "Finalize the project management plan before developing the stake engagement strategy ( Hoàn thiện kế hoạch quản lý dự án trước khi phát triển chiến lược gắn kết cổ phần )",
+            "Start the development of the Stakeholder Engagement Plan ( Bắt đầu xây dựng Kế hoạch gắn kết các bên liên quan )",
+            "Execute the stakeholder engagement strategy as laid out in the stake register ( Thực hiện chiến lược gắn kết các bên liên quan như được nêu trong sổ đăng ký cổ phần )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 40,
+        "question": "Risk tolerance level is determined to help: (  Mức độ chấp nhận rủi ro được xác định để giúp: )",
+        "options": [
+            "The team ranks the project risks. ( Nhóm xếp hạng các rủi ro của dự án. )",
+            "The project manager estimates the project. ( Người quản lý dự án ước tính dự án. )",
+            "The team plans the project. ( Nhóm lên kế hoạch cho dự án. )",
+            "Management knows how other managers will act on the project. ( Ban quản lý biết những người quản lý khác sẽ hành động như thế nào đối với dự án. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 41,
+        "question": "A project manager is quantifying risk for her project. Several of her experts are offsite, but wish to be included. How can this be done? ( Một người quản lý dự án đang định lượng rủi ro cho dự án của mình. Một số chuyên gia của cô ấy ở bên ngoài nhưng mong muốn được tham gia. Điều này có thể giải quyết như thế nào? )",
+        "options": [
+            "Use Monte Carlo analysis using the Internet as a tool. ( Sử dụng phân tích Monte Carlo bằng cách sử dụng Internet làm công cụ. )",
+            "Apply the critical path method. ( Áp dụng phương pháp đường dẫn quan trọng. )",
+            "Determine options for recommended corrective action. ( Xác định các lựa chọn cho hành động khắc phục được đề xuất. )",
+            "Apply the Delphi Technique. ( Áp dụng kỹ thuật Delphi. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 42,
+        "question": "Risk transfer determination is made in which risk management process? ( Việc xác định chuyển giao rủi ro được thực hiện trong quy trình quản lý rủi ro nào? )",
+        "options": [
+            "Identify risks. ( Xác định rủi ro. )",
+            "Perform quantitative risk analysis ( Thực hiện phân tích rủi ro định lượng )",
+            "Risk response planning ( Lập kế hoạch ứng phó rủi ro )",
+            "Monitor and control risks ( Giám sát và kiểm soát rủi ro )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 43,
+        "question": "You need to establish the relative priorities of risks recognized in a project. Which of the following tasks is the most likely to not affect this prioritization? (  Bạn cần thiết lập mức độ ưu tiên tương đối của các rủi ro được nhận biết trong một dự án. Nhiệm vụ nào sau đây có nhiều khả năng không ảnh hưởng đến mức độ ưu tiên này? )",
+        "options": [
+            "Researching the stakeholder register ( Nghiên cứu sổ đăng ký các bên liên quan )",
+            "Making a review of the assumption log ( Đánh giá nhật ký giả định )",
+            "Generating the risk report ( Tạo báo cáo rủi ro )",
+            "Examining the risk register ( Kiểm tra sổ đăng ký rủi ro )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 44,
+        "question": "A project manager is quantifying risk for her project. She needs an expert opinion in this process and related experts are spread over different geographical locations. How can she continue? (  Một người quản lý dự án đang định lượng rủi ro cho dự án của mình. Cô ấy cần ý kiến chuyên gia trong quá trình này và các chuyên gia liên quan trải rộng khắp các vị trí địa lý khác nhau. Làm sao cô ấy có thể tiếp tục được? )",
+        "options": [
+            "Use Monte Carlo analysis online ( Sử dụng phân tích Monte Carlo trực tuyến )",
+            "Applying the critical path method ( Áp dụng phương pháp đường dẫn quan trọng )",
+            "Determine options for recommended corrective action ( Xác định các lựa chọn cho hành động khắc phục được đề xuất )",
+            "Apply the Delphi Technique ( Xác định các lựa chọn cho hành động khắc phục được đề xuất )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 45,
+        "question": "During risk management activities, 236 risks are identified and are caused by 13 root causes. You could eliminate 234 risks through your risk management activities. For the remaining 2 risks, you, together with your team, could not find a way to mitigate or insure the risks. Also, these 2 risks cannot be outsourced or removed from the project scope. What is the best solution? ( Trong quá trình hoạt động quản lý rủi ro, có 236 rủi ro được xác định và được gây ra bởi 13 nguyên nhân gốc rễ. Bạn có thể loại bỏ 234 rủi ro thông qua hoạt động quản lý rủi ro của mình. Đối với 2 rủi ro còn lại, bạn cùng với nhóm của mình không thể tìm ra cách giảm thiểu hoặc bảo hiểm rủi ro. Ngoài ra, 2 rủi ro này không thể được thuê ngoài hoặc loại bỏ khỏi phạm vi dự án. giải pháp tốt nhất là gì? )",
+        "options": [
+            "Accept the risk ( Chấp nhận rủi ro )",
+            "Mitigate the risk ( Giảm thiểu rủi ro )",
+            "Avoid the risk ( Tránh rủi ro )",
+            "Transfer the risk ( Chuyển giao rủi ro )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 46,
+        "question": "You are a project manager in a bicycle manufacturing company. Rubber for brake mechanism for your bicycles supplied by RuBrake Inc could not reach due to flood affecting the transportation routes. This was a risk you thought it could happen since it happens each year in the same season. So, as per your risk response plan, you started to use rubbers delivered one year ago. However, this response brought another risk old rubbers have higher breaking risks during implementation to the brake system.This new risk can also be called: ( Bạn là người quản lý dự án trong một công ty sản xuất xe đạp. Cao su cơ cấu phanh xe đạp do RuBrake Inc cung cấp không thể tiếp cận được do lũ lụt ảnh hưởng đến các tuyến đường vận chuyển. Đây là rủi ro mà bạn nghĩ có thể xảy ra vì nó xảy ra hàng năm vào cùng một mùa. Vì vậy, theo kế hoạch ứng phó rủi ro của bạn, bạn đã bắt đầu sử dụng cao su được giao cách đây một năm. Tuy nhiên, phản ứng này lại mang đến một rủi ro khác là cao su cũ có rủi ro đứt cao hơn trong quá trình triển khai hệ thống phanh. Rủi ro mới này còn có thể được gọi là: )",
+        "options": [
+            "Secondary risk ( Rủi ro thứ cấp )",
+            "Residual risk ( Rủi ro tồn dư )",
+            "Contingency plan ( Kế hoạch dự phòng )",
+            "Unmanageable risks ( Rủi ro khó quản lý )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 47,
+        "question": "You have documented all possible risks that could impact your project with appropriate risk responses as they occur in your risk management plan. All other remaining risks are known as: ( Bạn đã ghi lại tất cả các rủi ro có thể xảy ra có thể ảnh hưởng đến dự án của bạn bằng các biện pháp ứng phó rủi ro thích hợp khi chúng xảy ra trong kế hoạch quản lý rủi ro của bạn. Tất cả các rủi ro còn lại khác được gọi là: )",
+        "options": [
+            "Risk Drivers ( Trình điều khiển rủi ro )",
+            "Risk cannot be managed ( Rủi ro không thể quản lý được )",
+            "Remaining risk ( Rủi ro còn lại )",
+            "Risk is accepted ( Rủi ro được chấp nhận )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 48,
+        "question": "You are the project manager of the ABC project. During the project implementation, an important part was discovered to be defective. This was not planned for. The team met after the event and tried to get the product working without faulty components. Here is an example of (  Bạn là người quản lý dự án của dự án ABC. Trong quá trình thực hiện dự án, một bộ phận quan trọng đã được phát hiện có khiếm khuyết. Điều này đã không được lên kế hoạch cho. Nhóm đã gặp nhau sau sự kiện và cố gắng làm cho sản phẩm hoạt động mà không có thành phần nào bị lỗi. Đây là một ví dụ về )",
+        "options": [
+            "Risk mitigation ( Giảm thiểu rủi ro )",
+            "Risk transfer ( Chuyển giao rủi ro )",
+            "Work around ( Làm việc xung quanh )",
+            "Accepting the consequences passively. ( Chấp nhận hậu quả một cách thụ động. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 49,
+        "question": "You are the Project Manager of the ABC project. The project is being implemented in an earthquake-prone area. To solve this problem, you buy earthquake insurance. Here is an example of (  Bạn là Giám đốc dự án của dự án ABC. Dự án đang được thực hiện ở khu vực thường xuyên xảy ra động đất. Để giải quyết vấn đề này, bạn mua bảo hiểm động đất. Đây là một ví dụ về )",
+        "options": [
+            "Risk reduction ( Giảm rủi ro )",
+            "Risk transfer ( Chuyển giao rủi ro )",
+            "Make a risk contingency plan ( Lập kế hoạch dự phòng rủi ro )",
+            "Passively accept the consequences. ( Chấp nhận hậu quả một cách thụ động.)"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 50,
+        "question": "As part of preparing the communications management plan for a construction project, you want to determine the project stakeholders' needs for information. Your focus is on the type and format of information needed to pass on to them. What is your best course of action? (  Là một phần của việc chuẩn bị kế hoạch quản lý truyền thông cho một dự án xây dựng, bạn muốn xác định nhu cầu thông tin của các bên liên quan trong dự án. Trọng tâm của bạn là loại và định dạng thông tin cần thiết để chuyển cho họ. Cách hành động tốt nhất của bạn là gì? )",
+        "options": [
+            "Conduct communication requirements analysis ( Tiến hành phân tích yêu cầu giao tiếp )",
+            "Refer to the stakeholder engagement plan ( Tham khảo kế hoạch tham gia của các bên liên quan )",
+            "Develop a stakeholder register ( Phát triển sổ đăng ký các bên liên quan )",
+            "Review requirements documents ( Xem xét các tài liệu yêu cầu )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 51,
+        "question": "A project manager communicates primarily through email with her team members, internal and external project stakeholders. Certain techniques are incorporated to ensure there are no misunderstandings. Which of the following is not considered one of these techniques? (  Người quản lý dự án giao tiếp chủ yếu qua email với các thành viên trong nhóm, các bên liên quan của dự án bên trong và bên ngoài. Một số kỹ thuật nhất định được kết hợp để đảm bảo không có sự hiểu lầm. Điều nào sau đây không được coi là một trong những kỹ thuật này? )",
+        "options": [
+            "Controlled flow of words and ideas ( Kiểm soát luồng ngôn từ và ý tưởng )",
+            "Concise expression ( Diễn đạt ngắn gọn )",
+            "Clear purpose directed at meeting the needs of the reader ( Mục đích rõ ràng hướng tới việc đáp ứng nhu cầu của người đọc )",
+            "Communications register ( Đăng ký truyền thông )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 52,
+        "question": "In the context of the desired communication model between sender and receiver, all of the following statements are true EXCEPT: (  Trong bối cảnh mô hình liên lạc mong muốn giữa người gửi và người nhận, tất cả các câu sau đây đều đúng Ngoại Trừ:",
+        "options": [
+            "Noise must be minimal.( Tiếng ồn phải ở mức tối thiểu. )",
+            "The recipient must reply to the message after decoding the message. ( Người nhận phải trả lời tin nhắn sau khi giải mã tin nhắn. )",
+            "The recipient must first confirm and then agree with the message sent by the sender. ( Người nhận trước tiên phải xác nhận và sau đó đồng ý với tin nhắn do người gửi gửi. )",
+            "The recipient should send a response message to the sender. ( Người nhận sẽ gửi tin nhắn phản hồi cho người gửi. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 53,
+        "question": "You are the project manager of a software project team consisting of 2 analysts, 4 software developers, and 3 test engineers. A new test engineer will join the team in two weeks. How many communication channels are there after a new test engineer joins the team? ( Bạn là người quản lý dự án của một nhóm dự án phần mềm gồm 2 nhà phân tích, 4 nhà phát triển phần mềm và 3 kỹ sư kiểm tra. Một kỹ sư kiểm tra mới sẽ gia nhập nhóm sau hai tuần nữa. Có bao nhiêu kênh liên lạc sau khi một kỹ sư kiểm thử mới gia nhập nhóm? )",
+        "options": [
+            "55",
+            "50",
+            "45",
+            "36"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 54,
+        "question": "Which of the following conflict resolution techniques will generate the MOST lasting solution? ( Kỹ thuật giải quyết xung đột nào sau đây sẽ tạo ra giải pháp lâu dài NHẤT? )",
+        "options": [
+            "Forcing ( Bắt buộc )",
+            "Smoothing ( Làm dịu )",
+            "Compromise ( Thỏa hiệp )",
+            "Problem solving ( Giải quyết vấn đề )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 55,
+        "question": "What percentage of time does a project manager spend on communication? (  Người quản lý dự án dành bao nhiêu phần trăm thời gian cho việc giao tiếp? )",
+        "options": [
+            "30",
+            "50",
+            "70",
+            "90"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 56,
+        "question": "A project manager is performing quality assurance for a project whose quality standards are very stringent. To meet and exceed the quality requirements, the project manager uses a set of technical guidelines, which were applied during the design phase of the project to optimize quality.\n\nWhat tool or technique is the project manager using in this scenario?\n\n( Người quản lý dự án đang thực hiện đảm bảo chất lượng cho một dự án có tiêu chuẩn chất lượng rất nghiêm ngặt. Để đáp ứng và vượt quá các yêu cầu về chất lượng, người quản lý dự án sử dụng một bộ hướng dẫn kỹ thuật được áp dụng trong giai đoạn thiết kế của dự án để tối ưu hóa chất lượng. \n\nNgười quản lý dự án đang sử dụng công cụ hoặc kỹ thuật nào trong tình huống này? )",
+        "options": [
+            "Design for X (DfX) where the X in DfX represents the quality aspect of the product ( Thiết kế cho X (DfX) trong đó X trong DfX thể hiện khía cạnh chất lượng của sản phẩm )",
+            "Design of experiments (DOE) as a quality improvement methodology ( Thiết kế thí nghiệm (DOE) như một phương pháp cải tiến chất lượng )",
+            "The Manage Quality process to ensure compliance with project quality requirements. ( Quy trình Quản lý Chất lượng để đảm bảo tuân thủ các yêu cầu về chất lượng của dự án. )",
+            "Process analysis to identify opportunities for process improvements ( Phân tích quy trình để xác định các cơ hội cải tiến quy trình )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 57,
+        "question": "A project is behind schedule because department managers reassigned project team members to work on other assignments. After negotiations with the managers, you agreed to a temporary solution where a core group of project resources is dedicated to performing the project work until more resources are approved.\n\nWhat conflict resolution technique did you most likely employ in this situation?\n\n( Một dự án bị chậm tiến độ vì các nhà quản lý bộ phận đã phân công lại các thành viên trong nhóm dự án để thực hiện các nhiệm vụ khác. Sau khi đàm phán với người quản lý, bạn đã đồng ý với một giải pháp tạm thời trong đó một nhóm nguồn lực cốt lõi của dự án được dành riêng để thực hiện công việc dự án cho đến khi có thêm nguồn lực được phê duyệt. \n\nBạn thường sử dụng kỹ thuật giải quyết xung đột nào nhất trong tình huống này? )",
+        "options": [
+            "Force or direct ( Bắt buộc hoặc trực tiếp )",
+            "Smooth or accommodate ( Làm mịn hoặc thích ứng )",
+            "Collaborate or problem solve ( Hợp tác hoặc giải quyết vấn đề )",
+            "Compromise or reconcile ( Thỏa hiệp hay hòa giải"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 58,
+        "question": "A project to reduce the defect rate of the manufacturing process is underway. To analyze and improve the process, the project team is now carrying out the quality assurance activities.\n\nWhich of the following would be the most beneficial for this project?\n\n( Một dự án nhằm giảm tỷ lệ lỗi của quá trình sản xuất đang được tiến hành. Để phân tích và cải tiến quy trình, nhóm dự án hiện đang thực hiện các hoạt động đảm bảo chất lượng. \n\nĐiều nào sau đây sẽ có lợi nhất cho dự án này? )",
+        "options": [
+            "Introducing the use of a kanban board into the manufacturing process ( Giới thiệu việc sử dụng bảng Kanban vào quy trình sản xuất )",
+            "Consulting with a certified Six Sigma Black Belt expert ( Tư vấn với chuyên gia Đai đen Six Sigma được chứng nhận )",
+            "Utilizing rolling wave planning for the project ( Sử dụng kế hoạch cuốn chiếu cho dự án )",
+            "Adopting a just-in-time (JIT) manufacturing process ( Áp dụng quy trình sản xuất đúng lúc )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 59,
+        "question": "The team has just reported to you that they have completed the Plan Quality Management process. You review their work and see that they have produced the quality management plan, and made the necessary updates to the project management plan and project documents.\n\nWhat did they forget?\n\n( Nhóm vừa báo cáo với bạn rằng họ đã hoàn thành quy trình Quản lý chất lượng kế hoạch. Bạn xem xét công việc của họ và thấy rằng họ đã lập kế hoạch quản lý chất lượng cũng như thực hiện các cập nhật cần thiết cho kế hoạch quản lý dự án và tài liệu dự án. \n\nHọ đã quên điều gì? )",
+        "options": [
+            "Define quality roles and responsibilities ( Xác định vai trò và trách nhiệm về chất lượng )",
+            "Update the requirements traceability matrix ( Cập nhật ma trận truy xuất nguồn gốc yêu cầu )",
+            "Determine quality metrics ( Xác định các chỉ số chất lượng )",
+            "Revise the lessons learned register ( Kiểm tra lại bài học đã học )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 60,
+        "question": "The quality management plan specifies the use of a data representation technique to show the strength of relationships between four factors.\n\nWhich of the following tools or techniques should be used to comply with the plan?\n\n( Kế hoạch quản lý chất lượng chỉ định việc sử dụng kỹ thuật trình bày dữ liệu để thể hiện sức mạnh của mối quan hệ giữa bốn yếu tố. \n\nNhững công cụ hoặc kỹ thuật nào sau đây nên được sử dụng để tuân thủ kế hoạch? )",
+        "options": [
+            "Scatter diagram ( Sơ đồ phân tán )",
+            "Affinity diagram ( Sơ đồ quan hệ )",
+            "Quality diagram ( Sơ đồ chất lượng",
+            "Matrix diagram ( Sơ đồ ma trận )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 61,
+        "question": "You are facilitating a meeting with your project team to develop the team charter. At the start of the meeting, a team member states, \"I don't understand the importance of this meeting. We are all professionals, and this isn't our first project working together. Wouldn't our time be better spent getting an early start on project execution?\" The body language of the other team members suggests that they agree with the comments.\n\nHow should you respond to the team member?\n\n( Bạn đang tổ chức một cuộc họp với nhóm dự án của mình để phát triển điều lệ nhóm. Khi bắt đầu cuộc họp, một thành viên trong nhóm nói: \"Tôi không hiểu tầm quan trọng của cuộc họp này. Tất cả chúng ta đều là những người chuyên nghiệp và đây không phải là dự án đầu tiên chúng ta làm việc cùng nhau. Chẳng phải tốt hơn là chúng ta nên dành thời gian để có được một cuộc họp.\" bắt đầu thực hiện dự án sớm không?\" Ngôn ngữ cơ thể của các thành viên khác trong nhóm cho thấy họ đồng ý với nhận xét. \n\nBạn nên trả lời thành viên trong nhóm như thế nào? )",
+        "options": [
+            "Let's use the team charter from our last project as a starting point and then update it as necessary ( Hãy sử dụng điều lệ nhóm từ dự án cuối cùng của chúng ta làm điểm bắt đầu và sau đó cập nhật nó nếu cần thiết )",
+            "The team charter will eliminate any potential conflicts which will improve our productivity ( Điều lệ nhóm sẽ loại bỏ mọi xung đột tiềm ẩn giúp cải thiện năng suất của chúng tôi",
+            "The team charter is required by the project management office (PMO) for all projects ( Văn phòng quản lý dự án (PMO) yêu cầu điều lệ nhóm cho tất cả các dự án )",
+            "As long as everyone is in agreement, then let's skip the team charter and get ahead of schedule ( Chỉ cần mọi người đồng ý thì bỏ qua điều lệ đội và hoàn thành trước tiến độ )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 62,
+        "question": "Recently, you promoted your star programmer, Sam, to lead the agile development team. Sam was a fantastic software coder, and you thought the promotion would mean that he could now share his expertise with the other development team members. However, you are surprised to learn that the performance of Sam in his new role is not meeting your expectations.\n\nWhich empirical rule did you forget while considering the promotion of Sam?\n\n( Gần đây, bạn đã thăng chức cho lập trình viên ngôi sao của mình, Sam, lên lãnh đạo nhóm phát triển linh hoạt. Sam là một lập trình viên phần mềm xuất sắc và bạn nghĩ rằng việc thăng chức có nghĩa là giờ đây anh ấy có thể chia sẻ kiến thức chuyên môn của mình với các thành viên khác trong nhóm phát triển. Tuy nhiên, bạn rất ngạc nhiên khi biết rằng diễn xuất của Sam trong vai trò mới không đáp ứng được mong đợi của bạn. \n\nBạn đã quên quy tắc thực nghiệm nào khi cân nhắc việc thăng chức cho Sam? )",
+        "options": [
+            "Expectancy theory ( Lý thuyết kỳ vọng )",
+            "Murphy's law ( định luật Murphy )",
+            "Pareto effect ( Hiệu ứng Pareto )",
+            "Halo effect ( hiệu ứngalo )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 63,
+        "question": "You have been requested to fill in for a project manager who has called in sick midway into project execution. As you get yourself familiar with the project team, you are impressed to see how well the team members collaborate and work through issues smoothly and effectively.\n\nBased on your observations, where is the team on the Tuckman ladder?\n\n( Bạn đã được yêu cầu điền thông tin cho người quản lý dự án, người đã xin nghỉ ốm giữa chừng khi thực hiện dự án. Khi làm quen với nhóm dự án, bạn sẽ rất ấn tượng khi thấy các thành viên trong nhóm cộng tác và giải quyết vấn đề một cách suôn sẻ và hiệu quả như thế nào. \n\nDựa trên quan sát của bạn, đội trên thang Tuckman ở đâu? )",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 64,
+        "question": "During an inspection of a project deliverable, the team detects the same defect in the deliverable that has already been identified during a previous inspection. The project manager is confused about how this could have happened since a change request was approved to repair the defect. After discussing the issue with the team, the project manager learns that the team never implemented the approved change request.\n\nWhat could have helped prevent this situation?\n\n( Trong quá trình kiểm tra sản phẩm bàn giao của dự án, nhóm phát hiện ra khiếm khuyết tương tự trong sản phẩm bàn giao đã được xác định trong lần kiểm tra trước đó. Người quản lý dự án bối rối không biết điều này có thể xảy ra như thế nào vì yêu cầu thay đổi đã được phê duyệt để sửa chữa lỗi. Sau khi thảo luận vấn đề với nhóm, người quản lý dự án biết rằng nhóm chưa bao giờ thực hiện yêu cầu thay đổi đã được phê duyệt. \n\nĐiều gì có thể giúp ngăn chặn tình trạng này? )",
+        "options": [
+            "Holding an approved change request review ( Tổ chức xem xét yêu cầu thay đổi đã được phê duyệt )",
+            "Conducting a retrospective meeting ( Tiến hành một cuộc họp hồi cứu )",
+            "Creating a quality report ( Tạo a môt báo cáo chất lượng",
+            "Performing a root cause analysis ( Thực hiện phân tích nguyên nhân gốc rễ )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 65,
+        "question": "In the design phase, external experts verified that the team's blueprints for a new crane complied with requirements. During the build phase, the customer performed a walkthrough and found that some welding joints on the crane were defective. The crane needs to be reworked to ensure it can be operated safely.\n\nHow could this situation have been avoided?\n\n( Trong giai đoạn thiết kế, các chuyên gia bên ngoài đã xác minh rằng bản thiết kế của nhóm về cần cẩu mới đã tuân thủ các yêu cầu. Trong giai đoạn xây dựng, khách hàng đã thực hiện khảo sát và phát hiện một số mối hàn trên cần trục bị lỗi. Cần cẩu cần được làm lại để đảm bảo có thể vận hành an toàn. \n\nLàm sao có thể tránh được tình trạng này? )",
+        "options": [
+            "Testing the welding before the customer walkthrough ( Kiểm tra mối hàn trước khi hướng dẫn khách hàng )",
+            "Using the requirements traceability matrix ( Sử dụng ma trận truy xuất nguồn gốc yêu cầu )",
+            "Outsourcing the welding to an external vendor ( Gia công công việc hàn cho nhà cung cấp bên ngoài )",
+            "Defects are part of any project and cannot be avoided. ( Khiếm khuyết là một phần của bất kỳ dự án nào và không thể tránh khỏi. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 66,
+        "question": "A servant leader has just been assigned to an upcoming product development project and believes that the project is well-suited to Kanban. However, the development team is unfamiliar with this approach.\n\nWhat is the servant leader's best course of action\n\n( Một người lãnh đạo đầy tớ vừa được giao cho một dự án phát triển sản phẩm sắp tới và tin rằng dự án này rất phù hợp với Kanban. Tuy nhiên, nhóm phát triển không quen với cách tiếp cận này. \n\nCách hành động tốt nhất của người lãnh đạo phục vụ là gì )",
+        "options": [
+            "Have the team attend a workshop on Kanban ( Mời nhóm tham dự hội thảo về Kanban )",
+            "Let the team members learn Kanban on their own ( Hãy để các thành viên trong nhóm tự học Kanban )",
+            "Discuss Kanban during a daily standup meeting ( Thảo luận về Kanban trong cuộc họp dự kiến hàng ngày )",
+            "Review Kanban at the iteration retrospective ( Xem lại Kanban trong quá trình hồi cứu quá trình lặp lại )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 67,
+        "question": "RACI stands for ( RACI là viết tắt cho)",
+        "options": [
+            "Responsible, accountable, confirm, inform ( Có trách nhiệm, giải trình, xác nhận, thông báo )",
+            "Recommend, responsible, consulted, informed ( Đề xuất, chịu trách nhiệm, tư vấn, thông báo )",
+            "Responsible, Accountable, Consulted, and Inform ( Chịu trách nhiệm, giải trình, được tư vấn và thông báo )",
+            "Responsible, Accountable, Consulted, and Informed. ( Có trách nhiệm, có trách nhiệm, được tư vấn và thông báo. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 68,
+        "question": "You are leading a software development project where the developers are colocated within rented office space. Writing the code is taking longer than anticipated, and you have contacted the landlord requesting to rent the office for another week. Unfortunately, the landlord tells you that the office is already booked. You capture the problem in the project documents. What should you do next?  ( Bạn đang lãnh đạo một dự án phát triển phần mềm trong đó các nhà phát triển làm việc trong không gian văn phòng thuê. Việc viết code mất nhiều thời gian hơn dự kiến và bạn đã liên hệ được với chủ nhà yêu cầu thuê văn phòng thêm một tuần nữa. Thật không may, chủ nhà nói với bạn rằng văn phòng đã được đặt trước. Bạn nắm bắt được vấn đề trong tài liệu dự án. Bạn nên làm gì tiếp theo? )",
+        "options": [
+            "Record the issue in the issue log ( Ghi lại sự cố vào nhật ký sự cố )",
+            "Revise the resource management plan ( Sửa đổi kế hoạch quản lý tài nguyên )",
+            "Update the risk register ( Cập nhật sổ đăng ký rủi ro )",
+            "Request additional funds ( Yêu cầu thêm tiền vốn )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 69,
+        "question": "You are working as a project manager in a company. You have the ultimate authority, you're working full-time on your project, and you manage the project's budget. What is the organizational structure in your company? ( Bạn đang làm quản lý dự án trong một công ty. Bạn có quyền hạn cao nhất, bạn đang làm việc toàn thời gian cho dự án của mình và bạn quản lý ngân sách của dự án. Cơ cấu tổ chức trong công ty của bạn là gì? )",
+        "options": [
+            "Strong matrix ( Ma trận mạnh )",
+            "Projectized organization ( Tổ chức dự kiến )",
+            "Functional organization ( Tổ chức chức năng )",
+            "Balanced matrix. ( Ma trận cân bằng. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 70,
+        "question": "According to Maslow's hierarchy of needs, this is the lowest level that must be met before the other levels can be met. ( Theo hệ thống phân cấp nhu cầu của Maslow, đây là mức thấp nhất phải được đáp ứng trước khi các cấp độ khác có thể được đáp ứng. )",
+        "options": [
+            "esteem ( Tự trọng )",
+            "Physiological ( Sinh lý )",
+            "social belonging ( Thuộc về xã hội )",
+            "safety. ( Sự an toàn )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 71,
+        "question": "John is an excellent engineer. Management assumes that because he is a good technical performer, he will also be a good project manager. Based on this, John was promoted to Project Manager. Here is an example of (  John là một kỹ sư xuất sắc. Ban quản lý cho rằng vì anh ta là người thực hiện kỹ thuật giỏi nên anh ta cũng sẽ là người quản lý dự án giỏi. Dựa trên điều này, John đã được thăng chức lên Giám đốc Dự án. Đây là một ví dụ về )",
+        "options": [
+            "Halo effect ( Hiệu ứng Halo )",
+            "Expectancy theory ( Thuyết kỳ vọng )",
+            "McGregory theory of X and Y ( Lý thuyết McGregory về X và Y )",
+            "Herzberg theory ( Lý thuyết Herzberg )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 72,
+        "question": "To reduce the defect rate of a manufacturing process, a project is carried out. The project team is carrying out QA activities to analyze and improve the process. Which of the following would be the most beneficial for this project? ( Để giảm tỷ lệ lỗi của quy trình sản xuất, một dự án được thực hiện. Nhóm dự án đang thực hiện các hoạt động QA để phân tích và cải tiến quy trình. Điều nào sau đây sẽ có lợi nhất cho dự án này? )",
+        "options": [
+            "Utilizing rolling wave planning for the project ( Sử dụng quy hoạch sóng lăn cho dự án )",
+            "Introducing the use of a kanban board into the manufacturing process ( Giới thiệu việc sử dụng bảng Kanban vào quy trình sản xuất )",
+            "Adopting a just-in-time (JIT) manufacturing process ( Áp dụng quy trình sản xuất đúng lúc (JIT) )",
+            "Consulting with a certified Six Sigma Black Belt expert ( Tư vấn với chuyên gia Đai đen Six Sigma được chứng nhận )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 73,
+        "question": "You are a program-level manager with several project activities underway. In the implementation process group, you begin to have concerns about the accuracy of the project's progress reports. What would BEST support your opinion that there is a problem? ( Bạn là người quản lý cấp chương trình với một số hoạt động dự án đang được tiến hành. Trong nhóm quy trình thực hiện, bạn bắt đầu có những lo ngại về tính chính xác của các báo cáo tiến độ dự án. Điều gì TỐT NHẤT sẽ hỗ trợ cho ý kiến của bạn rằng có vấn đề? )",
+        "options": [
+            "Quality audit ( Kiểm toán chất lượng )",
+            "Risk quantification reports ( Báo cáo định lượng rủi ro )",
+            "Regression analysis ( Phân tích hồi quy )",
+            "Monte Carlo Analysis ( Phân tích Monte Carlo )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 74,
+        "question": "You are the project manager for a large project. Someone from the quality department will contact you about initiating a quality check on your project. The group, already under pressure to complete the project as soon as possible, objected to the audit. You should explain to the team that the purpose of quality testing is: ( Bạn là người quản lý dự án cho một dự án lớn. Ai đó từ bộ phận chất lượng sẽ liên hệ với bạn về việc bắt đầu kiểm tra chất lượng dự án của bạn. Nhóm, vốn đã chịu áp lực phải hoàn thành dự án càng sớm càng tốt, đã phản đối cuộc kiểm toán. Bạn nên giải thích cho nhóm rằng mục đích của kiểm tra chất lượng là: )",
+        "options": [
+            "Part of an ISO 9000 investigation ( Một phần của cuộc điều tra ISO 9000 )",
+            "To check whether the customer is following its quality process ( Để kiểm tra xem khách hàng có tuân theo quy trình chất lượng của nó hay không )",
+            "To check the accuracy of expenses submitted by the group ( Kiểm tra tính chính xác của các khoản chi do nhóm nộp )",
+            "To identify ineffective and ineffective policies. ( Để xác định các chính sách không hiệu quả và không hiệu quả. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 75,
+        "question": "Project quality management.... ( Quản lý chất lượng dự án )",
+        "options": [
+            "Must meet management goals ( Phải đáp ứng mục tiêu quản lý )",
+            "Applies to all projects, regardless of deliverables ( Áp dụng cho tất cả các dự án, bất kể sản phẩm bàn giao )",
+            "Applicable only to specific areas of the project ( Chỉ áp dụng cho các khu vực cụ thể của dự án )",
+            "Only necessary when stakeholders agree on quality characteristics. ( Chỉ cần thiết khi các bên liên quan đồng ý về đặc tính chất lượng. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 76,
+        "question": "You are the Project Manager for the ABC project. You need to figure out which problem has the maximum impact on the project. Which tool should you use? ( Bạn là Người quản lý dự án cho dự án ABC. Bạn cần phải tìm ra vấn đề nào có tác động lớn nhất đến dự án. Bạn nên dùng dụng cụ nào? )",
+        "options": [
+            "Pareto chart ( Biểu đồ Pareto )",
+            "Control chart ( Biểu đồ kiểm soát )",
+            "Trend analysis ( Phân tích xu hướng )",
+            "Fishbone chart ( Biểu đồ xương cá )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 77,
+        "question": "When analyzing the quality of a project, the Project Manager decides to use a tool. This tool provides an innovative way to examine the cause or potential causes of a problem. What tools does the project manager plan to use? ( Khi phân tích chất lượng của một dự án, Người quản lý dự án quyết định sử dụng một công cụ. Công cụ này cung cấp một cách sáng tạo để kiểm tra nguyên nhân hoặc các nguyên nhân tiềm ẩn của vấn đề. Người quản lý dự án dự định sử dụng những công cụ gì? )",
+        "options": [
+            "Pareto chart ( Biểu đồ Pareto )",
+            "Control chart ( Biểu đồ kiểm soát )",
+            "Statistical sampling ( Lấy mẫu thống kê )",
+            "Fishbone chart ( Biểu đồ xương cá )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 78,
+        "question": "Which of these is a process that falls under the Scope Management knowledge area (  Quá trình nào sau đây thuộc Quản lý phạm vi khu vực kiến thức )",
+        "options": [
+            "Determine scope ( Xác định phạm vi )",
+            "Clarify scope ( Làm rõ phạm vi )",
+            "Control scope ( Kiểm soát phạm vi )",
+            "Close scope ( Đóng phạm vi )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 79,
+        "question": "In the early stages of the project, you are discussing with the sponsor what estimating techniques should be used. You want a form of expert judgement, but the sponsor argues forAnalogous estimating. It would be BEST to:(  Trong giai đoạn đầu của dự án, bạn đang thảo luận với nhà tài trợ về những kỹ thuật ước tính nào nên được sử dụng. Bạn muốn có một hình thức đánh giá chuyên môn, nhưng nhà tài trợ lại lập luận về việc ước tính tương tự. Sẽ là TỐT NHẤT nếu: )",
+        "options": [
+            "Agree to Analogous estimating because it is a form of expert judgement ( Đồng ý với Ước tính tương tự vì đây là một hình thức đánh giá của chuyên gia )",
+            "Suggest a life cycle costing as a compromise ( Đề xuất tính toán chi phí vòng đời như một sự thỏa hiệp )",
+            "Determine why the sponsor wants such an accurate estimate ( Xác định lý do tại sao nhà tài trợ muốn ước tính chính xác như vậy )",
+            "Try to convince the sponsor to allow expert evaluation as it is usually more accurate. ( Cố gắng thuyết phục nhà tài trợ cho phép đánh giá của chuyên gia vì nó thường chính xác hơn. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 80,
+        "question": "A project has a 60% chance of making a profit of $100,000 and a 40% chance of losing $100,000. The expected monetary value for the project is: ( Một dự án có 60% cơ hội kiếm được lợi nhuận 100.000 USD và 40% cơ hội thua lỗ 100.000 USD. Giá trị tiền tệ dự kiến của dự án là: )",
+        "options": [
+            "Profit of 100.000USD ( Lợi nhuận 100.000USD )",
+            "Profit of 20.000USD ( Lợi nhuận 20.000USD )",
+            "Loss of 60.000USD ( Mất 60.000USD )",
+            "Loss of 40.000USD ( Mất 40.000USD )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 81,
+        "question": "The CPI of 0.73 means? ( CPI 0,73 nghĩa là gì?",
+        "options": [
+            "The project would cost 73% more than originally planned",
+            "The project would cost 27% more than originally planned",
+            "The project would cost 73% less than originally planned",
+            "The project is only getting $0.73 out of every $1 spent"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 82,
+        "question": "When tracking the cost baseline of a project, it is important to note that the project's costs at this time are higher than expected. What is the most likely cause of this? ( Khi theo dõi đường cơ sở chi phí của một dự án, điều quan trọng cần lưu ý là chi phí của dự án tại thời điểm này cao hơn dự kiến. Nguyên nhân có thể xảy ra nhất của việc này là gì?",
+        "options": [
+            "Not exhaustive list of milestones ( Danh sách không đầy đủ các cột mốc )",
+            "Overestimating material cost ( Đánh giá quá cao chi phí vật liệu )",
+            "Lack of stakeholder support ( Thiếu sự hỗ trợ các bên liên quan )",
+            "Excess inventory. ( Hàng tồn kho dư thừa )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 83,
+        "question": "Earned value management (EVM) is a commonly used: ( Quản lý giá trị thu được (EVM) thường được sử dụng: )",
+        "options": [
+            "Analysis of the value of the equipment that has been installed in the project as of the status date. ( Phân tích giá trị của thiết bị đã được lắp đặt trong dự án tính đến thời điểm hiện tại. )",
+            "Analysis of the sum of the labour costs that have been incurred on the project to date. ( Phân tích tổng chi phí lao động đã phát sinh trong dự án cho đến nay. )",
+            "Method of performance measurement for projects. ( Phương pháp đo lường hiệu quả dự án. )",
+            "Method of measuring the amount of money that has been spent on the project to date .( Phương pháp đo lường số tiền đã chi cho dự án tính đến thời điểm hiện tại"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 84,
+        "question": "In earned value management, the cost variance is equal to: ( Trong quản lý giá trị thu được, chênh lệch chi phí bằng: )",
+        "options": [
+            "EV minus PV. ( EV trừ PV )",
+            "EV minus AC. ( EV trừ AC )",
+            "AC minus EV. ( AC trừ EV )",
+            "PV minus EV . ( PV trừ EV )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 85,
+        "question": "You are having difficulty accurately assessing the cost impact of the risk. You should evaluate on a(n) : ( Bạn đang gặp khó khăn trong việc đánh giá chính xác tác động chi phí của rủi ro. Bạn nên đánh giá trên a(n): )",
+        "options": [
+            "Quantitative basis ( Cơ sở định lượng )",
+            "Number basis. ( Cơ sở số )",
+            "Qualitative basis ( Cơ sở định tính )",
+            "Economic basis ( Cơ sở kinh tế )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 86,
+        "question": "During project execution, several unexpected issues have developed and are now threatening the project schedule and budget.\n\nWhat is the best course of action for the project manager to address the issues?\n\n( Trong quá trình thực hiện dự án, một số vấn đề không mong muốn đã phát sinh và hiện đang đe dọa tiến độ và ngân sách của dự án. \n\nCách hành động tốt nhất để người quản lý dự án giải quyết các vấn đề là gì? )",
+        "options": [
+            "Use contingency reserves ( Sử dụng dự phòng )",
+            "Review project funding requirements ( Xem xét các yêu cầu tài trợ của dự án )",
+            "Use management reserves ( Sử dụng dự trữ quản lý )",
+            "Review organisational process assets ( Xem xét tài sản quy trình tổ chức )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 87,
+        "question": "You are in the process of developing an approximation of the monetary resources needed to complete project work for a large-scale multinational project which will take at least seven years to complete. Your previous projects have all been domestic with short timeframes.\n\nAs part of the process you are currently performing, what might you need to do differently compared with your past projects?\n\n( Bạn đang trong quá trình xây dựng ước tính nguồn tài chính cần thiết để hoàn thành công việc dự án cho một dự án đa quốc gia quy mô lớn và sẽ mất ít nhất bảy năm để hoàn thành. Các dự án trước đây của bạn đều là trong nước với thời gian ngắn. \n\nNhư một phần của quy trình bạn hiện đang thực hiện, bạn có thể cần phải làm gì khác biệt so với các dự án trước đây của mình? )",
+        "options": [
+            "Create a stakeholder engagement assessment matrix ( Tạo ma trận đánh giá sự tham gia của các bên liên quan )",
+            "Develop a more robust risk management plan ( Phát triển một kế hoạch quản lý rủi ro mạnh mẽ hơn )",
+            "Consider additional enterprise environmental factors ( Xem xét bổ sung các yếu tố môi trường doanh nghiệp )",
+            "Include additional organisational process assets ( Bao gồm nội dung quy trình tổ chức bổ sung )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 88,
+        "question": "Project cost control includes all of the following EXCEPT: ( Kiểm soát chi phí dự án bao gồm tất cả những điều sau đây NGOẠI TRỪ: )",
+        "options": [
+            "Informing appropriate stakeholders of all approved changes and associated costs. ( Thông báo cho các bên liên quan thích hợp về tất cả các thay đổi đã được phê duyệt và chi phí liên quan. )",
+            "Monitoring cost performance to isolate and understand variances from the approved cost baseline. ( Giám sát hiệu suất chi phí để tách biệt và hiểu những khác biệt so với chi phí cơ sở đã được phê duyệt. )",
+            "Influencing the factors that create changes to the authorised cost baseline. ( Ảnh hưởng đến các yếu tố tạo ra sự thay đổi về cơ sở chi phí được phê duyệt. )",
+            "Allocating the overall estimates to individual work packages to establish a cost baseline. ( Phân bổ dự toán tổng thể cho từng gói công việc để thiết lập đường cơ sở chi phí. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 89,
+        "question": "You are working on a project to build a bridge. You have reached the halfway mark as planned. The total expected cost at this stage is five hundred dollars. The actual work completed at this stage was worth $400. You spent a thousand dollars on the project. What is the schedule variance? ( Bạn đang thực hiện một dự án xây dựng một cây cầu. Bạn đã đi được nửa chặng đường theo như kế hoạch. Tổng chi phí dự kiến ở giai đoạn này là $500. Công việc thực tế hoàn thành ở giai đoạn này trị giá 400 USD. Bạn đã chi một ngàn đô la cho dự án. Sự khác biệt về lịch trình là gì? )",
+        "options": [
+            "100",
+            "-100",
+            "600",
+            "-600"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 90,
+        "question": "There have been some changes to your project that are affecting your cost and schedule estimates. This invalidated the original estimate assumptions. What is the Estimate at Completion (EAC) for your project based on the following parameters? ( Đã có một số thay đổi đối với dự án của bạn đang ảnh hưởng đến ước tính chi phí và tiến độ của bạn. Điều này làm mất hiệu lực các giả định ước tính ban đầu. Ước tính khi hoàn thành (EAC) cho dự án của bạn dựa trên các thông số sau là bao nhiêu? ) BAC = 360.000 USD\n\nAC = 120.000 USD\n\nEV = 180.000 USD\n\nCPI = 1,2\n\nETC = 145.000 USD",
+        "options": [
+            "265000",
+            "300000",
+            "325000",
+            "360000"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 91,
+        "question": "You are trying to establish a cost performance baseline for your project in the Determine Budget Process. You can use the following tool and techniques EXCEPT:( Bạn đang cố gắng thiết lập đường cơ sở hiệu suất chi phí cho dự án của mình trong Quy trình xác định ngân sách. Bạn có thể sử dụng các công cụ và kỹ thuật sau NGOẠI TRỪ: )",
+        "options": [
+            "Cost aggregation ( Sự tổng hợp chi phí )",
+            "Bottom-up ( Dưới lên trên )",
+            "Expert judgement ( Đánh giá chuyên môn )",
+            "Historical relationships ( Mối quan hệ lịch sử"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 92,
+        "question": "Your vice president asked you what the Estimate at Completion (EAC) will be for a small project you are working on. You were given a budget of $30,000, and to date you have spent $20,000 but only completed $10,000 worth of work. You are sure the future work will be accomplished at the planned rate. What is the EAC? ( Phó chủ tịch của bạn đã hỏi bạn Ước tính khi hoàn thành (EAC) sẽ là bao nhiêu cho một dự án nhỏ mà bạn đang thực hiện. Bạn được cấp ngân sách 30.000 đô la và cho đến nay bạn đã chi 20.000 đô la nhưng chỉ hoàn thành công việc trị giá 10.000 đô la. Bạn chắc chắn rằng công việc trong tương lai sẽ được hoàn thành theo đúng kế hoạch. EAC là gì? )",
+        "options": [
+            "$40,000",
+            "$30,000",
+            "$60,000",
+            "$10,000"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 93,
+        "question": "What does a Cost Performance Index (CPI) of more than 1.0 indicate? (  Chỉ số Hiệu suất Chi phí (CPI) lớn hơn 1,0 cho biết điều gì? )",
+        "options": [
+            "The project is over budget. ( Dự án thì vượt quá ngân sách )",
+            "The project is right on budget. ( Dự án thì đúng với ngân sách )",
+            "The project is under budget. ( Dự án dưới ngân sách )",
+            "The project is ahead of schedule. ( Dự án đang vượt tiến độ )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 94,
+        "question": "For project scheduling, bar charts show ( Để lập kế hoạch dự án, biểu đồ thanh hiển thị )",
+        "options": [
+            "Relative priority of activities ( Mức độ ưu tiên tương đối của các hoạt động )",
+            "Activity start and end dates, as well as expected durations ( Ngày bắt đầu và kết thúc hoạt động cũng như thời lượng dự kiến )",
+            "Availability of resources assigned to perform project activities ( Sự sẵn có của các nguồn lực được giao để thực hiện các hoạt động của dự án )",
+            "The level of effort for an activity ( Mức độ nỗ lực cho một hoạt động )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 95,
+        "question": "The precedence diagramming method (PDM) is: ( Phương pháp lập sơ đồ ưu tiên (PDM) là: )",
+        "options": [
+            "A technique in which activities are represented by nodes and are graphically linked by one or more logical relationships to show the sequence in which the activities are to be performed. ( Kỹ thuật trong đó các hoạt động được thể hiện bằng các nút và được liên kết bằng đồ họa bằng một hoặc nhiều mối quan hệ logic để thể hiện trình tự thực hiện các hoạt động. )",
+            "A time-phased graphical representation of the arrow diagramming method (ADM), and shows durations of project activities as well as their dependencies. ( Biểu diễn đồ họa theo từng giai đoạn thời gian của phương pháp lập sơ đồ mũi tên (ADM) và hiển thị thời lượng của các hoạt động dự án cũng như sự phụ thuộc của chúng. )",
+            "More accurate than the critical path method for scheduling when there are uncertainties about the durations of project activities ( Chính xác hơn phương pháp đường găng để lập kế hoạch khi có sự không chắc chắn về thời lượng của các hoạt động dự án )",
+            "A method that use a probabilistic approach to scheduling project activities. ( Một phương pháp sử dụng phương pháp xác suất để lập kế hoạch cho các hoạt động của dự án. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 96,
+        "question": "Agile scope planning is especially useful when ( Lập kế hoạch phạm vi linh hoạt đặc biệt hữu ích khi )",
+        "options": [
+            "Quality requirements are not stable ( Yêu cầu chất lượng không ổn định )",
+            "Scope is well understood at the beginning. ( Phạm vi được hiểu rõ ngay từ đầu.",
+            "Business requirements are not stable. ( Yêu cầu kinh doanh không ổn định. )",
+            "Solution requirements are emerging all the time ( Các yêu cầu về giải pháp luôn xuất hiện )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 97,
+        "question": "When performing integration on the project, the role of the project manager is: (  Khi thực hiện tích hợp trên dự án, vai trò của người quản lý dự án là: )",
+        "options": [
+            "To perform all of the work that is required to get the project approved and baselined for communication to the team ( Để thực hiện tất cả các công việc cần thiết để dự án được phê duyệt và tạo cơ sở để liên lạc với nhóm )",
+            "To work with the project sponsor to understand the strategic objectives and ensure the alignment of the project objectives and results with those of the project and business area ( Làm việc với nhà tài trợ dự án để hiểu các mục tiêu chiến lược và đảm bảo sự liên kết giữa mục tiêu và kết quả của dự án với mục tiêu của dự án và lĩnh vực kinh doanh )",
+            "To involve the team in group activities to facilitate teamwork, which builds an integrated project organizational structure ( Thu hút nhóm vào các hoạt động nhóm để tạo điều kiện làm việc nhóm, xây dựng cơ cấu tổ chức dự án tích hợp )",
+            "To complete the project charter and seek formal approval from the sponsor of the project ( Hoàn thiện điều lệ dự án và xin phê duyệt chính thức từ nhà tài trợ dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 98,
+        "question": "The types of project management office (PMO) structures in organizations include all of the following EXCEPT ( Các loại cấu trúc văn phòng quản lý dự án (PMO) trong các tổ chức bao gồm tất cả những điều sau đây Ngoại Trừ: )",
+        "options": [
+            "Directive PMOs that take control of the projects by directly managing the projects. ( Các PMO chỉ đạo kiểm soát các dự án bằng cách trực tiếp quản lý các dự án.",
+            "Supportive PMOs that provide a consultative role to projects by supplying templates, best practices, training, access to information, and lessons learned from other projects ( Các PMO hỗ trợ cung cấp vai trò tư vấn cho các dự án bằng cách cung cấp các mẫu, phương pháp hay nhất, đào tạo, tiếp cận thông tin và bài học kinh nghiệm từ các dự án khác )",
+            "Harmonizing PMOs that strive to reduce conflict and improve harmony among project team members ( Hài hòa các PMO nhằm giảm xung đột và cải thiện sự hài hòa giữa các thành viên trong nhóm dự án )",
+            "Controlling PMOs that provide support and require compliance through various means ( Kiểm soát các PMO cung cấp hỗ trợ và yêu cầu tuân thủ thông qua nhiều phương tiện khác nhau )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 99,
+        "question": "An example of a mandatory dependency is: ( Một ví dụ về sự phụ thuộc bắt buộc là: )",
+        "options": [
+            "A dependency established based on knowledge of best practices within a particular application area ( Sự phụ thuộc được thiết lập dựa trên kiến thức về các phương pháp hay nhất trong một lĩnh vực ứng dụng cụ thể )",
+            "On a software development project, to start design only after completion and approval of all project requirements. ( Trong một dự án phát triển phần mềm, chỉ bắt đầu thiết kế sau khi hoàn thành và phê duyệt tất cả các yêu cầu của dự án.",
+            "On a construction project, to erect the superstructure only after the foundation has been built ( Trong dự án xây dựng, chỉ được dựng phần thân trên sau khi đã thi công xong phần móng )",
+            "A dependency established based on some unusual aspect of the project where a specific sequence is desired ( Một sự phụ thuộc được thiết lập dựa trên một số khía cạnh bất thường của dự án trong đó mong muốn có một trình tự cụ thể )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 100,
+        "question": "All of the following are characteristics of the Project Management Information System (PMIS) EXCEPT : ( Tất cả những điều sau đây là đặc điểm của Hệ thống thông tin quản lý dự án (PMIS) Ngoại Trừ: )",
+        "options": [
+            "It provides access to information technology (IT) software tools, such as scheduling software tools, work authorization systems, and configuration management systems ( Nó cung cấp quyền truy cập vào các công cụ phần mềm công nghệ thông tin (CNTT), chẳng hạn như các công cụ phần mềm lập kế hoạch, hệ thống ủy quyền công việc và hệ thống quản lý cấu hình )",
+            "It is used as part of the Direct and Manage Project Work. ( Nó được sử dụng như một phần của Công việc Trực tiếp và Quản lý Dự án. )",
+            "It is used by the project manager and the project management team primarily to generate presentations to key stakeholders. ( Nó được người quản lý dự án và nhóm quản lý dự án sử dụng chủ yếu để tạo ra các bài thuyết trình cho các bên liên quan chính. )",
+            "Automated gathering and reporting on key performance indicators (KPIs) can be part of this system ( Việc thu thập và báo cáo tự động về các chỉ số hiệu suất chính (KPI) có thể là một phần của hệ thống này"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 101,
+        "question": "You are managing a global project that Involves stakeholders in several international locations. You are likely to consult the WBS dictionary to find: ( Bạn đang quản lý một dự án toàn cầu có sự tham gia của các bên liên quan ở một số địa điểm quốc tế. Bạn có thể tham khảo từ điển WBS để tìm: )",
+        "options": [
+            "Information relating the legal constraints of relevant international locations to the development of the WBS ( Thông tin liên quan đến các ràng buộc pháp lý của các địa điểm quốc tế có liên quan đến sự phát triển của WBS )",
+            "The language translation of technical terms used in the project. ( Bản dịch ngôn ngữ các thuật ngữ kỹ thuật được sử dụng trong dự án. )",
+            "Strengths, weaknesses, opportunities, and threats (SWOT) of key stakeholders and their impact on the WBS ( Điểm mạnh, điểm yếu, cơ hội và mối đe dọa (SWOT) của các bên liên quan chính và tác động của chúng đối với WBS",
+            "Detailed deliverable, activity, and scheduling information about each component in the WBS ( Thông tin chi tiết về khả năng phân phối, hoạt động và lập kế hoạch về từng thành phần trong WBS )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 102,
+        "question": "Actions and activities necessary to transfer the project's products, services, or results to the next phase or to production and/or operations are addressed ( Các hành động và hoạt động cần thiết để chuyển sản phẩm, dịch vụ hoặc kết quả của dự án sang giai đoạn tiếp theo hoặc sang sản xuất và/hoặc vận hành đều được giải quyết )",
+        "options": [
+            "As requested by senior executives ( Theo yêu cầu của lãnh đạo cấp cao )",
+            "As the last step in project management ( Là bước cuối cùng trong quản lý dự án )",
+            "Following the plan outlined in the Quality Management process ( Tuân theo kế hoạch được nêu trong quy trình Quản lý Chất lượng )",
+            "As part of the Close Project or Phase process. ( Là một phần của quy trình Đóng dự án hoặc Giai đoạn. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 103,
+        "question": "In rolling wave planning ( Trong kế hoạch cuốn chiếu )",
+        "options": [
+            "The work far in the future is planned in detail for work packages that are at a low level of the WBS ( Công việc trong tương lai xa được lên kế hoạch chi tiết cho các gói công việc ở mức WBS thấp )",
+            "The work to be accomplished in the near term is planned in detail, whereas the work in the future is planned at a higher level ( Công việc cần hoàn thành trong thời gian tới được lên kế hoạch chi tiết, trong khi công việc trong tương lai được lên kế hoạch ở cấp độ cao hơn )",
+            "Focus is maintained on long-term objectives, allowing near-term objectives to be rolled out as part of the ongoing wave of activities. ( Trọng tâm được duy trì vào các mục tiêu dài hạn, cho phép triển khai các mục tiêu ngắn hạn như một phần của làn sóng hoạt động đang diễn ra. )",
+            "A wave of detailed activities is planned during strategic planning to ensure that WBS deliverables and project milestones are achieved ( Một loạt các hoạt động chi tiết được lên kế hoạch trong quá trình lập kế hoạch chiến lược để đảm bảo đạt được các mục tiêu của WBS và các cột mốc quan trọng của dự án"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 104,
+        "question": "Project managers spend the majority of their time communicating with team members and other project stakeholders. To communicate effectively, the project manager should generally perform all of the following EXCEPT: (Giám đốc dự án dành phần lớn thời gian của họ để giao tiếp với các thành viên trong nhóm và các bên liên quan khác của dự án. Để giao tiếp hiệu quả, giám đốc dự án nhìn chung nên thực hiện tất cả những điều sau đây, NGOẠI TRỪ:)",
+        "options": [
+            "Incorporating feedback channels. ( Tích hợp các kênh phản hồi )",
+            "Seeking to understand project stakeholders' communication needs ( Tìm hiểu nhu cầu giao tiếp của các bên liên quan trong dự án",
+            "Developing finely tuned skills using multiple methods of communication ( Phát triển các kỹ năng tinh chỉnh bằng nhiều phương pháp giao tiếp )",
+            "Calculating the potential number of communication channels accurately. (Tính toán chính xác số lượng kênh giao tiếp tiềm năng.)"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 105,
+        "question": "What is the WBS typically used for? (WBS thường được sử dụng để làm gì?)",
+        "options": [
+            "To organize and define the total scope of the project. (Tổ chức và xác định tổng thể phạm vi của dự án.)",
+            "To identify the logical person to be the project sponsor. ( Để xác định người hợp lý là nhà tài trợ dự án. )",
+            "To define the level of reporting that the seller provides the buyer. ( Để xác định mức độ báo cáo mà người bán cung cấp cho người mua. )",
+            "As a record of when work elements are assigned to individuals. ( Là bản ghi thời điểm các thành phần công việc được giao cho các cá nhân. )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 106,
+        "question": "All of the following are generally true about leadership in a project environment EXCEPT: (Tất cả những điều sau đây nhìn chung đều đúng về năng lực lãnh đạo trong môi trường dự án, NGOẠI TRỪ:)",
+        "options": [
+            "Although important throughout all project phases, effective leadership is critical during the Closing phase of a project when the emphasis is on stakeholder acceptance of the project. (Năng lực lãnh đạo hiệu quả dù luôn quan trọng trong tất cả các giai đoạn dự án, nhưng mang tính quyết định nhất trong giai đoạn Kết thúc dự án, khi việc các bên liên quan chấp thuận dự án là mục tiêu cần chú trọng nhất.)",
+            "It involves focusing the efforts of a group of people toward a common goal and enabling them to work as a team. (Tập trung nỗ lực của một nhóm người nhằm hướng tới một mục tiêu chung và tạo điều kiện cho mọi người làm việc như một đội ngũ.)",
+            "It is the ability to get things done through others. (Khả năng hoàn thành công việc thông qua những người khác.)",
+            "Respect and trust, rather than fear and submission, are the key elements of effective leadership. (Sự tôn trọng và lòng tin, thay vì nỗi sợ hãi và sự phục tùng, là những yếu tố then chốt của một năng lực lãnh đạo hiệu quả.)"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 107,
+        "question": "A change control board (CCB) is: (Ban kiểm soát thay đổi (CCB) là:)",
+        "options": [
+            "A formally chartered group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project, and for recording and communicating such decisions. (Một nhóm được thành lập chính thức có trách nhiệm xem xét, đánh giá, phê duyệt, trì hoãn hoặc từ chối các thay đổi đối với dự án, đồng thời ghi lại và truyền thông các quyết định đó)",
+            "A formally chartered group of stakeholders responsible for ensuring that only a minimal amount of changes occurs on the project. (Một nhóm các bên liên quan được thành lập chính thức, có trách nhiệm đảm bảo rằng thay đổi tối thiểu xảy ra trong dự án)",
+            "A formal or informal group of stakeholders that has oversight of project execution. ( Một nhóm các bên liên quan chính thức hoặc không chính thức có vai trò giám sát việc thực hiện dự án. )",
+            "A dashboard that provides integrated information to help control changes to cost, schedule, and specifications throughout the life of the project (Một bảng điều khiển cung cấp thông tin tích hợp để giúp kiểm soát các thay đổi về chi phí, tiến độ và các đặc tính kỹ thuật xuyên suốt vòng đời của dự án)"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 108,
+        "question": "A project manager meets with a customer for initial discussions about an upcoming project. At the end of the meeting, the customer asks the project manager for a rough estimate of the project duration. Based on her experience with three similar projects, the project manager provides an estimate of 8-10 months.\n\nWhat estimation technique does the project manager use?\n\n( Người quản lý dự án gặp khách hàng để thảo luận ban đầu về dự án sắp tới. Vào cuối cuộc họp, khách hàng yêu cầu người quản lý dự án ước tính sơ bộ về thời gian của dự án. Dựa trên kinh nghiệm của cô ấy với ba dự án tương tự, người quản lý dự án đưa ra ước tính khoảng 8-10 tháng. \n\nNgười quản lý dự án sử dụng kỹ thuật ước lượng nào? )",
+        "options": [
+            "Bottom-up estimating ( Ước tính từ dưới lên )",
+            "Analogous estimating ( Ước tính tương tự )",
+            "Expert judgment (  Đánh giá của chuyên gia )",
+            "Three-point estimating ( Ước tính ba điểm )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 109,
+        "question": "You are working with a team to estimate how much time is required for each activity. You are using a document that contains information on the categories of labor, material, and equipment required to complete the project. You are also interested in the skill levels, required certifications, and the grade levels for supplies.\n\nWhich of the following documents would you primarily refer to for this purpose?\n\n( Bạn đang làm việc với một nhóm để ước tính lượng thời gian cần thiết cho mỗi hoạt động. Bạn đang sử dụng tài liệu chứa thông tin về các loại lao động, vật liệu và thiết bị cần thiết để hoàn thành dự án. Bạn cũng quan tâm đến trình độ kỹ năng, chứng chỉ cần thiết và cấp độ cung cấp vật tư. \n\nBạn chủ yếu tham khảo tài liệu nào sau đây cho mục đích này?  )",
+        "options": [
+            "Risk breakdown structure ( Cấu trúc phân tích rủi ro )",
+            "Work breakdown structure ( Cấu trúc phân chia công việc )",
+            "Resource breakdown structure ( Cấu trúc phân chia tài nguyên )",
+            "Organizational breakdown structure ( Cơ cấu tổ chức phân chia )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 110,
+        "question": "While reviewing your project's performance, you discover a significant variance. If the issue is not fixed before the next customer inspection, your project might be canceled. However, after a further review conducted by the project team, you are glad to hear that bringing the project back on track requires only a minor correction to a configuration element.\n\nWhat should you do first?\n\n( Trong khi xem xét hiệu suất dự án của bạn, bạn phát hiện ra sự khác biệt đáng kể. Nếu sự cố không được khắc phục trước lần kiểm tra tiếp theo của khách hàng, dự án của bạn có thể bị hủy. Tuy nhiên, sau khi nhóm dự án tiến hành đánh giá sâu hơn, bạn rất vui khi biết rằng việc đưa dự án trở lại đúng hướng chỉ cần một sự điều chỉnh nhỏ đối với một thành phần cấu hình.",
+        "options": [
+            "Submit the change request ( Gửi yêu cầu thay đổi )",
+            "Delay the customer inspection ( Trì hoãn việc kiểm tra khách hàng",
+            "Implement the corrective action ( Thực hiện hành động khắc phục )",
+            "Consult the project sponsor ( Tham khảo ý kiến nhà tài trợ dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 111,
+        "question": "An organization has a policy that a change control board (CCB) must review all change requests for every project in the organization, and that the CCB follows the recommended activities outlined in the PMBOK® Guide. Project managers and the project team do not serve as members of the CCB.\n\nBased on this scenario, which of the following activities might be performed by members of the CCB?\n\n( Một tổ chức có chính sách rằng ban kiểm soát thay đổi (CCB) phải xem xét tất cả các yêu cầu thay đổi cho mọi dự án trong tổ chức và CCB tuân theo các hoạt động được đề xuất được nêu trong Hướng dẫn PMBOK®. Người quản lý dự án và nhóm dự án không phải là thành viên của CCB. \n\nDựa trên kịch bản này, hoạt động nào sau đây có thể được thực hiện bởi các thành viên của CCB? )",
+        "options": [
+            "Monitoring implementation of approved changes ( Giám sát việc thực hiện các thay đổi đã được phê duyệt",
+            "Submitting a change request ( Gửi yêu cầu thay đổi )",
+            "Initiating and closing a project ( Khởi tạo và kết thúc một dự án )",
+            "Implementing approved change requests ( Thực hiện các yêu cầu thay đổi đã được phê duyệt )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 112,
+        "question": "To define the product that will be produced by the project, the project team is using a product analysis technique that helps with breaking down the high-level requirements into the level of detail needed to design the product.\n\nWhich of the following is the product analysis technique used by the team?\n\n(  Để xác định sản phẩm sẽ được dự án sản xuất, nhóm dự án đang sử dụng kỹ thuật phân tích sản phẩm giúp chia nhỏ các yêu cầu cấp cao thành mức độ chi tiết cần thiết để thiết kế sản phẩm. \n\nKỹ thuật phân tích sản phẩm nào sau đây được nhóm sử dụng? )",
+        "options": [
+            "Product planning ( Kế hoạch sản phẩm )",
+            "Work breakdown structure ( Cấu trúc phân chia công việc )",
+            "Progressive elaboration ( Phát triển dần dần )",
+            "Product breakdown ( Phân chia sản phẩm )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 113,
+        "question": "A team member submits a draft of the requirements management plan to the project manager for a review. The project manager notices that one of the components included in the plan does not belong there.\n\nWhich of the following components did the project manager most likely notice?\n\n( Một thành viên trong nhóm nộp bản dự thảo kế hoạch quản lý yêu cầu cho người quản lý dự án để xem xét. Người quản lý dự án nhận thấy rằng một trong những thành phần có trong kế hoạch không thuộc về nó. \n\nNgười quản lý dự án có thể chú ý đến thành phần nào sau đây nhất? )",
+        "options": [
+            "The metrics that will be used and the rationale for using them ( Các số liệu sẽ được sử dụng và lý do sử dụng chúng )",
+            "A process that specifies how a project scope statement will be prepared ( Một quy trình xác định cách chuẩn bị một tuyên bố phạm vi dự án )",
+            "How requirement activities will be planned, tracked, and reported ( Các hoạt động yêu cầu sẽ được lập kế hoạch, theo dõi và báo cáo như thế nào",
+            "A process that describes how the project requirements will be prioritized ( Một quy trình mô tả các yêu cầu của dự án sẽ được ưu tiên như thế nào )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 114,
+        "question": "You are facing problems decomposing the testing work package into the final activities required to complete the work package. Detailed testing plans and activities cannot be determined until the system is at least 50% developed and more details become available. The system development work package will take at least three months to complete.\n\nWhat is the best way to resolve this problem\n\n( Bạn đang gặp phải vấn đề phân tách gói công việc thử nghiệm thành các hoạt động cuối cùng cần thiết để hoàn thành gói công việc. Các kế hoạch và hoạt động thử nghiệm chi tiết không thể được xác định cho đến khi hệ thống được phát triển ít nhất 50% và có thêm thông tin chi tiết. Gói công việc phát triển hệ thống sẽ mất ít nhất ba tháng để hoàn thành. \n\nCách tốt nhất để giải quyết vấn đề này là gì )",
+        "options": [
+            "Decompose the system development work package now and decompose the system testing work package later ( Phân tách gói công việc phát triển hệ thống ngay bây giờ và phân tách gói công việc kiểm tra hệ thống sau )",
+            "Consult the project management plan to determine what to do in this situation ( Tham khảo kế hoạch quản lý dự án để xác định phải làm gì trong tình huống này )",
+            "Use product analysis techniques such as product breakdown and systems analysis to decompose the system testing work package ( Sử dụng các kỹ thuật phân tích sản phẩm như phân tích sản phẩm và phân tích hệ thống để phân tách gói công việc kiểm thử hệ thống )",
+            "Break down the project into multiple phases so that the system testing work package goes into the second project phase ( Chia dự án thành nhiều giai đoạn để gói công việc kiểm thử hệ thống chuyển sang giai đoạn dự án thứ hai )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 115,
+        "question": "Câu hỏi 8\nYou are about to start planning for a large and complex project. Due to the size of the project along with the regulatory and environmental considerations, the development of a detailed project management plan will be critical.\n\nAs a starting point for initial project planning, what is the first thing you should do?\n\n( Bạn sắp bắt đầu lập kế hoạch cho một dự án lớn và phức tạp. Do quy mô của dự án cùng với những cân nhắc về quy định và môi trường, việc xây dựng một kế hoạch quản lý dự án chi tiết sẽ rất quan trọng. \n\nĐể bắt đầu lập kế hoạch dự án ban đầu, điều đầu tiên bạn nên làm là gì? )",
+        "options": [
+            "Review the project charter to understand the high-level information about the project ( Xem lại điều lệ dự án để hiểu thông tin cấp cao về dự án )",
+            "Begin the process of identifying stakeholders so they can be engaged as necessary for project planning ( Bắt đầu quá trình xác định các bên liên quan để họ có thể tham gia khi cần thiết cho việc lập kế hoạch dự án )",
+            "Conduct a project kick-off meeting to inform and engage stakeholders and gain commitment ( Tiến hành cuộc họp khởi động dự án để thông báo và thu hút các bên liên quan cũng như đạt được cam kết )",
+            "Share the project scope statement with the project team for a common understanding of project deliverables ( Chia sẻ tuyên bố phạm vi dự án với nhóm dự án để có sự hiểu biết chung về các sản phẩm bàn giao của dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 116,
+        "question": "The project sponsor asks for a copy of the document that contains the description, owner, source, priority, and status of product requirements. Which project document is the project sponsor requesting? (  Nhà tài trợ dự án yêu cầu một bản sao của tài liệu có chứa mô tả, chủ sở hữu, nguồn, mức độ ưu tiên và trạng thái của các yêu cầu sản phẩm. Nhà tài trợ dự án yêu cầu tài liệu dự án nào? )",
+        "options": [
+            "The requirements traceability matrix ( Ma trận truy xuất nguồn gốc yêu cầu )",
+            "The requirements management plan ( Kế hoạch quản lý yêu cầu )",
+            "The scope management plan ( Kế hoạch quản lý phạm vi )",
+            "The work breakdown structure (WBS) ( Cấu trúc phân chia công việc (WBS) )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 117,
+        "question": "A project manager is leading a process improvement project for a factory operation. Currently, the project manager and the team are performing the Monitor and Control Project Work process.\n\nWhich of the following activities might be carried out during this process?\n\n( Một người quản lý dự án đang lãnh đạo một dự án cải tiến quy trình cho hoạt động của nhà máy. Hiện tại, người quản lý dự án và nhóm đang thực hiện quy trình Giám sát và Kiểm soát Công việc Dự án. \n\nHoạt động nào sau đây có thể được thực hiện trong quá trình này? )",
+        "options": [
+            "Comparing actual project performance against the project management plan ( So sánh hiệu suất dự án thực tế với kế hoạch quản lý dự án )",
+            "Implementing approved change requests to achieve the project's objectives ( Thực hiện các yêu cầu thay đổi đã được phê duyệt để đạt được mục tiêu của dự án )",
+            "Analyzing change requests and either approving or rejecting them ( Phân tích các yêu cầu thay đổi và phê duyệt hoặc từ chối chúng )",
+            "Gaining formal acceptance of the deliverables by the customer or sponsor ( Đạt được sự chấp nhận chính thức của khách hàng hoặc nhà tài trợ về sản phẩm bàn giao )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 118,
+        "question": "Using an agile framework, you are to lead a product development project. You want to bring together stakeholders and SMEs to discuss risk, success criteria and other topics. What is the best way for you to accomplish this objective? ( Khi sử dụng một khuôn khổ linh hoạt, bạn sẽ lãnh đạo một dự án phát triển sản phẩm. Bạn muốn tập hợp các bên liên quan và các doanh nghiệp vừa và nhỏ để thảo luận về rủi ro, tiêu chí thành công và các chủ đề khác. Cách tốt nhất để bạn đạt được mục tiêu này là gì? )",
+        "options": [
+            "Facilitate an iteration retrospective ( Tạo điều kiện cho quá trình hồi tưởng lặp lại )",
+            "Conduct interviews with the identified individuals ( Tiến hành phỏng vấn với các nhân đã xác định )",
+            "Schedule a focus group ( Lên lịch cho một nhóm tập trung )",
+            "Invite the relevant participants to the daily scrum meetings ( Mời những người tham gia liên quan tới các cuộc họp scrum hàng ngày"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 119,
+        "question": "Your project management plan results in a project schedule that is too long. If the project network diagram cannot change but you have extra personnel resources, what is the BEST thing to do? ( Kế hoạch quản lý dự án của bạn dẫn đến lịch trình dự án quá dài. Nếu sơ đồ mạng dự án không thể thay đổi nhưng bạn có thêm nguồn nhân sự thì điều TỐT NHẤT nên làm là gì? )",
+        "options": [
+            "Fast track the project. ( Theo dõi nhanh dự án )",
+            "Level the resources. ( Mức độ nguồn tài nguyên )",
+            "Crash the project. (Nén tiến độ dự án bằng cách tăng cường nguồn lực.)",
+            "Perform Monte Carlo analysis ( Thực hiện phân tích Monte Carlo )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 120,
+        "question": "An activity has an early start (ES) of day 3, a late start (LS) of day 13, an early finish (EF) of day 9, and a late finish (LF) of day 19. The activity: ( Một hoạt động có thời điểm bắt đầu sớm (ES) vào ngày thứ 3, bắt đầu muộn (LS) vào ngày 13, kết thúc sớm (EF) vào ngày 9 và kết thúc muộn (LF) vào ngày 19. Hoạt động: )",
+        "options": [
+            "Is on the critical path ( Đang trên lộ trình quan trọng )",
+            "Has a lag. ( Có một lỗi )",
+            "Is progressing well. ( Đang tiến triển tốt )",
+            "Is not on the critical path. ( Không nằm trên lộ trình quan trọng )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 121,
+        "question": "AOA activity diagrams are only represented using which representation? (  Sơ đồ hoạt động AOA chỉ được trình chiếu bằng cách biểu diễn nào? )",
+        "options": [
+            "start-to-start ( Bắt đầu tới bắt đầu )",
+            "start-to-finish ( Bắt đầu tới kết thúc )",
+            "finish-to-start ( Kết thúc tới bắt đầu )",
+            "finish-to-finish ( Kết thúc tới kết thúc )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 122,
+        "question": "A Project Manager is using AOA to perform critical path analysis. The network diagram is represented as shown below. Which of the following represents the path: ( Người quản lý dự án đang sử dụng AOA để thực hiện phân tích đường dẫn quan trọng. Sơ đồ mạng được thể hiện như hình dưới đây. Điều nào sau đây đại diện cho đường dẫn: )",
+        "options": [
+            "ABIR",
+            "CDHR",
+            "CDGIR",
+            "EFGIR"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 123,
+        "question": "You are planning to use PERT for planning of your project. A task has pessimistic estimate of 24 days, most likely estimate of 15 days and optimistic estimate of 12 days. What is the mean using the PERT technique? ( Bạn đang dự định sử dụng PERT để lập kế hoạch cho dự án của mình. Một nhiệm vụ có ước tính bi quan là 24 ngày, ước tính rất có thể là 15 ngày và ước tính lạc quan là 12 ngày. Ý nghĩa của việc sử dụng kỹ thuật PERT là gì?  )",
+        "options": [
+            "16 days ( 16 ngày )",
+            "18 days ( 18 ngày )",
+            "15 days ( 15 ngày )",
+            "25.5 days ( 25.5 ngày )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 124,
+        "question": "A manager and the head of engineering discuss a change to a major work package. After the meeting, the manager contacts you and tells you to complete the paperwork to make the change. This is an example of: ( Một người quản lý và người đứng đầu  bộ phận kỹ thuật thảo luận về sự thay đổi đối với gói công việc chính. Sau cuộc họp, người quản lý liên lạc với bạn và yêu cầu bạn hoàn thành thủ tục giấy tờ để thực hiện thay đổi. Đây là một ví dụ về: )",
+        "options": [
+            "management attention to scope management. ( Quản lý chú ý đến quản lý phạm vi )",
+            "management planning. (Quản lý kế hoạch )",
+            "A manager acting as project coordinator. ( Một người quản lý đóng vai trò điều phối viên dự án )",
+            "a change control system. ( Hệ thống kiểm soát sự thay đổi )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 125,
+        "question": "During project executing, a team member comes to the project manager because he is not sure what work he needs to accomplish on the project. Which of the following documents contains detailed descriptions of work packages? ( Trong quá trình thực hiện dự án, một thành viên trong nhóm đến gặp người quản lý dự án vì anh ta không chắc mình cần hoàn thành công việc gì trong dự án. Tài liệu nào sau đây chứa mô tả chi tiết về các gói công việc? )",
+        "options": [
+            "WBS dictionary ( Từ điển WBS )",
+            "Activity list ( Danh sách hoạt động )",
+            "Project scope statement ( Báo cáo phạm vi dự án )",
+            "Scope management plan ( Kế hoạch quản lý phạm vi )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 126,
+        "question": "During a meeting with some of the project stakeholders, the project manager is asked to add work to the project scope. The project manager had access to correspondence about the project before the project charter was signed and remembers that the project sponsor specifically denied funding for the scope mentioned by these stakeholders. The best thing for the project manager to do is to: ( Trong cuộc họp với một số bên liên quan của dự án, người quản lý dự án được yêu cầu bổ sung thêm công việc vào phạm vi dự án. Người quản lý dự án có quyền tiếp cận thư từ về dự án trước khi điều lệ dự án được ký kết và nhớ rằng nhà tài trợ dự án đã từ chối cấp vốn cụ thể cho phạm vi mà các bên liên quan này đề cập. Điều tốt nhất mà người quản lý dự án nên làm là: )",
+        "options": [
+            "Let the sponsor know of the stakeholders' request. ( Hãy để nhà tài trợ biết yêu cầu của các bên liên quan )",
+            "Evaluate the impact of adding the scope. ( Đánh giá tác động của việc thêm phạm vi )",
+            "Tell the stakeholders the scope cannot be added. ( Nói với các bên liên quan về phạm vi không thể được thêm vào )",
+            "Add the work if there is time available in the project schedule. ( Thêm công việc nếu có sẵn thời gian trong lịch trình dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 127,
+        "question": "John is a project manager of a complicated project. When he started creating a work breakdown structure for his project, he realized that it is too complex to complete a work breakdown structure on a single sheet. You, as a colleague of John, recommend using a work breakdown structure numbering system for John to: ( John là người quản lý dự án của một dự án phức tạp. Khi bắt đầu tạo cấu trúc phân chia công việc cho dự án của mình, anh nhận ra rằng việc hoàn thành cấu trúc phân chia công việc trên một trang tính là quá phức tạp. Bạn, với tư cách là đồng nghiệp của John, khuyên bạn nên sử dụng hệ thống đánh số cấu trúc phân chia công việc để John:",
+        "options": [
+            "Determine the complexity of the project ( Xác định sự phức tạp của dự án )",
+            "Help in automating the WBS using appropriate software ( Trợ giúp tự động hóa WBS bằng phần mềm thích hợp )",
+            "Provide a hierarchical structure for each WBS element ( Cung cấp cấu trúc phân cấp cho từng thành phần WBS )",
+            "Present risks of the project ( Rủi ro hiện tại của dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 128,
+        "question": "Which of the following techniques includes measuring, testing, and validating whether work and deliverables meet requirements and product acceptance criteria? ( Kỹ thuật nào sau đây bao gồm đo lường, kiểm tra và xác nhận xem công việc và sản phẩm bàn giao có đáp ứng các yêu cầu và tiêu chí chấp nhận sản phẩm hay không? )",
+        "options": [
+            "Seminars ( Hội thảo )",
+            "Surveys ( Khảo sát )",
+            "Expert Judgment ( Đánh giá của chuyên gia )",
+            "Inspection ( Sự điều tra )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 129,
+        "question": "You are trying to gather ideas related to project and product requirements. Which technique is appropriate for this? ( Bạn đang cố gắng để tập hợp ý kiến liên quan đến dự án và yêu cầu sản phẩm. Cái kỹ thuật nào thích hợp cho điều này? )",
+        "options": [
+            "Brainstorming ( Động não )",
+            "Nominal Group Technique ( kỹ thuật nhóm danh nghĩa )",
+            "Affinity Diagram ( Sơ đồ mối quan hệ )",
+            "Multi-criteria Decision Analysis ( Phân tích quyết định đa tiêu chí )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 130,
+        "question": "You have just been appointed Project Manager of the ABC project. You are trying to read the WBS and cannot understand some elements of the WBS. What is your first step to understanding this? ( Bạn vừa được bổ nhiệm làm Giám đốc dự án của dự án ABC. Bạn đang cố đọc WBS và không thể hiểu một số thành phần của WBS. Bước đầu tiên của bạn để hiểu điều này là gì? )",
+        "options": [
+            "Refer to the WBS dictionary ( Tham khảo từ điển WBS )",
+            "Refer to the scope statement ( Tham khảo báo cáo phạm vi )",
+            "Refer to the project charter ( Tham khảo điều lệ dự án )",
+            "Contact the previous Project Manager ( Liên hệ với quản lý dự án trước )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 131,
+        "question": "Your company just won a major new project. It will begin in three months and is valued at $2 Million Dollars. You have just been assigned as the project manager for this project. Which of the following is not the First thing you should do once you hear of this new project? ( Công ty của bạn vừa giành được một dự án lớn mới. Nó sẽ bắt đầu sau ba tháng và được định giá 2 triệu đô la. Bạn vừa được bổ nhiệm như người quản lý dự án cho dự án này. Điều nào sau đây không phải là điều đầu tiên bạn nên làm khi biết đến dự án mới này? )",
+        "options": [
+            "Ask how the new project manager will use resources ( Hỏi người quản lý dự án mới sẽ sử dụng tài nguyên như thế nào )",
+            "Provide resources for your project. ( Cung cấp tài nguyên cho dự án của bạn )",
+            "Ruin your project ( Làm hỏng dự án của bạn )",
+            "Ask your manager how the new project will affect your project ( Hãy hỏi người quản lý của bạn xem dự án mới sẽ ảnh hưởng đến dự án của bạn như thế nào )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 132,
+        "question": "You are a new project manager who has never managed a project before. It would be BEST in this situation to rely on _____ during planning in order to improve your chance of success. ( Bạn là người quản lý dự án mới, người chưa từng quản lý dự án nào trước đây. Sẽ là TỐT NHẤT trong tình huống này nếu dựa vào _____ trong quá trình lập kế hoạch để nâng cao cơ hội thành công của bạn )",
+        "options": [
+            "Your intuition and training ( Trực giác và sự rèn luyện của bạn )",
+            "Stakeholder analysis ( Phân tích các bên liên quan )",
+            "Historical information ( Thông tin lịch sử )",
+            "Configuration management ( Quản lý cấu hình )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 133,
+        "question": "The following are the key benefits of the Develop Project Charter process EXCEPT: ( Sau đây là những lợi ích chính của quy trình Phát triển điều lệ dự án Ngoại Trừ )",
+        "options": [
+            "C. It defines the product, service or result boundaries, and acceptance criteria. ( Nó xác định ranh giới của sản phẩm, dịch vụ hoặc kết quả và tiêu chí chấp nhận )",
+            "A. It provides a direct link between the project and the strategic objectives of the organization ( Nó cung cấp một liên kết trực tiếp giữa mục tiêu dự án và mục tiêu chiến lược của tổ chức )",
+            "D. It shows the organizational commitment to the project ( Nó thể hiện sự cam kết tổ chức với dự án )",
+            "B. It creates a formal record of the project ( Nó tạo ra một bản ghi chính thức của dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 134,
+        "question": "You have recently joined as the project manager for a hotel construction project. During the introduction meeting with the sponsor, he hands over a document to you. He also warns you that you should not update or modify the document. The document describes the necessary information from a business standpoint to determine whether the expected outcomes of the project justify the required investment. Which of the following documents did the sponsor give you? (  Gần đây bạn đã tham gia với vai trò quản lý dự án cho một dự án xây dựng khách sạn. Trong buổi gặp giới thiệu với nhà tài trợ, anh ta sẽ đưa một tài liệu cho bạn. Anh ấy cũng cảnh báo bạn rằng bạn không nên cập nhật hoặc sửa đổi tài liệu. Tài liệu mô tả thông tin cần thiết từ quan điểm kinh doanh để xác định xem kết quả mong đợi của dự án có phù hợp với khoản đầu tư cần thiết hay không. Người tài trợ đã cung cấp cho bạn những tài liệu nào sau đây )",
+        "options": [
+            "Agreement ( Hiệp định )",
+            "Business case ( Tình huống kinh doanh )",
+            "Benefits management plan ( Kế hoạch quản lý lợi ích )",
+            "Project charter ( Điều lệ dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 135,
+        "question": "The project kick-off meeting is usually associated with the end of planning and start of executing. As the project manager, you will use the kick-off meeting for all of the following outcomes EXCEPT: (  Cuộc họp khởi động dự án thường gắn liền với việc kết thúc việc lập kế hoạch và bắt đầu thực hiện. Với tư cách là người quản lý dự án, bạn sẽ sử dụng cuộc họp khởi động để đạt được tất cả các kết quả sau NGOẠI TRỪ: )",
+        "options": [
+            "To gain the commitment of the team for the project ( Đạt được sự cam kết của nhóm cho dự án )",
+            "To explain the roles and responsibilities of each stakeholder ( Để giải thích những vai trò và trách nhiệm của mỗi bên liên quan )",
+            "To communicate the objectives of the project ( Để truyền đạt mục tiêu của dự án )",
+            "To formally authorize the existence of the project ( Để chính thức cho phép sự tồn tại của dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 136,
+        "question": "A Program is a ( Một chương trình là một )",
+        "options": [
+            "Group of related projects, subsidiary programs, and program activities managed in a coordinated manner. (Nhóm các dự án, chương trình con và các hoạt động chương trình có liên quan được quản lý theo cách phối hợp với nhau.)",
+            "Sequence of activities constituting a major project. (Chuỗi các hoạt động cấu thành nên một dự án lớn.)",
+            "Large projects with significant cost and resource requirements. (Các dự án lớn với yêu cầu đáng kể về chi phí và nguồn lực.)",
+            "Group of related tasks lasting one year or less. (Nhóm các nhiệm vụ liên quan có thời gian kéo dài từ một năm trở xuống.)"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 137,
+        "question": "Which process involves defining the project scope and obtaining approval from stakeholders? (Quy trình nào bao gồm việc xác định phạm vi dự án và nhận được sự phê duyệt từ các bên liên quan?)",
+        "options": [
+            "Develop Project Charter (Phát triển Điều lệ Dự án)",
+            "Identify Stakeholders (Xác định các bên liên quan )",
+            "Collect Requirements (Thu thập những yêu cầu )",
+            "Define Scope (Xác định phạm vi)"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 138,
+        "question": "Which of the following is least likely to be within the project manager's sphere of influence? (Điều nào sau đây ít có khả năng nhất nằm trong phạm vi ảnh hưởng của giám đốc dự án?)",
+        "options": [
+            "Government. ( chính phủ )",
+            "Sponsors (Các nhà tài trợ )",
+            "Customers (Các khách hàng )",
+            "Project Team (Nhóm dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 139,
+        "question": "A project is: ( Dự án là: )",
+        "options": [
+            "A set of sequential activities performed in a process or system. (Một tập hợp các hoạt động tuần tự được thực hiện trong một quy trình hoặc hệ thống.)",
+            "A revenue-generating activity that needs to be accomplished while achieving customer satisfaction. (Một hoạt động tạo ra doanh thu cần được hoàn thành đồng thời đạt được sự hài lòng của khách hàng)",
+            "An ongoing endeavor undertaken to meet customer or market requirements. (Một nỗ lực liên tục được thực hiện nhằm đáp ứng các yêu cầu của khách hàng hoặc thị trường.)",
+            "A temporary endeavor undertaken to create a unique product, service, or result. (Một nỗ lực tạm thời được thực hiện nhằm tạo ra một sản phẩm, dịch vụ hoặc kết quả duy nhất.)"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 140,
+        "question": "Which process involves tracking, reviewing, and regulating the progress and performance of the project? (Quy trình nào bao gồm việc theo dõi, xem xét và điều tiết tiến độ cũng như hiệu suất của dự án?)",
+        "options": [
+            "Perform Integrated Change Control (Thực hiện kiểm soát thay đổi tích hợp)",
+            "Monitor and Control Project Work (Giám sát và kiểm soát công việc dự án)",
+            "Close Project or Phase ( Đóng dự án hoặc giai đoạn )",
+            "Control Scope ( Kiểm soát phạm vi )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 141,
+        "question": "For a project to be successful, the project should generally achieve all of the following EXCEPT: (Để một dự án thành công, dự án đó nhìn chung cần đạt được tất cả những điều sau đây, NGOẠI TRỪ:)",
+        "options": [
+            "Applying knowledge, skills, and processes within the Project Management Process Groups uniformly to meet the project objectives. (Áp dụng các kiến thức, kỹ năng và quy trình trong các Nhóm Quy trình Quản lý Dự án một cách đồng đều/đồng nhất để đạt được các mục tiêu của dự án.)",
+            "Fulfilling other agreed-upon success measures or criteria. (Đáp ứng các tiêu chí hoặc thước đo thành công khác đã được thống nhất.)",
+            "Striving to obtain acceptable customer/end-user adoption. (Nỗ lực đạt được mức độ đón nhận/áp dụng hợp lý từ phía khách hàng/người dùng cuối.)",
+            "Achieving stakeholder satisfaction ( Đạt được sự hài lòng từ các bên liên quan )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 142,
+        "question": "Governance is the framework within which authority is exercised in organizations. This framework includes all of the following components EXCEPT: (Quản trị là khuôn khổ mà trong đó quyền lực được thực thi trong các tổ chức. Khuôn khổ này bao gồm tất cả các thành phần sau đây, NGOẠI TRỪ:)",
+        "options": [
+            "Rules ( Quy tắc )",
+            "Policies ( Chính sách )",
+            "Techniques ( Kỹ thuật )",
+            "Relationships ( Mối quan hệ )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 143,
+        "question": "In which process is the project management plan developed and approved? (Kế hoạch quản lý dự án được xây dựng và phê duyệt trong quy trình nào?)",
+        "options": [
+            "Develop Project Charter (Phát triển bảng điều lệ dự án",
+            "Plan Scope Management (Lập kế hoạch quản lý phạm vi)",
+            "Develop Project Management Plan (Phát triển kế hoạch quản lý dự án )",
+            "Define Scope (Xác định phạm vi)"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 144,
+        "question": "Which of the following is least likely to be a project manager's role? (Điều nào sau đây ít có khả năng nhất là vai trò của một giám đốc dự án?)",
+        "options": [
+            "Evaluation and analysis of project-related activities prior to project initiation. (Đánh giá và phân tích các hoạt động liên quan đến dự án trước khi khởi động dự án.)",
+            "Ensuring that organizations are operating efficiently. (Đảm bảo các tổ chức đang vận hành một cách hiệu quả.)",
+            "Assisting in business analysis, business case development, and aspects of portfolio management for a project. (Hỗ trợ phân tích kinh doanh, phát triển phương án kinh doanh và các khía cạnh quản lý danh mục đầu tư cho một dự án.)",
+            "Consulting with business leaders on advancing strategic objectives. (Tham vấn cho các nhà lãnh đạo doanh nghiệp về việc thúc đẩy các mục tiêu chiến lược.)"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 145,
+        "question": "Which of the following is not a process group? (Nội dung nào sau đây không phải là nhóm quy trình? )",
+        "options": [
+            "Initiation ( Bắt đầu )",
+            "Planning ( Lên kế hoạch )",
+            "Closing ( Đóng )",
+            "Execution ( Thực hiện )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 146,
+        "question": "How many processes are in the PMP 6th? ( Trong PMP thứ 6 có bao nhiêu quy trình? )",
+        "options": [
+            "47",
+            "45",
+            "49",
+            "51"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 147,
+        "question": "How many knowledge areas are in the PMP 6th ( Trong PMP 6 có bao nhiêu lĩnh vực kiến thức )",
+        "options": [
+            "8",
+            "10",
+            "12",
+            "13"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 148,
+        "question": "Is the procurement process in the 6th PMP applicable in Vietnam? ( Quy trình đấu thầu trong PMP lần thứ 6 có áp dụng được ở Việt Nam không? )",
+        "options": [
+            "Yes ( Đúng )",
+            "No ( Không )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 149,
+        "question": "How many processes does PMP 6th Integrated Management have? ( Quản lý tích hợp PMP lần thứ 6 có bao nhiêu quy trình? )",
+        "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 150,
+        "question": "How many processes does Scope Management have? ( Quản lý phạm vi có bao nhiêu quy trình? )",
+        "options": [
+            "7",
+            "6",
+            "9",
+            "5"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 151,
+        "question": "How many processes does Schedule Management have? ( Quản lý lịch trình có bao nhiêu quy trình? )",
+        "options": [
+            "7",
+            "6",
+            "9",
+            "8"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 152,
+        "question": "How many processes does Cost Management have? ( Quản lý chi phí có bao nhiêu quy trình? )",
+        "options": [
+            "6",
+            "4",
+            "9",
+            "7"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 153,
+        "question": "How many processes does Quality Management have? ( Quản lý chất lượng có bao nhiêu quy trình? )",
+        "options": [
+            "6",
+            "3",
+            "9",
+            "8"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 154,
+        "question": "How many processes does Human Resource Management have? ( Quản lý nguồn nhân lực có bao nhiêu quy trình? )",
+        "options": [
+            "6",
+            "3",
+            "9",
+            "8"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 155,
+        "question": "Which of the following is an input to the Develop Project Management Plan process? ( Điều nào sau đây là đầu vào cho quá trình Phát triển Kế hoạch Quản lý Dự án? )",
+        "options": [
+            "The organization's processes and procedures ( Các quy trình và thủ tục của tổ chức )",
+            "The project charter ( Điều lệ dự án )",
+            "The stakeholder register ( Đăng ký của các bên liên quan )",
+            "The enterprise environmental factors ( Những yếu tố môi trường doanh nghiệp )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 156,
+        "question": "During the auction, you see an auctioneer who is your close friend. What should your next step be? (  Trong suốt cuộc đấu giá, bạn gặp một người đấu giá cái người là bạn thân của bạn. Cái bước tiếp theo bạn nên làm là gì? )",
+        "options": [
+            "You will try not to give him the contract to prove your integrity ( Bạn sẽ cố gắng không đưa cho anh ta hợp đồng để chứng minh sự chính trực của mình )",
+            "You will resign immediately from the tender process ( Bạn sẽ từ chức ngay lập tức khỏi quá trình đấu thầu )",
+            "You will pass on some confidential information to him ( Bạn sẽ chuyển một số thông tin bí mật cho anh ấy )",
+            "You will disclose this relationship to your manager ( Bạn sẽ tiết lộ mối quan hệ này với quản lý của bạn )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 157,
+        "question": "You are managing a project to build five bridges. The project consists of five sequential phases with each phase delivering one bridge.After the first phase of the project is complete, which process group of the second phase should follow? ( Bạn đang quản lý một dự án xây dựng năm cây cầu. Dự án bao gồm năm giai đoạn tuần tự, trong đó mỗi giai đoạn cung cấp một cây cầu. Sau khi giai đoạn đầu tiên của dự án hoàn tất, nhóm quy trình nào của giai đoạn thứ hai sẽ tuân theo? )",
+        "options": [
+            "Initiating ( Bắt đầu )",
+            "Closing ( Đóng )",
+            "Planning ( Lên kế hoạch )",
+            "Executing ( Đang thực hiện )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 158,
+        "question": "The project aims to investigate the feasibility of constructing a hydroelectric dam from a technical, economic, and social point of view. The project charter created by the project manager on behalf of the project sponsor is now approved. Which of the following processes should be performed next? ( Dự án nhằm mục đích điều tra tính khả thi của việc xây dựng đập thủy điện từ quan điểm kỹ thuật, kinh tế và xã hội. Điều lệ dự án do người quản lý dự án tạo ra thay mặt cho nhà tài trợ dự án hiện đã được phê duyệt. Quá trình nào sau đây nên được thực hiện tiếp theo? )",
+        "options": [
+            "Identify Stakeholders ( Xác định các bên liên quan )",
+            "Develop Project Management Plan ( Phát triển kế hoạch quản lý dự án )",
+            "Develop Project Charter ( Phát triển các điều lệ dự án )",
+            "Identify Risks ( Xác định rủi ro )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 159,
+        "question": "The project sponsor asks for a copy of the document that contains the description, owner, source, priority, and status of product requirements. Which project document is the project sponsor requesting? ( Nhà tài trợ dự án yêu cầu một bản sao của tài liệu có chứa mô tả, chủ sở hữu, nguồn, mức độ ưu tiên và trạng thái của các yêu cầu sản phẩm. Nhà tài trợ dự án yêu cầu tài liệu dự án nào? )",
+        "options": [
+            "The work breakdown structure (WBS) ( Cơ cấu phân chia công việc )",
+            "The scope management plan ( Kế hoạch quản lý phạm vi )",
+            "The requirements management plan ( Kế hoạch quản lý những yêu cầu )",
+            "The requirements traceability matrix ( Ma trận truy xuất nguồn gốc yêu cầu )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 160,
+        "question": "Development is a critical aspect in a project with large size and regulatory and environmental considerations. What is the first thing you should do as a starting point for initial project planning? ( Phát triển là một khía cạnh quan trọng trong một dự án có quy mô lớn và những cân nhắc về quy định cũng như môi trường. Điều đầu tiên bạn nên làm khi bắt đầu lập kế hoạch dự án ban đầu là gì? )",
+        "options": [
+            "Hold a project kick-off meeting with the aim to inform and engage stakeholders and obtain commitment ( Tổ chức cuộc họp khởi động dự án với mục đích thông báo và thu hút các bên liên quan cũng như đạt được cam kết )",
+            "Review the project charter to get high-level information about the project ( Xem lại điều lệ dự án để có được thông tin cấp cao về dự án )",
+            "Start identifying stakeholders so that you can engage them as required for project planning ( Bắt đầu xác định các bên liên quan để bạn có thể thu hút họ theo yêu cầu để lập kế hoạch dự án )",
+            "Share project scope with the involved team to establish common understanding about project deliverables ( Chia sẻ phạm vi dự án với nhóm liên quan để thiết lập sự hiểu biết chung về các sản phẩm bàn giao của dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 161,
+        "question": "A company sets up a change control board (CCB) dedicated to the purpose of reviewing and evaluating the changes submitted for all projects. Which of the following best describes an individual or group that can request a change on a project in a situation where the project sponsor is a member of the CCB? ( Một công ty thành lập một ban kiểm soát thay đổi (CCB) dành riêng cho mục đích xem xét và đánh giá những thay đổi được đưa ra cho tất cả các dự án. Điều nào sau đây mô tả đúng nhất về một cá nhân hoặc nhóm có thể yêu cầu thay đổi dự án trong trường hợp nhà tài trợ dự án là thành viên của CCB? )",
+        "options": [
+            "Any stakeholder ( Bất kỳ bên liên quan nào )",
+            "Project manager ( Quản lý dự án )",
+            "Project sponsor ( Nhà tài trợ dự án )",
+            "Project team ( Nhóm dự án )"
+        ],
+        "explanation": ""
+    },
+    {
+        "id": 162,
+        "question": "A project is divided into four sequential phases. The second phase of the project has just been completed, and the third phase is about to begin. What should the project manager do first? ( Một dự án được chia thành bốn giai đoạn tuần tự. Giai đoạn thứ hai của dự án vừa hoàn thành và giai đoạn thứ ba sắp bắt đầu. Người quản lý dự án nên làm gì đầu tiên? )",
+        "options": [
+            "Perform the process of identifying the project stakeholders ( Thực hiện quá trình xác định các bên liên quan của dự án )",
+            "Begin the process of directing and managing the project work ( Bắt đầu quá trình chỉ đạo và quản lý công việc dự án )",
+            "Start the process of monitoring and controlling the project work ( Bắt đầu quá trình giám sát và kiểm soát công việc dự án )",
+            "Begin the process of developing the project management plan ( Bắt đầu quá trình phát triển kết hoạch quản lý dự án )"
+        ],
+        "explanation": ""
+    }
+]
