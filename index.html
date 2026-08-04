@@ -9,6 +9,8 @@
     <style>
         body { font-family: 'Inter', sans-serif; }
         .hidden { display: none !important; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+        .fade-in { animation: fadeIn 0.3s ease-out forwards; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
@@ -38,12 +40,23 @@
             <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
                 <div>
                     <h2 class="text-lg font-bold text-gray-900" id="study-total-text">Danh sách câu hỏi</h2>
-                    <p class="text-sm text-gray-500">Hiển thị câu hỏi, đáp án và giải thích chi tiết.</p>
+                    <p class="text-sm text-gray-500">Làm từng câu và xem ngay giải thích.</p>
                 </div>
                 <input type="text" id="study-search" oninput="filterStudyQuestions()" placeholder="🔍 Tìm kiếm câu hỏi..." class="w-full sm:w-64 px-4 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
             </div>
-            <div id="study-list" class="space-y-6">
+            
+            <!-- Màn hình hiển thị 1 câu hỏi ôn tập -->
+            <div id="study-active" class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-200">
                 <!-- Nội dung ôn tập sẽ được JavaScript render vào đây -->
+            </div>
+            
+            <!-- Thanh điều hướng ôn tập -->
+            <div class="flex justify-between items-center pt-2">
+                <button onclick="prevStudyQuestion()" id="btn-study-prev" class="px-6 py-2.5 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition disabled:opacity-50">⬅ Câu Trước</button>
+                <div class="font-medium text-gray-600">
+                    Câu <span id="current-study-index" class="font-bold text-indigo-600">1</span> / <span id="total-study-num">162</span>
+                </div>
+                <button onclick="nextStudyQuestion()" id="btn-study-next" class="px-6 py-2.5 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition shadow-md">Câu Tiếp ➡</button>
             </div>
         </div>
 
@@ -111,6 +124,11 @@
         let questionsData = [];
         let currentTab = 'study';
         
+        // Trạng thái cho chế độ ôn tập
+        let filteredStudyQuestions = [];
+        let currentStudyIndex = 0;
+        let studyAnswered = false;
+        
         // Trạng thái cho bài thi
         let examQuestions = [];
         let currentExamIndex = 0;
@@ -128,6 +146,8 @@
                 document.getElementById('loading').classList.add('hidden');
                 document.getElementById('study-total-text').innerText = `Danh sách ôn tập (${questionsData.length} câu)`;
                 document.getElementById('exam-setup-total').innerText = `${questionsData.length} câu`;
+                
+                filteredStudyQuestions = [...questionsData];
                 
                 // Mặc định mở tab Study
                 switchTab('study');
@@ -151,7 +171,12 @@
                 examBtn.className = "px-4 py-2 rounded-md font-medium text-white hover:bg-indigo-700 transition";
                 studyContainer.classList.remove('hidden');
                 examContainer.classList.add('hidden');
-                renderStudyList();
+                
+                if (filteredStudyQuestions.length > 0) {
+                    renderSingleStudyQuestion();
+                } else {
+                    renderStudyList();
+                }
             } else {
                 examBtn.className = "px-4 py-2 rounded-md font-medium bg-white text-indigo-700 shadow-sm transition";
                 studyBtn.className = "px-4 py-2 rounded-md font-medium text-white hover:bg-indigo-700 transition";
@@ -162,41 +187,98 @@
         }
 
         function renderStudyList(filter = '') {
-            const container = document.getElementById('study-list');
-            container.innerHTML = '';
-            
-            const filtered = questionsData.filter(q => 
+            filteredStudyQuestions = questionsData.filter(q => 
                 q.question.toLowerCase().includes(filter.toLowerCase()) || 
                 (q.explanation && q.explanation.toLowerCase().includes(filter.toLowerCase()))
             );
             
-            filtered.forEach(q => {
-                let optionsHtml = q.options.map((opt, i) => 
-                    `<div class="p-3 bg-gray-50 rounded-lg text-gray-700 border border-gray-100 text-sm">
-                        <span class="font-bold mr-2 text-indigo-500">${String.fromCharCode(65 + i)}.</span> ${opt}
-                    </div>`
-                ).join('');
+            currentStudyIndex = 0;
+            
+            if (filteredStudyQuestions.length > 0) {
+                renderSingleStudyQuestion();
+            } else {
+                document.getElementById('study-active').innerHTML = `<p class="text-center text-gray-500 py-8">Không tìm thấy câu hỏi nào phù hợp.</p>`;
+                document.getElementById('total-study-num').innerText = 0;
+                document.getElementById('current-study-index').innerText = 0;
+                document.getElementById('btn-study-prev').disabled = true;
+                document.getElementById('btn-study-next').disabled = true;
+            }
+        }
 
-                let explanationHtml = q.explanation ? 
-                    `<div class="mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg text-sm text-green-900">
-                        <span class="font-bold">💡 Giải thích/Đáp án:</span><br/>${q.explanation}
-                    </div>` : '';
+        function renderSingleStudyQuestion() {
+            studyAnswered = false; // Reset trạng thái
+            const q = filteredStudyQuestions[currentStudyIndex];
+            
+            document.getElementById('total-study-num').innerText = filteredStudyQuestions.length;
+            document.getElementById('current-study-index').innerText = currentStudyIndex + 1;
+            
+            let optionsHtml = q.options.map((opt, i) => 
+                `<div id="study-opt-${i}" onclick="selectStudyAnswer(${i})" class="p-4 mb-3 border border-gray-200 rounded-xl cursor-pointer transition-all duration-200 hover:bg-gray-50 flex items-start gap-3">
+                    <span class="font-bold text-indigo-500 flex-shrink-0 mt-0.5">${String.fromCharCode(65 + i)}.</span> 
+                    <span class="text-gray-700">${opt}</span>
+                </div>`
+            ).join('');
 
-                container.innerHTML += `
-                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
-                        <div class="flex items-start gap-3 mb-4">
-                            <span class="flex-shrink-0 bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full">Câu ${q.id}</span>
-                            <h3 class="font-semibold text-gray-900 text-lg leading-relaxed">${q.question}</h3>
-                        </div>
-                        <div class="grid gap-2 mb-2 pl-2 sm:pl-12">
-                            ${optionsHtml}
-                        </div>
-                        <div class="pl-2 sm:pl-12">
-                            ${explanationHtml}
-                        </div>
+            let explanationHtml = `
+                <div id="study-explanation" class="hidden mt-6 p-5 bg-green-50 border border-green-200 rounded-xl text-green-900 fade-in shadow-sm">
+                    <div class="font-bold flex items-center gap-2 mb-2 text-green-800">
+                        <span class="text-xl">💡</span> Giải thích / Đáp án tài liệu:
                     </div>
-                `;
+                    <div class="text-sm leading-relaxed whitespace-pre-wrap">${q.explanation || '<span class="italic text-gray-500">Không có giải thích chi tiết trong tài liệu.</span>'}</div>
+                </div>
+            `;
+
+            document.getElementById('study-active').innerHTML = `
+                <div class="flex items-start gap-3 mb-6">
+                    <span class="flex-shrink-0 bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full mt-1">Câu ${q.id}</span>
+                    <h3 class="font-semibold text-gray-900 text-lg leading-relaxed">${q.question}</h3>
+                </div>
+                <div class="pl-2 sm:pl-12">
+                    ${optionsHtml}
+                    ${explanationHtml}
+                </div>
+            `;
+            
+            document.getElementById('btn-study-prev').disabled = currentStudyIndex === 0;
+            document.getElementById('btn-study-next').disabled = currentStudyIndex === filteredStudyQuestions.length - 1;
+        }
+        
+        function selectStudyAnswer(selectedIndex) {
+            if (studyAnswered) return;
+            studyAnswered = true; // Đánh dấu là đã trả lời
+            
+            // Xóa hiệu ứng hover và đóng băng các nút khác
+            const q = filteredStudyQuestions[currentStudyIndex];
+            q.options.forEach((_, i) => {
+                const optDiv = document.getElementById(`study-opt-${i}`);
+                optDiv.classList.remove('hover:bg-gray-50', 'cursor-pointer');
+                optDiv.classList.add('cursor-default');
+                if (i === selectedIndex) {
+                    // Nổi bật đáp án đã chọn
+                    optDiv.classList.remove('border-gray-200');
+                    optDiv.classList.add('border-indigo-500', 'bg-indigo-50', 'ring-2', 'ring-indigo-200');
+                } else {
+                    // Làm mờ các đáp án không chọn
+                    optDiv.classList.add('opacity-50');
+                }
             });
+            
+            // Hiển thị khung giải thích với hiệu ứng trượt xuống
+            document.getElementById('study-explanation').classList.remove('hidden');
+        }
+        
+        function nextStudyQuestion() {
+            if (currentStudyIndex < filteredStudyQuestions.length - 1) {
+                currentStudyIndex++;
+                renderSingleStudyQuestion();
+            }
+        }
+        
+        function prevStudyQuestion() {
+            if (currentStudyIndex > 0) {
+                currentStudyIndex--;
+                renderSingleStudyQuestion();
+            }
         }
 
         function filterStudyQuestions() {
