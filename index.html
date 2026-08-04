@@ -227,37 +227,82 @@
         
         function selectStudyAnswer(selectedIndex) {
             if (studyAnswered) return;
-            studyAnswered = true; 
+            // Xóa dòng 'studyAnswered = true;' để cho phép người dùng chọn lại nếu sai (tuỳ chọn)
+            // Nếu bạn muốn người dùng chỉ được chọn 1 lần duy nhất rồi phải qua câu khác, hãy giữ lại dòng đó.
+            // Để phục vụ việc "chỉ hiện giải thích khi chọn ĐÚNG", tôi sẽ cho phép chọn lại nếu sai.
             
             const q = filteredStudyQuestions[currentStudyIndex];
+            
+            // Xử lý hiển thị trạng thái Đúng/Sai
+            const hasCorrectAnswer = q.correctAnswerIndex !== undefined && q.correctAnswerIndex !== null;
+            let isCorrect = hasCorrectAnswer && (selectedIndex === q.correctAnswerIndex);
+
+            // Cập nhật giao diện các lựa chọn
             q.options.forEach((_, i) => {
                 const optDiv = document.getElementById(`study-opt-${i}`);
-                optDiv.classList.remove('hover:bg-gray-50', 'cursor-pointer');
-                optDiv.classList.add('cursor-default');
+                const textSpan = optDiv.querySelector('span.text-gray-700');
                 
-                // Nếu có đáp án chuẩn từ Excel (đã bôi vàng)
-                if (q.correctAnswerIndex !== undefined && q.correctAnswerIndex !== null) {
-                    if (i === q.correctAnswerIndex) {
-                        optDiv.classList.remove('border-gray-200');
-                        optDiv.classList.add('border-green-500', 'bg-green-50', 'ring-2', 'ring-green-200');
-                    } else if (i === selectedIndex) {
-                        optDiv.classList.remove('border-gray-200');
-                        optDiv.classList.add('border-red-500', 'bg-red-50'); // Chọn sai bôi đỏ
-                    } else {
-                        optDiv.classList.add('opacity-50');
+                // Xóa các trạng thái hiển thị cũ trước khi cập nhật mới
+                optDiv.classList.remove('border-green-500', 'bg-green-50', 'ring-2', 'ring-green-200', 'border-red-500', 'bg-red-50', 'border-indigo-500', 'bg-indigo-50');
+                optDiv.classList.add('border-gray-200');
+                
+                // Xóa các badge báo Đúng/Sai cũ nếu có
+                const existingBadge = textSpan.querySelector('.badge');
+                if (existingBadge) {
+                    existingBadge.remove();
+                }
+
+                if (hasCorrectAnswer) {
+                    if (i === selectedIndex) {
+                        if (isCorrect) {
+                            // Người dùng chọn đúng
+                            optDiv.classList.remove('border-gray-200');
+                            optDiv.classList.add('border-green-500', 'bg-green-50', 'ring-2', 'ring-green-200');
+                            textSpan.innerHTML += ` <span class="badge ml-2 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 shadow-sm border border-green-200">✅ Đúng!</span>`;
+                        } else {
+                            // Người dùng chọn sai
+                            optDiv.classList.remove('border-gray-200');
+                            optDiv.classList.add('border-red-500', 'bg-red-50');
+                            textSpan.innerHTML += ` <span class="badge ml-2 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800 shadow-sm border border-red-200">❌ Sai</span>`;
+                        }
                     }
                 } else {
-                    // Chạy kiểu cũ nếu câu hỏi không có ô nào tô vàng
+                    // Fallback nếu JSON bị thiếu đáp án
                     if (i === selectedIndex) {
                         optDiv.classList.remove('border-gray-200');
                         optDiv.classList.add('border-indigo-500', 'bg-indigo-50');
-                    } else {
-                        optDiv.classList.add('opacity-50');
+                        textSpan.innerHTML += ` <span class="badge ml-2 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800 shadow-sm border border-indigo-200">Đã chọn (Thiếu dữ liệu đáp án)</span>`;
                     }
                 }
             });
             
-            document.getElementById('study-explanation').classList.remove('hidden');
+            // Xử lý hiển thị phần Giải thích
+            const explanationDiv = document.getElementById('study-explanation');
+            if (isCorrect) {
+                studyAnswered = true; // Khóa không cho đổi đáp án nữa vì đã chọn đúng
+                
+                // Làm mờ các lựa chọn không phải đáp án đúng
+                q.options.forEach((_, i) => {
+                    const optDiv = document.getElementById(`study-opt-${i}`);
+                    if (i !== q.correctAnswerIndex) {
+                        optDiv.classList.add('opacity-50', 'cursor-default');
+                        optDiv.classList.remove('hover:bg-gray-50', 'cursor-pointer');
+                    } else {
+                        optDiv.classList.add('cursor-default');
+                        optDiv.classList.remove('hover:bg-gray-50', 'cursor-pointer');
+                    }
+                });
+                
+                // Hiển thị phần giải thích
+                if (explanationDiv) {
+                    explanationDiv.classList.remove('hidden');
+                }
+            } else {
+                 // Nếu chọn sai, ẩn giải thích đi (trường hợp trước đó có hiện)
+                 if (explanationDiv) {
+                    explanationDiv.classList.add('hidden');
+                }
+            }
         }
         
         function nextStudyQuestion() {
