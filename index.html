@@ -157,8 +157,9 @@
         function formatText(text) {
             if (!text) return "";
             if (displayLanguage === 'en') {
-                // Biểu thức chính quy (Regex) tìm và xoá đoạn chữ nằm trong () ở cuối câu
-                return text.replace(/\s*\([^)]+\)\s*$/, '').trim();
+                // Regex tìm và xoá đoạn chữ bắt đầu bằng '(' ở cuối câu,
+                // xử lý được cả trường hợp thiếu dấu ')' hoặc thừa nhiều dấu '))'
+                return text.replace(/\s*\([^)]*[\)\s]*$/, '').trim();
             }
             return text;
         }
