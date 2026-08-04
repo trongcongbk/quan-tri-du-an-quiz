@@ -8,6 +8,7 @@
             "The cumulative AC was 100, and the cumulative EV was 110 ( AC tích lũy là 100 và EV tích lũy là 110 )",
             "The cumulative AC was 110, and the cumulative EV was 100 ( AC tích lũy là 110 và EV tích lũy là 100 )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -19,6 +20,7 @@
             "Project charter ( Điều lệ dự án )",
             "Work breakdown structure (WBS) ( Cấu trúc phân chia công việc (WBS) )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -30,6 +32,7 @@
             "The application of knowledge, skills, wisdom, science, and art to organizational activities to achieve operational excellence ( Việc áp dụng kiến thức, kỹ năng, trí tuệ, khoa học và nghệ thuật vào các hoạt động của tổ chức để đạt được sự vận hành xuất sắc )",
             "A subset of most engineering and other technical disciplines ( Một tập hợp con của hầu hết các ngành kỹ thuật và kỹ thuật khác )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -41,6 +44,7 @@
             "Develop Project Staffing Plan, Recruit Project Team, Administer Personnel Actions, and Manage Labor Relations ( Xây dựng kế hoạch nhân sự dự án, tuyển dụng nhóm dự án, quản lý các hoạt động nhân sự và quản lý quan hệ lao động )",
             "Plan Resource Management, Estimate Activity Resources, Acquire Resources, Develop Team, Manage Team, and Control Resources ( Lập kế hoạch quản lý tài nguyên, Ước tính tài nguyên hoạt động, Thu thập tài nguyên, Phát triển nhóm, Quản lý nhóm và Kiểm soát tài nguyên )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -52,6 +56,7 @@
             "Conduct procurement surveillance ( Thực hiện giám sát mua sắm",
             "Develop a project management plan ( Xây dựng kế hoạch quản lý dự án )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": "Quản lý tích hợp dự án, PMBOK®Guide, trang 70, Giới thiệu; và trang 71, Hình 4 – 1"
     },
     {
@@ -63,6 +68,7 @@
             "Providing accurate criticism in the annual performance review or after the project is completed ( Đưa ra những lời phê bình chính xác trong đánh giá hiệu suất hàng năm hoặc sau khi dự án hoàn thành )",
             "Encouraging someone to act ( Khuyến khích ai đó hành động )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": "Chính xác. Động lực là đưa ra lý do để ai đó hành động. Các điều khoản được thúc đẩy bằng cách trao quyền cho họ tham gia vào việc ra quyết định và khuyến khích họ làm việc độc lập. Hướng dẫn PMBOK®, trang 341, Phần 9.4.2.4"
     },
     {
@@ -74,6 +80,7 @@
             "Ensuring that the receiver agrees with the message ( Đảm bảo rằng người nhận đồng ý với tin nhắn )",
             "Decoding the medium correctly ( Giải mã phương tiện chính xác )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -85,6 +92,7 @@
             "To identify best practices and generate ideas for improvement ( Để xác định các phương pháp hay nhất và tạo ra các ý tưởng để cải tiến )",
             "Within the performing organization or outside of it. ( Trong tổ chức thực hiện hoặc bên ngoài nó. )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -96,6 +104,7 @@
             "Evaluating the product breakdown structure (PBS) associated with each of the key stakeholders ( Đánh giá cấu trúc phân chia sản phẩm (PBS) được liên kết với từng bên liên quan chính )",
             "Capturing main expectations that stakeholders may have for the project. ( Nắm bắt những kỳ vọng chính mà các bên liên quan có thể có đối với dự án. )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -107,6 +116,7 @@
             "Identifying and developing project management methodology, best practices, and standards ( Xác định và phát triển phương pháp quản lý dự án, các phương pháp hay nhất và tiêu chuẩn )",
             "Coaching, mentoring, training, and oversight. ( Huấn luyện, cố vấn, đào tạo và giám sát"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -118,6 +128,7 @@
             "Process level ( Cấp độ quy trình )",
             "Cognitive level ( Mức độ nhận thức )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": "Tích hợp là một kỹ năng quan trọng đối với người quản lý dự án. Sự tích hợp diễn ra ở ba cấp độ khác nhau: quá trình, nhận thức và bối cảnh. PMBOK®Guide, trang 66 – 67, Phần 3. 5"
     },
     {
@@ -129,6 +140,7 @@
             "Interviewing, historical results, workarounds, and response development ( Phỏng vấn, kết quả lịch sử, cách giải quyết và phát triển phản ứng )",
             "Expert judgment, data gathering, simulations, and decision tree analysis ( Đánh giá của chuyên gia, thu thập dữ liệu, mô phỏng và phân tích cây quyết định )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": "Quá trình thực hiện Phân tích rủi ro định lượng có các công cụ và kỹ thuật sau, Hướng dẫn PMBOK®, trang 428-432, Mục 11.4.2; và trang 428, Hình 11-11"
     },
     {
@@ -140,6 +152,7 @@
             "Start-to-start, start-to-finish, finish-to-finish, finish-to- start. ( Bắt đầu để bắt đầu, bắt đầu để kết thúc, kết thúc để kết thúc, kết thúc để bắt đầu. )",
             "Primary-to-secondary, primary-to-finish, secondary- to-secondary, finish-to-finish ( Từ sơ cấp đến thứ cấp, từ sơ cấp đến kết thúc, từ thứ cấp đến thứ cấp, từ đầu đến cuối )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": "Chính xác. Kỹ thuật phân tích mạng lịch trình này tính toán ngày bắt đầu sớm, ngày kết thúc sớm, ngày bắt đầu muộn và ngày kết thúc muộn cho tất cả các hoạt động mà không tính đến bất kỳ hạn chế nguồn lực nào bằng cách thực hiện phân tích tiến và lùi thông qua mạng lịch trình, như trong Hình 6 – 18. Trong ví dụ này, đường đi dài nhất bao gồm các hoạt động A, C và D, do đó, trình tự A – C – D là đường đi quan trọng. Đường dẫn quan trọng là chuỗi các hoạt động đại diện cho con đường dài nhất thông qua một dự án, xác định thời gian dự án ngắn nhất có thể. PMBOK®Guide, trang 210 – 211, Phần 6. 5. 2. 2"
     },
     {
@@ -151,6 +164,7 @@
             "Competitive movements ( Phong trào cạnh tranh )",
             "Legal restrictions ( Hạn chế pháp lý )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -162,6 +176,7 @@
             "Monitor Stakeholder Engagement ( Giám sát sự tham gia của các bên liên quan )",
             "Control Stakeholder Engagement. ( Kiểm soát sự tham gia của các bên liên quan. )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": "Correct. The Project Stakeholder Management processes are as follows PMBOK® Guide, pages 503-504, Section 13 ( Chính xác. Các quy trình Quản lý các bên liên quan của Dự án như sau Hướng dẫn PMBOK®, trang 503-504, Phần 13 )"
     },
     {
@@ -173,6 +188,7 @@
             "Directing vs influencing ( Chỉ đạo vs gây ảnh hưởng )",
             "Accept status quo vs challenge status quo ( Chấp nhận hiện trạng và thách thức hiện trạng )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": "Quản lý từ ngữ có liên quan chặt chẽ hơn với việc chỉ đạo người khác đi từ điểm này sang điểm khác bằng cách sử dụng một tập hợp các hành vi dự kiến đã biết. Ngược lại, lãnh đạo liên quan đến việc làm việc với người khác thông qua thảo luận hoặc tranh luận để hướng dẫn họ từ điểm này đến điểm khác. Phương pháp mà người quản lý dự án chọn sử dụng sẽ bộc lộ sự khác biệt rõ rệt trong hành vi, nhận thức về bản thân và vai trò của dự án. Bảng 3 – 1 so sánh quản lý và lãnh đạo ở một số cấp độ quan trọng. Người quản lý dự án cần sử dụng cả khả năng lãnh đạo và quản lý để thành công"
     },
     {
@@ -184,6 +200,7 @@
             "Meet standards of performance for the project team ( Đáp ứng các tiêu chuẩn về hiệu suất của nhóm dự án )",
             "Improve process capability ( Cải thiện khả năng xử lý )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": "Quản lý chất lượng dự án bao gồm các quy trình kết hợp chính sách chất lượng của tổ chức liên quan đến việc lập kế hoạch, quản lý và kiểm soát các yêu cầu về chất lượng sản phẩm và dự án nhằm đáp ứng mục tiêu của các bên liên quan. Quản lý chất lượng dự án cũng hỗ trợ các hoạt động cải tiến quy trình liên tục được thực hiện thay mặt cho tổ chức thực hiện. Hướng dẫn PMBOK®, Giới thiệu, trang 271"
     },
     {
@@ -195,6 +212,7 @@
             "The WBS is a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables ( WBS là sự phân chia theo cấp bậc của tổng phạm vi công việc mà nhóm dự án sẽ thực hiện để hoàn thành các mục tiêu của dự án và tạo ra các sản phẩm bàn giao được yêu cầu. )",
             "The WBS is the bill of materials (BOM) needed to accomplish the project objectives and create the required deliverables ( WBS là bảng kê nguyên vật liệu (BOM) cần thiết để hoàn thành các mục tiêu của dự án và tạo ra các sản phẩm bàn giao cần thiết"
         ],
+        "correctAnswerIndex": 2,
         "explanation": "Tạo WBS Tạo WBS là quá trình chia nhỏ các sản phẩm bàn giao của dự án và công việc của dự án thành các thành phần nhỏ hơn, dễ quản lý hơn. Lợi ích chính của quá trình này là nó cung cấp một khuôn khổ về những gì phải được chuyển giao. Quá trình này được thực hiện một lần hoặc tại các điểm được xác định trước trong dự án. WBS tổ chức và xác định phạm vi tổng thể của dự án và thể hiện công việc được chỉ định trong tuyên bố phạm vi dự án hiện được phê duyệt. Hướng dẫn PMBOK®, trang 156 – 157, Phần 5. 4"
     },
     {
@@ -206,6 +224,7 @@
             "Inputting project performance data into a spreadsheet or database ( Nhập dữ liệu hiệu suất dự án vào bảng tính hoặc cơ sở dữ liệu )",
             "Electronic communications management ( Quản lý truyền thông điện tử )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": "Chính xác. Được mô tả trong Phần 4.3.2.2, hệ thống thông tin quản lý dự án có thể đảm bảo rằng các bên liên quan có thể dễ dàng truy xuất thông tin họ cần một cách kịp thời. Thông tin dự án được quản lý và phân phối bằng nhiều công cụ khác nhau, PMBOK®Guide, trang 385, Mục 10.2.2.4"
     },
     {
@@ -217,6 +236,7 @@
             "Higher than the cumulative PV ( Cao hơn PV tích lũy )",
             "Lower than the cumulative PV ( Thấp hơn PV tích lũy )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -228,6 +248,7 @@
             "Communications register ( Đăng ký truyền thông )",
             "Concise expression ( Diễn đạt ngắn gọn )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -239,6 +260,7 @@
             "Retrospectives ( Hồi tưởng )",
             "Risk-based spikes ( Đột biến dựa trên rủi ro )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -250,6 +272,7 @@
             "Conduct a communication requirements analysis ( Tiến hành phân tích yêu cầu giao tiếp )",
             "Consult the stakeholder engagement plan ( Tham khảo kế hoạch tham gia của các bên liên quan )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -261,6 +284,7 @@
             "Ask the team to forward all stakeholder inquiries to you so that the team members can focus on their assigned tasks ( Yêu cầu nhóm chuyển tiếp mọi thắc mắc của các bên liên quan đến bạn để các thành viên trong nhóm có thể tập trung vào nhiệm vụ được giao )",
             "Review the communications management plan to understand how stakeholder requests should be handled ( Xem lại kế hoạch quản lý truyền thông để hiểu cách xử lý yêu cầu của các bên liên quan )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -272,6 +296,7 @@
             "C",
             "D"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -283,6 +308,7 @@
             "Researching the stakeholder register ( Nghiên cứu sổ đăng ký các bên liên quan )",
             "Creating the risk report ( Tạo báo cáo rủi ro )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -294,6 +320,7 @@
             "Review procurement documentation ( Xem xét tài liệu đấu thầu )",
             "Check the probability and impact matrix ( Xây dựng sổ đăng ký đấu thầu )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -305,6 +332,7 @@
             "Validate with the team that the information was captured and facilitate feedback discussions ( Xác thực với nhóm rằng thông tin đã được nắm bắt và tạo điều kiện cho các cuộc thảo luận phản hồi )",
             "Mandate that all project team members update the information radiators after each ceremony ( Yêu cầu tất cả các thành viên trong nhóm dự án cập nhật bộ truyền thông tin sau mỗi buổi lễ )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -316,6 +344,7 @@
             "Prepare a formal written document ( Chuẩn bị một văn bản chính thức )",
             "Utilize formal verbal communication ( Sử dụng giao tiếp bằng lời nói chính thức )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -327,6 +356,7 @@
             "Communicate to the project sponsor that work may be delayed due to clerical errors ( Thông báo với nhà tài trợ dự án rằng công việc có thể bị trì hoãn do lỗi văn thư )",
             "Recognize that the risk has now become an issue and implement the planned response ( Nhận biết rằng rủi ro hiện đã trở thành vấn đề và thực hiện phản ứng theo kế hoạch )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -338,6 +368,7 @@
             "Ask the team to forward all stakeholder inquiries to you so that the team members can focus on their assigned tasks ( Yêu cầu nhóm chuyển tiếp mọi thắc mắc của các bên liên quan đến bạn để các thành viên trong nhóm có thể tập trung vào nhiệm vụ được giao )",
             "Review the communications management plan to understand how stakeholder requests should be handled ( Xem lại kế hoạch quản lý truyền thông để hiểu cách xử lý yêu cầu của các bên liên quan )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -349,6 +380,7 @@
             "-2 billion (-2 tỷ )",
             "10.8 billion (10.8 tỷ"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -360,6 +392,7 @@
             "Influence/Impact Grid ( Lưới ảnh hưởng/tác động )",
             "Salience Mode ( Chế độ nổi bật )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -371,6 +404,7 @@
             "Accept risks ( Chấp nhận rủi ro )",
             "Active listening ( Tích cực lắng nghe )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -382,6 +416,7 @@
             "Diversity of stakeholders ( Sự đa dạng của các bên liên quan )",
             "Identify all stakeholders ( Xác định tất cả các bên liên quan )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -393,6 +428,7 @@
             "Controlling stakeholder engagement ( Kiểm soát sự tham gia của các bên liên quan )",
             "Managing stakeholder engagement ( Quản lý sự tham gia của các bên liên quan )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -404,6 +440,7 @@
             "Interests ( Hứng thú )",
             "Influence ( Ảnh hưởng )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -415,6 +452,7 @@
             "Neutral ( Trung lập )",
             "Unaware ( Không biết )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -426,6 +464,7 @@
             "Start the development of the Stakeholder Engagement Plan ( Bắt đầu xây dựng Kế hoạch gắn kết các bên liên quan )",
             "Execute the stakeholder engagement strategy as laid out in the stake register ( Thực hiện chiến lược gắn kết các bên liên quan như được nêu trong sổ đăng ký cổ phần )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -437,6 +476,7 @@
             "The team plans the project. ( Nhóm lên kế hoạch cho dự án. )",
             "Management knows how other managers will act on the project. ( Ban quản lý biết những người quản lý khác sẽ hành động như thế nào đối với dự án. )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -448,6 +488,7 @@
             "Determine options for recommended corrective action. ( Xác định các lựa chọn cho hành động khắc phục được đề xuất. )",
             "Apply the Delphi Technique. ( Áp dụng kỹ thuật Delphi. )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -459,6 +500,7 @@
             "Risk response planning ( Lập kế hoạch ứng phó rủi ro )",
             "Monitor and control risks ( Giám sát và kiểm soát rủi ro )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -470,6 +512,7 @@
             "Generating the risk report ( Tạo báo cáo rủi ro )",
             "Examining the risk register ( Kiểm tra sổ đăng ký rủi ro )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -481,6 +524,7 @@
             "Determine options for recommended corrective action ( Xác định các lựa chọn cho hành động khắc phục được đề xuất )",
             "Apply the Delphi Technique ( Xác định các lựa chọn cho hành động khắc phục được đề xuất )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -492,6 +536,7 @@
             "Avoid the risk ( Tránh rủi ro )",
             "Transfer the risk ( Chuyển giao rủi ro )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -503,6 +548,7 @@
             "Contingency plan ( Kế hoạch dự phòng )",
             "Unmanageable risks ( Rủi ro khó quản lý )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -514,6 +560,7 @@
             "Remaining risk ( Rủi ro còn lại )",
             "Risk is accepted ( Rủi ro được chấp nhận )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -525,6 +572,7 @@
             "Work around ( Làm việc xung quanh )",
             "Accepting the consequences passively. ( Chấp nhận hậu quả một cách thụ động. )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -536,6 +584,7 @@
             "Make a risk contingency plan ( Lập kế hoạch dự phòng rủi ro )",
             "Passively accept the consequences. ( Chấp nhận hậu quả một cách thụ động.)"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -547,6 +596,7 @@
             "Develop a stakeholder register ( Phát triển sổ đăng ký các bên liên quan )",
             "Review requirements documents ( Xem xét các tài liệu yêu cầu )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -558,6 +608,7 @@
             "Clear purpose directed at meeting the needs of the reader ( Mục đích rõ ràng hướng tới việc đáp ứng nhu cầu của người đọc )",
             "Communications register ( Đăng ký truyền thông )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -569,6 +620,7 @@
             "The recipient must first confirm and then agree with the message sent by the sender. ( Người nhận trước tiên phải xác nhận và sau đó đồng ý với tin nhắn do người gửi gửi. )",
             "The recipient should send a response message to the sender. ( Người nhận sẽ gửi tin nhắn phản hồi cho người gửi. )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -580,6 +632,7 @@
             "45",
             "36"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -591,6 +644,7 @@
             "Compromise ( Thỏa hiệp )",
             "Problem solving ( Giải quyết vấn đề )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -602,6 +656,7 @@
             "70",
             "90"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -613,6 +668,7 @@
             "The Manage Quality process to ensure compliance with project quality requirements. ( Quy trình Quản lý Chất lượng để đảm bảo tuân thủ các yêu cầu về chất lượng của dự án. )",
             "Process analysis to identify opportunities for process improvements ( Phân tích quy trình để xác định các cơ hội cải tiến quy trình )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -624,6 +680,7 @@
             "Collaborate or problem solve ( Hợp tác hoặc giải quyết vấn đề )",
             "Compromise or reconcile ( Thỏa hiệp hay hòa giải"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -635,6 +692,7 @@
             "Utilizing rolling wave planning for the project ( Sử dụng kế hoạch cuốn chiếu cho dự án )",
             "Adopting a just-in-time (JIT) manufacturing process ( Áp dụng quy trình sản xuất đúng lúc )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -646,6 +704,7 @@
             "Determine quality metrics ( Xác định các chỉ số chất lượng )",
             "Revise the lessons learned register ( Kiểm tra lại bài học đã học )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -657,6 +716,7 @@
             "Quality diagram ( Sơ đồ chất lượng",
             "Matrix diagram ( Sơ đồ ma trận )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -668,6 +728,7 @@
             "The team charter is required by the project management office (PMO) for all projects ( Văn phòng quản lý dự án (PMO) yêu cầu điều lệ nhóm cho tất cả các dự án )",
             "As long as everyone is in agreement, then let's skip the team charter and get ahead of schedule ( Chỉ cần mọi người đồng ý thì bỏ qua điều lệ đội và hoàn thành trước tiến độ )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -679,6 +740,7 @@
             "Pareto effect ( Hiệu ứng Pareto )",
             "Halo effect ( hiệu ứngalo )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -690,6 +752,7 @@
             "C",
             "D"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -701,6 +764,7 @@
             "Creating a quality report ( Tạo a môt báo cáo chất lượng",
             "Performing a root cause analysis ( Thực hiện phân tích nguyên nhân gốc rễ )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -712,6 +776,7 @@
             "Outsourcing the welding to an external vendor ( Gia công công việc hàn cho nhà cung cấp bên ngoài )",
             "Defects are part of any project and cannot be avoided. ( Khiếm khuyết là một phần của bất kỳ dự án nào và không thể tránh khỏi. )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -723,6 +788,7 @@
             "Discuss Kanban during a daily standup meeting ( Thảo luận về Kanban trong cuộc họp dự kiến hàng ngày )",
             "Review Kanban at the iteration retrospective ( Xem lại Kanban trong quá trình hồi cứu quá trình lặp lại )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -734,6 +800,7 @@
             "Responsible, Accountable, Consulted, and Inform ( Chịu trách nhiệm, giải trình, được tư vấn và thông báo )",
             "Responsible, Accountable, Consulted, and Informed. ( Có trách nhiệm, có trách nhiệm, được tư vấn và thông báo. )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -745,6 +812,7 @@
             "Update the risk register ( Cập nhật sổ đăng ký rủi ro )",
             "Request additional funds ( Yêu cầu thêm tiền vốn )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -756,6 +824,7 @@
             "Functional organization ( Tổ chức chức năng )",
             "Balanced matrix. ( Ma trận cân bằng. )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -767,6 +836,7 @@
             "social belonging ( Thuộc về xã hội )",
             "safety. ( Sự an toàn )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -778,6 +848,7 @@
             "McGregory theory of X and Y ( Lý thuyết McGregory về X và Y )",
             "Herzberg theory ( Lý thuyết Herzberg )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -789,6 +860,7 @@
             "Adopting a just-in-time (JIT) manufacturing process ( Áp dụng quy trình sản xuất đúng lúc (JIT) )",
             "Consulting with a certified Six Sigma Black Belt expert ( Tư vấn với chuyên gia Đai đen Six Sigma được chứng nhận )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -800,6 +872,7 @@
             "Regression analysis ( Phân tích hồi quy )",
             "Monte Carlo Analysis ( Phân tích Monte Carlo )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -811,6 +884,7 @@
             "To check the accuracy of expenses submitted by the group ( Kiểm tra tính chính xác của các khoản chi do nhóm nộp )",
             "To identify ineffective and ineffective policies. ( Để xác định các chính sách không hiệu quả và không hiệu quả. )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -822,6 +896,7 @@
             "Applicable only to specific areas of the project ( Chỉ áp dụng cho các khu vực cụ thể của dự án )",
             "Only necessary when stakeholders agree on quality characteristics. ( Chỉ cần thiết khi các bên liên quan đồng ý về đặc tính chất lượng. )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -833,6 +908,7 @@
             "Trend analysis ( Phân tích xu hướng )",
             "Fishbone chart ( Biểu đồ xương cá )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -844,6 +920,7 @@
             "Statistical sampling ( Lấy mẫu thống kê )",
             "Fishbone chart ( Biểu đồ xương cá )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -855,6 +932,7 @@
             "Control scope ( Kiểm soát phạm vi )",
             "Close scope ( Đóng phạm vi )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -866,6 +944,7 @@
             "Determine why the sponsor wants such an accurate estimate ( Xác định lý do tại sao nhà tài trợ muốn ước tính chính xác như vậy )",
             "Try to convince the sponsor to allow expert evaluation as it is usually more accurate. ( Cố gắng thuyết phục nhà tài trợ cho phép đánh giá của chuyên gia vì nó thường chính xác hơn. )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -877,6 +956,7 @@
             "Loss of 60.000USD ( Mất 60.000USD )",
             "Loss of 40.000USD ( Mất 40.000USD )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -888,6 +968,7 @@
             "The project would cost 73% less than originally planned",
             "The project is only getting $0.73 out of every $1 spent"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -899,6 +980,7 @@
             "Lack of stakeholder support ( Thiếu sự hỗ trợ các bên liên quan )",
             "Excess inventory. ( Hàng tồn kho dư thừa )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -910,6 +992,7 @@
             "Method of performance measurement for projects. ( Phương pháp đo lường hiệu quả dự án. )",
             "Method of measuring the amount of money that has been spent on the project to date .( Phương pháp đo lường số tiền đã chi cho dự án tính đến thời điểm hiện tại"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -921,6 +1004,7 @@
             "AC minus EV. ( AC trừ EV )",
             "PV minus EV . ( PV trừ EV )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -932,6 +1016,7 @@
             "Qualitative basis ( Cơ sở định tính )",
             "Economic basis ( Cơ sở kinh tế )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -943,6 +1028,7 @@
             "Use management reserves ( Sử dụng dự trữ quản lý )",
             "Review organisational process assets ( Xem xét tài sản quy trình tổ chức )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -954,6 +1040,7 @@
             "Consider additional enterprise environmental factors ( Xem xét bổ sung các yếu tố môi trường doanh nghiệp )",
             "Include additional organisational process assets ( Bao gồm nội dung quy trình tổ chức bổ sung )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -965,6 +1052,7 @@
             "Influencing the factors that create changes to the authorised cost baseline. ( Ảnh hưởng đến các yếu tố tạo ra sự thay đổi về cơ sở chi phí được phê duyệt. )",
             "Allocating the overall estimates to individual work packages to establish a cost baseline. ( Phân bổ dự toán tổng thể cho từng gói công việc để thiết lập đường cơ sở chi phí. )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -976,6 +1064,7 @@
             "600",
             "-600"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -987,6 +1076,7 @@
             "325000",
             "360000"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -998,6 +1088,7 @@
             "Expert judgement ( Đánh giá chuyên môn )",
             "Historical relationships ( Mối quan hệ lịch sử"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1009,6 +1100,7 @@
             "$60,000",
             "$10,000"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1020,6 +1112,7 @@
             "The project is under budget. ( Dự án dưới ngân sách )",
             "The project is ahead of schedule. ( Dự án đang vượt tiến độ )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1031,6 +1124,7 @@
             "Availability of resources assigned to perform project activities ( Sự sẵn có của các nguồn lực được giao để thực hiện các hoạt động của dự án )",
             "The level of effort for an activity ( Mức độ nỗ lực cho một hoạt động )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1042,6 +1136,7 @@
             "More accurate than the critical path method for scheduling when there are uncertainties about the durations of project activities ( Chính xác hơn phương pháp đường găng để lập kế hoạch khi có sự không chắc chắn về thời lượng của các hoạt động dự án )",
             "A method that use a probabilistic approach to scheduling project activities. ( Một phương pháp sử dụng phương pháp xác suất để lập kế hoạch cho các hoạt động của dự án. )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1053,6 +1148,7 @@
             "Business requirements are not stable. ( Yêu cầu kinh doanh không ổn định. )",
             "Solution requirements are emerging all the time ( Các yêu cầu về giải pháp luôn xuất hiện )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1064,6 +1160,7 @@
             "To involve the team in group activities to facilitate teamwork, which builds an integrated project organizational structure ( Thu hút nhóm vào các hoạt động nhóm để tạo điều kiện làm việc nhóm, xây dựng cơ cấu tổ chức dự án tích hợp )",
             "To complete the project charter and seek formal approval from the sponsor of the project ( Hoàn thiện điều lệ dự án và xin phê duyệt chính thức từ nhà tài trợ dự án )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1075,6 +1172,7 @@
             "Harmonizing PMOs that strive to reduce conflict and improve harmony among project team members ( Hài hòa các PMO nhằm giảm xung đột và cải thiện sự hài hòa giữa các thành viên trong nhóm dự án )",
             "Controlling PMOs that provide support and require compliance through various means ( Kiểm soát các PMO cung cấp hỗ trợ và yêu cầu tuân thủ thông qua nhiều phương tiện khác nhau )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1086,6 +1184,7 @@
             "On a construction project, to erect the superstructure only after the foundation has been built ( Trong dự án xây dựng, chỉ được dựng phần thân trên sau khi đã thi công xong phần móng )",
             "A dependency established based on some unusual aspect of the project where a specific sequence is desired ( Một sự phụ thuộc được thiết lập dựa trên một số khía cạnh bất thường của dự án trong đó mong muốn có một trình tự cụ thể )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1097,6 +1196,7 @@
             "It is used by the project manager and the project management team primarily to generate presentations to key stakeholders. ( Nó được người quản lý dự án và nhóm quản lý dự án sử dụng chủ yếu để tạo ra các bài thuyết trình cho các bên liên quan chính. )",
             "Automated gathering and reporting on key performance indicators (KPIs) can be part of this system ( Việc thu thập và báo cáo tự động về các chỉ số hiệu suất chính (KPI) có thể là một phần của hệ thống này"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1108,6 +1208,7 @@
             "Strengths, weaknesses, opportunities, and threats (SWOT) of key stakeholders and their impact on the WBS ( Điểm mạnh, điểm yếu, cơ hội và mối đe dọa (SWOT) của các bên liên quan chính và tác động của chúng đối với WBS",
             "Detailed deliverable, activity, and scheduling information about each component in the WBS ( Thông tin chi tiết về khả năng phân phối, hoạt động và lập kế hoạch về từng thành phần trong WBS )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1119,6 +1220,7 @@
             "Following the plan outlined in the Quality Management process ( Tuân theo kế hoạch được nêu trong quy trình Quản lý Chất lượng )",
             "As part of the Close Project or Phase process. ( Là một phần của quy trình Đóng dự án hoặc Giai đoạn. )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1130,6 +1232,7 @@
             "Focus is maintained on long-term objectives, allowing near-term objectives to be rolled out as part of the ongoing wave of activities. ( Trọng tâm được duy trì vào các mục tiêu dài hạn, cho phép triển khai các mục tiêu ngắn hạn như một phần của làn sóng hoạt động đang diễn ra. )",
             "A wave of detailed activities is planned during strategic planning to ensure that WBS deliverables and project milestones are achieved ( Một loạt các hoạt động chi tiết được lên kế hoạch trong quá trình lập kế hoạch chiến lược để đảm bảo đạt được các mục tiêu của WBS và các cột mốc quan trọng của dự án"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1141,6 +1244,7 @@
             "Developing finely tuned skills using multiple methods of communication ( Phát triển các kỹ năng tinh chỉnh bằng nhiều phương pháp giao tiếp )",
             "Calculating the potential number of communication channels accurately. (Tính toán chính xác số lượng kênh giao tiếp tiềm năng.)"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1152,6 +1256,7 @@
             "To define the level of reporting that the seller provides the buyer. ( Để xác định mức độ báo cáo mà người bán cung cấp cho người mua. )",
             "As a record of when work elements are assigned to individuals. ( Là bản ghi thời điểm các thành phần công việc được giao cho các cá nhân. )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1163,6 +1268,7 @@
             "It is the ability to get things done through others. (Khả năng hoàn thành công việc thông qua những người khác.)",
             "Respect and trust, rather than fear and submission, are the key elements of effective leadership. (Sự tôn trọng và lòng tin, thay vì nỗi sợ hãi và sự phục tùng, là những yếu tố then chốt của một năng lực lãnh đạo hiệu quả.)"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1174,6 +1280,7 @@
             "A formal or informal group of stakeholders that has oversight of project execution. ( Một nhóm các bên liên quan chính thức hoặc không chính thức có vai trò giám sát việc thực hiện dự án. )",
             "A dashboard that provides integrated information to help control changes to cost, schedule, and specifications throughout the life of the project (Một bảng điều khiển cung cấp thông tin tích hợp để giúp kiểm soát các thay đổi về chi phí, tiến độ và các đặc tính kỹ thuật xuyên suốt vòng đời của dự án)"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1185,6 +1292,7 @@
             "Expert judgment (  Đánh giá của chuyên gia )",
             "Three-point estimating ( Ước tính ba điểm )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1196,6 +1304,7 @@
             "Resource breakdown structure ( Cấu trúc phân chia tài nguyên )",
             "Organizational breakdown structure ( Cơ cấu tổ chức phân chia )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1207,6 +1316,7 @@
             "Implement the corrective action ( Thực hiện hành động khắc phục )",
             "Consult the project sponsor ( Tham khảo ý kiến nhà tài trợ dự án )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1218,6 +1328,7 @@
             "Initiating and closing a project ( Khởi tạo và kết thúc một dự án )",
             "Implementing approved change requests ( Thực hiện các yêu cầu thay đổi đã được phê duyệt )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1229,6 +1340,7 @@
             "Progressive elaboration ( Phát triển dần dần )",
             "Product breakdown ( Phân chia sản phẩm )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1240,6 +1352,7 @@
             "How requirement activities will be planned, tracked, and reported ( Các hoạt động yêu cầu sẽ được lập kế hoạch, theo dõi và báo cáo như thế nào",
             "A process that describes how the project requirements will be prioritized ( Một quy trình mô tả các yêu cầu của dự án sẽ được ưu tiên như thế nào )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1251,6 +1364,7 @@
             "Use product analysis techniques such as product breakdown and systems analysis to decompose the system testing work package ( Sử dụng các kỹ thuật phân tích sản phẩm như phân tích sản phẩm và phân tích hệ thống để phân tách gói công việc kiểm thử hệ thống )",
             "Break down the project into multiple phases so that the system testing work package goes into the second project phase ( Chia dự án thành nhiều giai đoạn để gói công việc kiểm thử hệ thống chuyển sang giai đoạn dự án thứ hai )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1262,6 +1376,7 @@
             "Conduct a project kick-off meeting to inform and engage stakeholders and gain commitment ( Tiến hành cuộc họp khởi động dự án để thông báo và thu hút các bên liên quan cũng như đạt được cam kết )",
             "Share the project scope statement with the project team for a common understanding of project deliverables ( Chia sẻ tuyên bố phạm vi dự án với nhóm dự án để có sự hiểu biết chung về các sản phẩm bàn giao của dự án )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1273,6 +1388,7 @@
             "The scope management plan ( Kế hoạch quản lý phạm vi )",
             "The work breakdown structure (WBS) ( Cấu trúc phân chia công việc (WBS) )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1284,6 +1400,7 @@
             "Analyzing change requests and either approving or rejecting them ( Phân tích các yêu cầu thay đổi và phê duyệt hoặc từ chối chúng )",
             "Gaining formal acceptance of the deliverables by the customer or sponsor ( Đạt được sự chấp nhận chính thức của khách hàng hoặc nhà tài trợ về sản phẩm bàn giao )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1295,6 +1412,7 @@
             "Schedule a focus group ( Lên lịch cho một nhóm tập trung )",
             "Invite the relevant participants to the daily scrum meetings ( Mời những người tham gia liên quan tới các cuộc họp scrum hàng ngày"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1306,6 +1424,7 @@
             "Crash the project. (Nén tiến độ dự án bằng cách tăng cường nguồn lực.)",
             "Perform Monte Carlo analysis ( Thực hiện phân tích Monte Carlo )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1317,6 +1436,7 @@
             "Is progressing well. ( Đang tiến triển tốt )",
             "Is not on the critical path. ( Không nằm trên lộ trình quan trọng )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1328,6 +1448,7 @@
             "finish-to-start ( Kết thúc tới bắt đầu )",
             "finish-to-finish ( Kết thúc tới kết thúc )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1339,6 +1460,7 @@
             "CDGIR",
             "EFGIR"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1350,6 +1472,7 @@
             "15 days ( 15 ngày )",
             "25.5 days ( 25.5 ngày )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1361,6 +1484,7 @@
             "A manager acting as project coordinator. ( Một người quản lý đóng vai trò điều phối viên dự án )",
             "a change control system. ( Hệ thống kiểm soát sự thay đổi )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1372,6 +1496,7 @@
             "Project scope statement ( Báo cáo phạm vi dự án )",
             "Scope management plan ( Kế hoạch quản lý phạm vi )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1383,6 +1508,7 @@
             "Tell the stakeholders the scope cannot be added. ( Nói với các bên liên quan về phạm vi không thể được thêm vào )",
             "Add the work if there is time available in the project schedule. ( Thêm công việc nếu có sẵn thời gian trong lịch trình dự án )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1394,6 +1520,7 @@
             "Provide a hierarchical structure for each WBS element ( Cung cấp cấu trúc phân cấp cho từng thành phần WBS )",
             "Present risks of the project ( Rủi ro hiện tại của dự án )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1405,6 +1532,7 @@
             "Expert Judgment ( Đánh giá của chuyên gia )",
             "Inspection ( Sự điều tra )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1416,6 +1544,7 @@
             "Affinity Diagram ( Sơ đồ mối quan hệ )",
             "Multi-criteria Decision Analysis ( Phân tích quyết định đa tiêu chí )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1427,6 +1556,7 @@
             "Refer to the project charter ( Tham khảo điều lệ dự án )",
             "Contact the previous Project Manager ( Liên hệ với quản lý dự án trước )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1438,6 +1568,7 @@
             "Ruin your project ( Làm hỏng dự án của bạn )",
             "Ask your manager how the new project will affect your project ( Hãy hỏi người quản lý của bạn xem dự án mới sẽ ảnh hưởng đến dự án của bạn như thế nào )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1449,6 +1580,7 @@
             "Historical information ( Thông tin lịch sử )",
             "Configuration management ( Quản lý cấu hình )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1460,6 +1592,7 @@
             "D. It shows the organizational commitment to the project ( Nó thể hiện sự cam kết tổ chức với dự án )",
             "B. It creates a formal record of the project ( Nó tạo ra một bản ghi chính thức của dự án )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1471,6 +1604,7 @@
             "Benefits management plan ( Kế hoạch quản lý lợi ích )",
             "Project charter ( Điều lệ dự án )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1482,6 +1616,7 @@
             "To communicate the objectives of the project ( Để truyền đạt mục tiêu của dự án )",
             "To formally authorize the existence of the project ( Để chính thức cho phép sự tồn tại của dự án )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1493,6 +1628,7 @@
             "Large projects with significant cost and resource requirements. (Các dự án lớn với yêu cầu đáng kể về chi phí và nguồn lực.)",
             "Group of related tasks lasting one year or less. (Nhóm các nhiệm vụ liên quan có thời gian kéo dài từ một năm trở xuống.)"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1504,6 +1640,7 @@
             "Collect Requirements (Thu thập những yêu cầu )",
             "Define Scope (Xác định phạm vi)"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1515,6 +1652,7 @@
             "Customers (Các khách hàng )",
             "Project Team (Nhóm dự án )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1526,6 +1664,7 @@
             "An ongoing endeavor undertaken to meet customer or market requirements. (Một nỗ lực liên tục được thực hiện nhằm đáp ứng các yêu cầu của khách hàng hoặc thị trường.)",
             "A temporary endeavor undertaken to create a unique product, service, or result. (Một nỗ lực tạm thời được thực hiện nhằm tạo ra một sản phẩm, dịch vụ hoặc kết quả duy nhất.)"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1537,6 +1676,7 @@
             "Close Project or Phase ( Đóng dự án hoặc giai đoạn )",
             "Control Scope ( Kiểm soát phạm vi )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1548,6 +1688,7 @@
             "Striving to obtain acceptable customer/end-user adoption. (Nỗ lực đạt được mức độ đón nhận/áp dụng hợp lý từ phía khách hàng/người dùng cuối.)",
             "Achieving stakeholder satisfaction ( Đạt được sự hài lòng từ các bên liên quan )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1559,6 +1700,7 @@
             "Techniques ( Kỹ thuật )",
             "Relationships ( Mối quan hệ )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1570,6 +1712,7 @@
             "Develop Project Management Plan (Phát triển kế hoạch quản lý dự án )",
             "Define Scope (Xác định phạm vi)"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1581,6 +1724,7 @@
             "Assisting in business analysis, business case development, and aspects of portfolio management for a project. (Hỗ trợ phân tích kinh doanh, phát triển phương án kinh doanh và các khía cạnh quản lý danh mục đầu tư cho một dự án.)",
             "Consulting with business leaders on advancing strategic objectives. (Tham vấn cho các nhà lãnh đạo doanh nghiệp về việc thúc đẩy các mục tiêu chiến lược.)"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1592,6 +1736,7 @@
             "Closing ( Đóng )",
             "Execution ( Thực hiện )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1603,6 +1748,7 @@
             "49",
             "51"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1614,6 +1760,7 @@
             "12",
             "13"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1623,6 +1770,7 @@
             "Yes ( Đúng )",
             "No ( Không )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1634,6 +1782,7 @@
             "9",
             "6"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1645,6 +1794,7 @@
             "9",
             "5"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1656,6 +1806,7 @@
             "9",
             "8"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1667,6 +1818,7 @@
             "9",
             "7"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1678,6 +1830,7 @@
             "9",
             "8"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1689,6 +1842,7 @@
             "9",
             "8"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1700,6 +1854,7 @@
             "The stakeholder register ( Đăng ký của các bên liên quan )",
             "The enterprise environmental factors ( Những yếu tố môi trường doanh nghiệp )"
         ],
+        "correctAnswerIndex": 2,
         "explanation": ""
     },
     {
@@ -1711,6 +1866,7 @@
             "You will pass on some confidential information to him ( Bạn sẽ chuyển một số thông tin bí mật cho anh ấy )",
             "You will disclose this relationship to your manager ( Bạn sẽ tiết lộ mối quan hệ này với quản lý của bạn )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1722,6 +1878,7 @@
             "Planning ( Lên kế hoạch )",
             "Executing ( Đang thực hiện )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1733,6 +1890,7 @@
             "Develop Project Charter ( Phát triển các điều lệ dự án )",
             "Identify Risks ( Xác định rủi ro )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1744,6 +1902,7 @@
             "The requirements management plan ( Kế hoạch quản lý những yêu cầu )",
             "The requirements traceability matrix ( Ma trận truy xuất nguồn gốc yêu cầu )"
         ],
+        "correctAnswerIndex": 3,
         "explanation": ""
     },
     {
@@ -1755,6 +1914,7 @@
             "Start identifying stakeholders so that you can engage them as required for project planning ( Bắt đầu xác định các bên liên quan để bạn có thể thu hút họ theo yêu cầu để lập kế hoạch dự án )",
             "Share project scope with the involved team to establish common understanding about project deliverables ( Chia sẻ phạm vi dự án với nhóm liên quan để thiết lập sự hiểu biết chung về các sản phẩm bàn giao của dự án )"
         ],
+        "correctAnswerIndex": 1,
         "explanation": ""
     },
     {
@@ -1766,6 +1926,7 @@
             "Project sponsor ( Nhà tài trợ dự án )",
             "Project team ( Nhóm dự án )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     },
     {
@@ -1777,6 +1938,7 @@
             "Start the process of monitoring and controlling the project work ( Bắt đầu quá trình giám sát và kiểm soát công việc dự án )",
             "Begin the process of developing the project management plan ( Bắt đầu quá trình phát triển kết hoạch quản lý dự án )"
         ],
+        "correctAnswerIndex": 0,
         "explanation": ""
     }
 ]

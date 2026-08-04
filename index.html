@@ -28,40 +28,39 @@
     <main class="max-w-5xl mx-auto px-4 py-8 flex-grow w-full">
         <div id="error-message" class="hidden bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-6" role="alert">
             <p class="font-bold">Lỗi tải dữ liệu!</p>
-            <p>Không thể đọc file <code>questions_data.json</code>. Vui lòng đảm bảo bạn đang chạy qua Local Server (ví dụ: python -m http.server).</p>
+            <p>Không thể đọc file <code>questions_data.json</code>. Vui lòng đảm bảo bạn đang chạy qua Local Server.</p>
         </div>
 
         <div id="loading" class="text-center py-12">
             <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto"></div>
-            <p class="mt-4 text-gray-500 font-medium">Đang tải 162 câu hỏi...</p>
+            <p class="mt-4 text-gray-500 font-medium">Đang tải dữ liệu câu hỏi...</p>
         </div>
 
+        <!-- CONTAINER ÔN TẬP -->
         <div id="study-container" class="hidden space-y-6">
             <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
                 <div>
                     <h2 class="text-lg font-bold text-gray-900" id="study-total-text">Danh sách câu hỏi</h2>
-                    <p class="text-sm text-gray-500">Làm từng câu và xem ngay giải thích.</p>
+                    <p class="text-sm text-gray-500">Làm từng câu và đối chiếu ngay lập tức.</p>
                 </div>
                 <input type="text" id="study-search" oninput="filterStudyQuestions()" placeholder="🔍 Tìm kiếm câu hỏi..." class="w-full sm:w-64 px-4 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
             </div>
             
-            <!-- Màn hình hiển thị 1 câu hỏi ôn tập -->
             <div id="study-active" class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-200">
-                <!-- Nội dung ôn tập sẽ được JavaScript render vào đây -->
+                <!-- Content Ôn Tập -->
             </div>
             
-            <!-- Thanh điều hướng ôn tập -->
             <div class="flex justify-between items-center pt-2">
                 <button onclick="prevStudyQuestion()" id="btn-study-prev" class="px-6 py-2.5 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition disabled:opacity-50">⬅ Câu Trước</button>
                 <div class="font-medium text-gray-600">
-                    Câu <span id="current-study-index" class="font-bold text-indigo-600">1</span> / <span id="total-study-num">162</span>
+                    Câu <span id="current-study-index" class="font-bold text-indigo-600">1</span> / <span id="total-study-num">0</span>
                 </div>
                 <button onclick="nextStudyQuestion()" id="btn-study-next" class="px-6 py-2.5 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition shadow-md">Câu Tiếp ➡</button>
             </div>
         </div>
 
+        <!-- CONTAINER THI THỬ -->
         <div id="exam-container" class="hidden space-y-6">
-            <!-- Màn hình chuẩn bị thi -->
             <div id="exam-setup" class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center max-w-xl mx-auto space-y-6">
                 <h2 class="text-2xl font-bold text-gray-900">Thi thử trắc nghiệm</h2>
                 <div class="bg-indigo-50 p-4 rounded-lg text-left space-y-3">
@@ -70,11 +69,11 @@
                         <select id="exam-q-count" class="bg-white border border-indigo-200 text-indigo-700 rounded-md py-1 px-3 font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500">
                             <option value="20">20 câu</option>
                             <option value="50">50 câu</option>
-                            <option value="all">Toàn bộ (162 câu)</option>
+                            <option value="all">Toàn bộ</option>
                         </select>
                     </div>
                     <div class="flex justify-between border-b border-indigo-100 pb-2">
-                        <span class="text-gray-700">Tổng số dữ liệu:</span>
+                        <span class="text-gray-700">Tổng dữ liệu:</span>
                         <span class="font-bold text-indigo-700" id="exam-setup-total">0</span>
                     </div>
                     <div class="flex justify-between">
@@ -85,11 +84,10 @@
                 <button onclick="startExam()" class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-lg shadow-md transition-colors">Bắt Đầu Làm Bài</button>
             </div>
 
-            <!-- Màn hình đang thi -->
             <div id="exam-active" class="hidden space-y-4">
                 <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 flex justify-between items-center sticky top-20 z-40">
                     <div class="font-medium">
-                        Câu <span id="current-q-index" class="text-xl font-bold text-indigo-600">1</span> / <span id="total-q-num">162</span>
+                        Câu <span id="current-q-index" class="text-xl font-bold text-indigo-600">1</span> / <span id="total-q-num">0</span>
                     </div>
                     <div class="bg-red-50 text-red-700 px-4 py-2 rounded-lg font-mono font-bold border border-red-200 text-lg">
                         ⏱ <span id="timer">60:00</span>
@@ -97,24 +95,21 @@
                 </div>
 
                 <div id="exam-question-card" class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-200">
-                    <!-- Câu hỏi thi sẽ được render vào đây -->
                 </div>
 
                 <div class="flex justify-between items-center pt-4">
                     <button onclick="prevQuestion()" id="btn-prev" class="px-6 py-2.5 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition disabled:opacity-50">⬅ Câu Trước</button>
-                    <button onclick="submitExam()" id="btn-submit" class="hidden px-6 py-2.5 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition shadow-md">Nộp Bài Ngay</button>
+                    <button onclick="submitExam()" id="btn-submit" class="hidden px-6 py-2.5 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition shadow-md">Nộp Bài & Chấm Điểm</button>
                     <button onclick="nextQuestion()" id="btn-next" class="px-6 py-2.5 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition shadow-md">Câu Tiếp ➡</button>
                 </div>
             </div>
 
-            <!-- Màn hình kết quả -->
             <div id="exam-result" class="hidden space-y-6">
-                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center max-w-2xl mx-auto space-y-6">
-                    <h2 class="text-3xl font-bold text-gray-900">Đã nộp bài!</h2>
-                    <p class="text-gray-600">Dưới đây là phần tổng hợp các câu hỏi bạn đã làm. Vui lòng đối chiếu với phần giải thích để tự đánh giá.</p>
-                    <button onclick="resetExam()" class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition">Thi lại từ đầu</button>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center max-w-2xl mx-auto space-y-4">
+                    <h2 class="text-3xl font-bold text-gray-900">Kết quả bài thi</h2>
+                    <p class="text-gray-600">Dưới đây là điểm số và chi tiết các câu trả lời của bạn.</p>
+                    <button onclick="resetExam()" class="mt-4 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition">Thi lại từ đầu</button>
                 </div>
-                <!-- Danh sách xem lại kết quả -->
                 <div id="exam-review-list" class="space-y-4 max-w-4xl mx-auto"></div>
             </div>
         </div>
@@ -124,23 +119,20 @@
         let questionsData = [];
         let currentTab = 'study';
         
-        // Trạng thái cho chế độ ôn tập
         let filteredStudyQuestions = [];
         let currentStudyIndex = 0;
         let studyAnswered = false;
         
-        // Trạng thái cho bài thi
         let examQuestions = [];
         let currentExamIndex = 0;
-        let userAnswers = {}; // { questionId: selectedOptionIndex }
+        let userAnswers = {}; 
         let timerInterval = null;
-        let timeLeft = 60 * 60; // 60 phút
+        let timeLeft = 60 * 60; 
 
-        // Hàm tải dữ liệu từ file JSON
         async function loadData() {
             try {
                 const response = await fetch('questions_data.json');
-                if (!response.ok) throw new Error("HTTP error " + response.status);
+                if (!response.ok) throw new Error("HTTP error");
                 questionsData = await response.json();
                 
                 document.getElementById('loading').classList.add('hidden');
@@ -148,17 +140,14 @@
                 document.getElementById('exam-setup-total').innerText = `${questionsData.length} câu`;
                 
                 filteredStudyQuestions = [...questionsData];
-                
-                // Mặc định mở tab Study
                 switchTab('study');
             } catch (error) {
-                console.error("Lỗi khi tải dữ liệu:", error);
+                console.error("Lỗi:", error);
                 document.getElementById('loading').classList.add('hidden');
                 document.getElementById('error-message').classList.remove('hidden');
             }
         }
 
-        // Chuyển đổi giữa Ôn tập và Thi
         function switchTab(tab) {
             currentTab = tab;
             const studyBtn = document.getElementById('btn-study');
@@ -172,11 +161,8 @@
                 studyContainer.classList.remove('hidden');
                 examContainer.classList.add('hidden');
                 
-                if (filteredStudyQuestions.length > 0) {
-                    renderSingleStudyQuestion();
-                } else {
-                    renderStudyList();
-                }
+                if (filteredStudyQuestions.length > 0) renderSingleStudyQuestion();
+                else renderStudyList();
             } else {
                 examBtn.className = "px-4 py-2 rounded-md font-medium bg-white text-indigo-700 shadow-sm transition";
                 studyBtn.className = "px-4 py-2 rounded-md font-medium text-white hover:bg-indigo-700 transition";
@@ -193,20 +179,16 @@
             );
             
             currentStudyIndex = 0;
-            
             if (filteredStudyQuestions.length > 0) {
                 renderSingleStudyQuestion();
             } else {
                 document.getElementById('study-active').innerHTML = `<p class="text-center text-gray-500 py-8">Không tìm thấy câu hỏi nào phù hợp.</p>`;
                 document.getElementById('total-study-num').innerText = 0;
-                document.getElementById('current-study-index').innerText = 0;
-                document.getElementById('btn-study-prev').disabled = true;
-                document.getElementById('btn-study-next').disabled = true;
             }
         }
 
         function renderSingleStudyQuestion() {
-            studyAnswered = false; // Reset trạng thái
+            studyAnswered = false;
             const q = filteredStudyQuestions[currentStudyIndex];
             
             document.getElementById('total-study-num').innerText = filteredStudyQuestions.length;
@@ -220,11 +202,11 @@
             ).join('');
 
             let explanationHtml = `
-                <div id="study-explanation" class="hidden mt-6 p-5 bg-green-50 border border-green-200 rounded-xl text-green-900 fade-in shadow-sm">
-                    <div class="font-bold flex items-center gap-2 mb-2 text-green-800">
-                        <span class="text-xl">💡</span> Giải thích / Đáp án tài liệu:
+                <div id="study-explanation" class="hidden mt-6 p-5 bg-blue-50 border border-blue-200 rounded-xl text-blue-900 fade-in shadow-sm">
+                    <div class="font-bold flex items-center gap-2 mb-2 text-blue-800">
+                        <span class="text-xl">💡</span> Giải thích từ tài liệu:
                     </div>
-                    <div class="text-sm leading-relaxed whitespace-pre-wrap">${q.explanation || '<span class="italic text-gray-500">Không có giải thích chi tiết trong tài liệu.</span>'}</div>
+                    <div class="text-sm leading-relaxed whitespace-pre-wrap">${q.explanation || '<span class="italic text-gray-500">Không có giải thích chi tiết.</span>'}</div>
                 </div>
             `;
 
@@ -245,62 +227,59 @@
         
         function selectStudyAnswer(selectedIndex) {
             if (studyAnswered) return;
-            studyAnswered = true; // Đánh dấu là đã trả lời
+            studyAnswered = true; 
             
-            // Xóa hiệu ứng hover và đóng băng các nút khác
             const q = filteredStudyQuestions[currentStudyIndex];
             q.options.forEach((_, i) => {
                 const optDiv = document.getElementById(`study-opt-${i}`);
                 optDiv.classList.remove('hover:bg-gray-50', 'cursor-pointer');
                 optDiv.classList.add('cursor-default');
-                if (i === selectedIndex) {
-                    // Nổi bật đáp án đã chọn
-                    optDiv.classList.remove('border-gray-200');
-                    optDiv.classList.add('border-indigo-500', 'bg-indigo-50', 'ring-2', 'ring-indigo-200');
+                
+                // Nếu có đáp án chuẩn từ Excel (đã bôi vàng)
+                if (q.correctAnswerIndex !== undefined && q.correctAnswerIndex !== null) {
+                    if (i === q.correctAnswerIndex) {
+                        optDiv.classList.remove('border-gray-200');
+                        optDiv.classList.add('border-green-500', 'bg-green-50', 'ring-2', 'ring-green-200');
+                    } else if (i === selectedIndex) {
+                        optDiv.classList.remove('border-gray-200');
+                        optDiv.classList.add('border-red-500', 'bg-red-50'); // Chọn sai bôi đỏ
+                    } else {
+                        optDiv.classList.add('opacity-50');
+                    }
                 } else {
-                    // Làm mờ các đáp án không chọn
-                    optDiv.classList.add('opacity-50');
+                    // Chạy kiểu cũ nếu câu hỏi không có ô nào tô vàng
+                    if (i === selectedIndex) {
+                        optDiv.classList.remove('border-gray-200');
+                        optDiv.classList.add('border-indigo-500', 'bg-indigo-50');
+                    } else {
+                        optDiv.classList.add('opacity-50');
+                    }
                 }
             });
             
-            // Hiển thị khung giải thích với hiệu ứng trượt xuống
             document.getElementById('study-explanation').classList.remove('hidden');
         }
         
         function nextStudyQuestion() {
-            if (currentStudyIndex < filteredStudyQuestions.length - 1) {
-                currentStudyIndex++;
-                renderSingleStudyQuestion();
-            }
+            if (currentStudyIndex < filteredStudyQuestions.length - 1) { currentStudyIndex++; renderSingleStudyQuestion(); }
         }
-        
         function prevStudyQuestion() {
-            if (currentStudyIndex > 0) {
-                currentStudyIndex--;
-                renderSingleStudyQuestion();
-            }
+            if (currentStudyIndex > 0) { currentStudyIndex--; renderSingleStudyQuestion(); }
         }
-
         function filterStudyQuestions() {
-            const query = document.getElementById('study-search').value;
-            renderStudyList(query);
+            renderStudyList(document.getElementById('study-search').value);
         }
 
+        // ---------- PHẦN THI THỬ ----------
         function startExam() {
             const countSelection = document.getElementById('exam-q-count').value;
-            let questionCount = questionsData.length; // Mặc định là tất cả
+            let questionCount = questionsData.length;
+            if (countSelection !== 'all') questionCount = parseInt(countSelection);
             
-            if (countSelection !== 'all') {
-                questionCount = parseInt(countSelection);
-            }
-            
-            // Xáo trộn mảng tổng và lấy ra số lượng câu hỏi tương ứng
             let shuffledQuestions = [...questionsData].sort(() => Math.random() - 0.5);
             examQuestions = shuffledQuestions.slice(0, questionCount);
             
-            currentExamIndex = 0;
-            userAnswers = {};
-            timeLeft = 60 * 60; // Reset 60 phút
+            currentExamIndex = 0; userAnswers = {}; timeLeft = 60 * 60; 
 
             document.getElementById('exam-setup').classList.add('hidden');
             document.getElementById('exam-result').classList.add('hidden');
@@ -308,17 +287,12 @@
             document.getElementById('total-q-num').innerText = examQuestions.length;
 
             renderExamQuestion();
-            
             clearInterval(timerInterval);
             timerInterval = setInterval(updateTimer, 1000);
         }
 
         function updateTimer() {
-            if (timeLeft <= 0) {
-                clearInterval(timerInterval);
-                submitExam();
-                return;
-            }
+            if (timeLeft <= 0) { clearInterval(timerInterval); submitExam(); return; }
             timeLeft--;
             let m = Math.floor(timeLeft / 60).toString().padStart(2, '0');
             let s = (timeLeft % 60).toString().padStart(2, '0');
@@ -332,12 +306,11 @@
             let optionsHtml = q.options.map((opt, i) => {
                 let isChecked = userAnswers[q.id] === i;
                 return `
-                <label class="flex items-center p-4 border rounded-xl cursor-pointer transition-all duration-200 ${isChecked ? 'border-indigo-600 bg-indigo-50 shadow-sm' : 'border-gray-200 hover:bg-gray-50 hover:border-gray-300'}">
+                <label class="flex items-center p-4 border rounded-xl cursor-pointer transition-all duration-200 ${isChecked ? 'border-indigo-600 bg-indigo-50 shadow-sm' : 'border-gray-200 hover:bg-gray-50'}">
                     <input type="radio" name="opt-${q.id}" class="w-5 h-5 text-indigo-600 border-gray-300 focus:ring-indigo-500" 
                            ${isChecked ? 'checked' : ''} onchange="selectAnswer(${q.id}, ${i})">
                     <span class="ml-4 text-gray-700 text-base leading-relaxed"><span class="font-bold mr-1">${String.fromCharCode(65 + i)}.</span> ${opt}</span>
-                </label>
-                `;
+                </label>`;
             }).join('');
 
             document.getElementById('exam-question-card').innerHTML = `
@@ -345,9 +318,7 @@
                 <div class="space-y-3">${optionsHtml}</div>
             `;
 
-            // Cập nhật trạng thái nút
             document.getElementById('btn-prev').disabled = currentExamIndex === 0;
-            
             if (currentExamIndex === examQuestions.length - 1) {
                 document.getElementById('btn-next').classList.add('hidden');
                 document.getElementById('btn-submit').classList.remove('hidden');
@@ -359,23 +330,11 @@
 
         function selectAnswer(questionId, optionIndex) {
             userAnswers[questionId] = optionIndex;
-            // Re-render để cập nhật class CSS (viền xanh) cho đáp án được chọn
             renderExamQuestion(); 
         }
 
-        function nextQuestion() {
-            if (currentExamIndex < examQuestions.length - 1) {
-                currentExamIndex++;
-                renderExamQuestion();
-            }
-        }
-
-        function prevQuestion() {
-            if (currentExamIndex > 0) {
-                currentExamIndex--;
-                renderExamQuestion();
-            }
-        }
+        function nextQuestion() { if (currentExamIndex < examQuestions.length - 1) { currentExamIndex++; renderExamQuestion(); } }
+        function prevQuestion() { if (currentExamIndex > 0) { currentExamIndex--; renderExamQuestion(); } }
 
         function submitExam() {
             clearInterval(timerInterval);
@@ -384,37 +343,68 @@
             
             const reviewContainer = document.getElementById('exam-review-list');
             reviewContainer.innerHTML = '';
+            
+            let correctCount = 0;
 
-            // Note: File gốc không quy định rõ A, B, C, D cái nào đúng tuyệt đối (chỉ nằm trong phần giải thích)
-            // Nên kết quả sẽ hiện lại những gì người dùng chọn kèm theo giải thích để người dùng tự đối chiếu
             examQuestions.forEach((q, index) => {
                 let userChoiceIdx = userAnswers[q.id];
-                let userChoiceText = userChoiceIdx !== undefined ? q.options[userChoiceIdx] : "<span class='text-red-500 italic'>Chưa trả lời</span>";
+                let userChoiceText = userChoiceIdx !== undefined ? q.options[userChoiceIdx] : "<span class='text-gray-500 italic'>Chưa trả lời</span>";
                 let userChoiceLetter = userChoiceIdx !== undefined ? String.fromCharCode(65 + userChoiceIdx) + "." : "";
 
+                let isCorrect = false;
+                let answerStatusHtml = "";
+                let correctAnsHtml = "";
+
+                // Chấm điểm nếu câu hỏi có correct_index
+                if (q.correctAnswerIndex !== undefined && q.correctAnswerIndex !== null) {
+                    isCorrect = (userChoiceIdx === q.correctAnswerIndex);
+                    if (isCorrect) correctCount++;
+                    
+                    let correctLetter = String.fromCharCode(65 + q.correctAnswerIndex) + ".";
+                    let correctText = q.options[q.correctAnswerIndex];
+                    
+                    answerStatusHtml = isCorrect 
+                        ? `<span class="inline-block px-2 py-1 bg-green-100 text-green-700 font-semibold text-xs rounded mb-2">✅ Chính xác</span>`
+                        : `<span class="inline-block px-2 py-1 bg-red-100 text-red-700 font-semibold text-xs rounded mb-2">❌ Sai</span>`;
+                        
+                    if (!isCorrect) {
+                        correctAnsHtml = `<p class="text-green-700 bg-green-50 p-2 rounded border border-green-200 mt-2"><strong>Đáp án đúng:</strong> ${correctLetter} ${correctText}</p>`;
+                    }
+                }
+
                 let explanationHtml = q.explanation ? 
-                    `<div class="mt-3 p-3 bg-green-50 border-l-4 border-green-500 rounded text-sm text-green-900">
-                        <strong>Giải thích/Đáp án tài liệu:</strong> ${q.explanation}
-                    </div>` : '<div class="mt-3 text-sm text-gray-500 italic">Không có giải thích trong tài liệu.</div>';
+                    `<div class="mt-3 p-3 bg-blue-50 border-l-4 border-blue-200 rounded text-sm text-blue-900">
+                        <strong>Giải thích:</strong> ${q.explanation}
+                    </div>` : '';
 
                 reviewContainer.innerHTML += `
                     <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                        ${answerStatusHtml}
                         <p class="font-bold text-gray-900 mb-2">Câu ${index + 1}: ${q.question}</p>
-                        <p class="text-gray-700 bg-gray-50 p-2 rounded border"><strong>Bạn chọn:</strong> ${userChoiceLetter} ${userChoiceText}</p>
+                        <p class="text-gray-700 ${isCorrect ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'} p-2 rounded"><strong>Bạn chọn:</strong> ${userChoiceLetter} ${userChoiceText}</p>
+                        ${correctAnsHtml}
                         ${explanationHtml}
                     </div>
                 `;
             });
+
+            // Gắn bảng điểm tổng quát
+            const percentage = Math.round((correctCount / examQuestions.length) * 100) || 0;
+            const scoreHtml = `
+                <div class="mb-6 p-6 bg-indigo-50 border border-indigo-200 rounded-xl text-center shadow-sm">
+                    <h3 class="text-2xl font-bold text-indigo-800">Điểm số: <span class="text-4xl ml-2">${correctCount}</span> / ${examQuestions.length}</h3>
+                    <p class="text-indigo-600 mt-2 font-medium">Bạn đã hoàn thành bài thi với độ chính xác ${percentage}%.</p>
+                </div>
+            `;
+            reviewContainer.insertAdjacentHTML('afterbegin', scoreHtml);
             window.scrollTo(0, 0);
         }
 
         function resetExam() {
             document.getElementById('exam-result').classList.add('hidden');
-            document.getElementById('exam-active').classList.add('hidden');
             document.getElementById('exam-setup').classList.remove('hidden');
         }
 
-        // Bắt đầu chạy ứng dụng
         window.onload = loadData;
     </script>
 </body>
