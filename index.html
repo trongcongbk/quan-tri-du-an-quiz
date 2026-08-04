@@ -16,11 +16,17 @@
 <body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
 
     <header class="bg-indigo-600 text-white shadow-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
             <h1 class="text-xl font-bold tracking-tight">📚 Ôn Tập Quản Trị Dự Án</h1>
-            <div class="mt-4 sm:mt-0 flex space-x-2 bg-indigo-800 p-1 rounded-lg">
-                <button onclick="switchTab('study')" id="btn-study" class="px-4 py-2 rounded-md font-medium bg-white text-indigo-700 shadow-sm transition">Chế độ Ôn Tập</button>
-                <button onclick="switchTab('exam')" id="btn-exam" class="px-4 py-2 rounded-md font-medium text-white hover:bg-indigo-700 transition">Chế độ Thi Thử</button>
+            <div class="flex flex-col sm:flex-row items-center gap-3">
+                <select id="lang-toggle" onchange="toggleLanguage()" class="bg-indigo-700 hover:bg-indigo-500 text-white text-sm rounded-md py-2 px-3 border border-indigo-400 focus:outline-none focus:ring-2 focus:ring-white cursor-pointer transition">
+                    <option value="bi">🌐 Song ngữ (Anh - Việt)</option>
+                    <option value="en">🇬🇧 Chỉ Tiếng Anh</option>
+                </select>
+                <div class="flex space-x-2 bg-indigo-800 p-1 rounded-lg">
+                    <button onclick="switchTab('study')" id="btn-study" class="px-4 py-2 rounded-md font-medium bg-white text-indigo-700 shadow-sm transition">Chế độ Ôn Tập</button>
+                    <button onclick="switchTab('exam')" id="btn-exam" class="px-4 py-2 rounded-md font-medium text-white hover:bg-indigo-700 transition">Chế độ Thi Thử</button>
+                </div>
             </div>
         </div>
     </header>
@@ -129,6 +135,34 @@
         let timerInterval = null;
         let timeLeft = 60 * 60; 
 
+        // Biến lưu trạng thái ngôn ngữ
+        let displayLanguage = 'bi'; 
+
+        // Hàm thay đổi ngôn ngữ và render lại giao diện
+        function toggleLanguage() {
+            displayLanguage = document.getElementById('lang-toggle').value;
+            if (currentTab === 'study' && filteredStudyQuestions.length > 0) {
+                // Đang ở màn hình ôn tập, render lại câu hiện tại nhưng giữ nguyên trạng thái nếu đã chọn đáp án
+                const tempAnswered = studyAnswered;
+                renderSingleStudyQuestion(); 
+                studyAnswered = tempAnswered; // Không làm mất trạng thái câu đã trả lời
+            } else if (currentTab === 'exam' && !document.getElementById('exam-active').classList.contains('hidden')) {
+                renderExamQuestion(); // Đang thi, render lại câu hiện tại
+            } else if (currentTab === 'exam' && !document.getElementById('exam-result').classList.contains('hidden')) {
+                submitExam(); // Đang xem kết quả, render lại bảng điểm
+            }
+        }
+
+        // Hàm tự động cắt chuỗi Tiếng Việt nằm trong dấu ngoặc ()
+        function formatText(text) {
+            if (!text) return "";
+            if (displayLanguage === 'en') {
+                // Biểu thức chính quy (Regex) tìm và xoá đoạn chữ nằm trong () ở cuối câu
+                return text.replace(/\s*\([^)]+\)\s*$/, '').trim();
+            }
+            return text;
+        }
+
         async function loadData() {
             try {
                 const response = await fetch('questions_data.json');
@@ -197,7 +231,7 @@
             let optionsHtml = q.options.map((opt, i) => 
                 `<div id="study-opt-${i}" onclick="selectStudyAnswer(${i})" class="p-4 mb-3 border border-gray-200 rounded-xl cursor-pointer transition-all duration-200 hover:bg-gray-50 flex items-start gap-3">
                     <span class="font-bold text-indigo-500 flex-shrink-0 mt-0.5">${String.fromCharCode(65 + i)}.</span> 
-                    <span class="text-gray-700">${opt}</span>
+                    <span class="text-gray-700">${formatText(opt)}</span>
                 </div>`
             ).join('');
 
@@ -213,7 +247,7 @@
             document.getElementById('study-active').innerHTML = `
                 <div class="flex items-start gap-3 mb-6">
                     <span class="flex-shrink-0 bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full mt-1">Câu ${q.id}</span>
-                    <h3 class="font-semibold text-gray-900 text-lg leading-relaxed">${q.question}</h3>
+                    <h3 class="font-semibold text-gray-900 text-lg leading-relaxed">${formatText(q.question)}</h3>
                 </div>
                 <div class="pl-2 sm:pl-12">
                     ${optionsHtml}
@@ -354,12 +388,12 @@
                 <label class="flex items-center p-4 border rounded-xl cursor-pointer transition-all duration-200 ${isChecked ? 'border-indigo-600 bg-indigo-50 shadow-sm' : 'border-gray-200 hover:bg-gray-50'}">
                     <input type="radio" name="opt-${q.id}" class="w-5 h-5 text-indigo-600 border-gray-300 focus:ring-indigo-500" 
                            ${isChecked ? 'checked' : ''} onchange="selectAnswer(${q.id}, ${i})">
-                    <span class="ml-4 text-gray-700 text-base leading-relaxed"><span class="font-bold mr-1">${String.fromCharCode(65 + i)}.</span> ${opt}</span>
+                    <span class="ml-4 text-gray-700 text-base leading-relaxed"><span class="font-bold mr-1">${String.fromCharCode(65 + i)}.</span> ${formatText(opt)}</span>
                 </label>`;
             }).join('');
 
             document.getElementById('exam-question-card').innerHTML = `
-                <h3 class="text-xl font-semibold text-gray-900 mb-6 leading-relaxed">${q.question}</h3>
+                <h3 class="text-xl font-semibold text-gray-900 mb-6 leading-relaxed">${formatText(q.question)}</h3>
                 <div class="space-y-3">${optionsHtml}</div>
             `;
 
@@ -393,7 +427,7 @@
 
             examQuestions.forEach((q, index) => {
                 let userChoiceIdx = userAnswers[q.id];
-                let userChoiceText = userChoiceIdx !== undefined ? q.options[userChoiceIdx] : "<span class='text-gray-500 italic'>Chưa trả lời</span>";
+                let userChoiceText = userChoiceIdx !== undefined ? formatText(q.options[userChoiceIdx]) : "<span class='text-gray-500 italic'>Chưa trả lời</span>";
                 let userChoiceLetter = userChoiceIdx !== undefined ? String.fromCharCode(65 + userChoiceIdx) + "." : "";
 
                 let isCorrect = false;
@@ -406,7 +440,7 @@
                     if (isCorrect) correctCount++;
                     
                     let correctLetter = String.fromCharCode(65 + q.correctAnswerIndex) + ".";
-                    let correctText = q.options[q.correctAnswerIndex];
+                    let correctText = formatText(q.options[q.correctAnswerIndex]);
                     
                     answerStatusHtml = isCorrect 
                         ? `<span class="inline-block px-2 py-1 bg-green-100 text-green-700 font-semibold text-xs rounded mb-2">✅ Chính xác</span>`
@@ -425,7 +459,7 @@
                 reviewContainer.innerHTML += `
                     <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
                         ${answerStatusHtml}
-                        <p class="font-bold text-gray-900 mb-2">Câu ${index + 1}: ${q.question}</p>
+                        <p class="font-bold text-gray-900 mb-2">Câu ${index + 1}: ${formatText(q.question)}</p>
                         <p class="text-gray-700 ${isCorrect ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'} p-2 rounded"><strong>Bạn chọn:</strong> ${userChoiceLetter} ${userChoiceText}</p>
                         ${correctAnsHtml}
                         ${explanationHtml}
